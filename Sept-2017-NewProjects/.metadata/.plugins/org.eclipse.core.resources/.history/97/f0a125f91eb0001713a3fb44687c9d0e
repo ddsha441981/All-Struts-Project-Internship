@@ -1,0 +1,48 @@
+package com.servletExample;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Student extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	public void init() throws ServletException {
+		System.out.println("Init call");
+		// TODO Auto-generated method stub
+		
+	}
+	
+	Student(){
+		
+		System.out.println("Constructor call");
+	}
+	
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Service call");
+		
+		PrintWriter pw = res.getWriter();
+		pw.print("<h1>Deendayal</h1>");
+		res.setContentType("index.jsp");
+	}
+	
+	@Override
+	public void destroy() {
+		System.out.println("Destroy call");
+		// TODO Auto-generated method stub
+		
+	}
+
+}

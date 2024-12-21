@@ -1,0 +1,7 @@
+package com.GettingSettingThread;
+
+public class GeetingSettingThreadDemo1 extends Thread{
+
+	
+}
+

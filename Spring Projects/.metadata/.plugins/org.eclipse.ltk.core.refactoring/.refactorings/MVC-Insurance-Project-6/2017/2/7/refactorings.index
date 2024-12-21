@@ -1,0 +1,6 @@
+1487062999595	Rename type 'VehicleInsuranceRepos'
+1487147132849	Rename type 'AdminViewInsuranceDetails'
+1487154142359	Move 'enquiry.jsp' to 'WebContent'
+1487172128897	Move 'enquiry.jsp' to 'Main-Pages'
+1487367357006	Rename type 'NomineeDao'
+1487367372633	Rename type 'NomineeController'

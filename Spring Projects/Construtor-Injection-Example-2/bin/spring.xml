@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="circle" class="com.org.ConstrutorInjection.Example.Circle">
+		<!-- <constructor-arg value="Deendayal"></constructor-arg> --> 	<!-- In constructor injection no need name of property -->
+		<!-- <constructor-arg value="1236"></constructor-arg> --> 		<!-- Here Spring Convert String value convert into Integer automatically(value="1236" 
+																		here i pass int value in string format) -->
+
+
+		<!-- <constructor-arg value="Deendayal"></constructor-arg> 
+		<constructor-arg value="1236"></constructor-arg> -->			<!-- Here i have 3 different constructors Spring is confused which int type 
+																		constructor call There are two way to solve this problem -->
+
+		<!-- <constructor-arg value="Deendayal"></constructor-arg>-->
+		<!-- <constructor-arg type="int" value="1236"></constructor-arg> -->
+		<!--<constructor-arg type="java.lang.String" value="1236"></constructor-arg> -->			<!-- First way is using type(which type value pass either string type is 
+																									(type="java.lang.String") or int type(int="1236")....) -->
+
+
+		<constructor-arg index="0" value="Deendayal"></constructor-arg>								<!-- Second way is Index  In index we create varriable sequence no in index 0 means my 
+																										first varriable index is 0 and second is index 1  -->
+		<constructor-arg index="1" value="1236"></constructor-arg>																								
+	</bean>
+
+	<!-- <bean id="triangle" class="com.org.ConstrutorInjection.Example.Triangle"> 
+		<constructor-arg value="02"></constructor-arg> In constructor injection no 
+		need name of property </bean> -->
+
+</beans>

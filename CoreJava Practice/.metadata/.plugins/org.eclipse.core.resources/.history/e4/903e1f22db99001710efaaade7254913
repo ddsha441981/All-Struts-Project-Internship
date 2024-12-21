@@ -1,0 +1,18 @@
+package com.synchronization;
+
+public class SynchronizationDemo1 extends Thread {
+
+	SynchronizationDisplay sd;
+	String name;
+	
+	public SynchronizationDemo1(String name) { //Constructor
+		
+		
+		this.name = name;
+	}
+	
+	public void run(){
+		
+		
+	}
+}

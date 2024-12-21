@@ -1,0 +1,31 @@
+package com.DataOfLogin;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+public class LoginConnection {
+
+	Connection con;
+	PreparedStatement pstmt;
+	Statement stmt;
+	
+	public void connect() throws ClassNotFoundException, SQLException
+	{
+		Class.forName("driver");
+		String url ="jdbc:oracle:thin:@Deendayal-PC:1521:XE";
+		/*String user = "HR";
+		String password = "password";*/ //both method
+		Properties p = new  Properties();
+		p.put("user", "HR");
+		p.put("password", "password");
+		con = DriverManager.getConnection(url, p);
+		stmt=con.createStatement();
+		System.out.println("Connection Established Successfully");
+		
+		
+	}
+}

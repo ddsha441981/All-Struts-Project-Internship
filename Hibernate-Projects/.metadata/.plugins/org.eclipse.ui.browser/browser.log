@@ -1,0 +1,284 @@
+
+Mar 12, 2017 21:59:39.19 NEW SESSION
+Mar 12, 2017 21:59:39.19 1489381179187	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Mar 12, 2017 21:59:39.20 1489381179204	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Mar 12, 2017 21:59:39.22 1489381179223	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Mar 12, 2017 21:59:39.24 1489381179241	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+Mar 12, 2017 21:59:40.08 1489381180086	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Mar 12, 2017 21:59:40.28 1489381180287	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Mar 12, 2017 21:59:40.37 1489381180377	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+Mar 12, 2017 22:00:05.72 1489381205722	addons.xpi	WARN	Exception running bootstrap method shutdown on firebug@software.joehewitt.com: ReferenceError: FirebugGCLICommands is not defined (resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Deendayal/AppData/Roaming/Mozilla/Firefox/Profiles/74xzl8b3.default/extensions/firebug@software.joehewitt.com.xpi!/bootstrap.js:105:5) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Users/Deendayal/AppData/Roaming/Mozilla/Firefox/Profiles/74xzl8b3.default/extensions/firebug@bootstrap.js:105:5 < this.XPIProvider.callBootstrapMethod@XPIProvider.jsm:4968:9 < startInstall/<@XPIProvider.jsm:5859:15
+Mar 12, 2017 22:01:38.94 1489381298943	addons.xpi	WARN	Add-on mozilla_cc2@internetdownloadmanager.com is not compatible with application version.
+Mar 12, 2017 22:03:28.16 1489381408147	addons.xpi	WARN	Add-on mozilla_cc2@internetdownloadmanager.com is not compatible with application version.
+Mar 12, 2017 22:05:09.74 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:05:09.74 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:05:09.74 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:05:09.74 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:05:09.74 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:05:09.74 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:05:09.74 Line: 1281, column: 20
+Mar 12, 2017 22:05:09.74 console.error: 
+Mar 12, 2017 22:05:09.74   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:05:09.74 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:05:09.74 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:05:09.74 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:05:09.74 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:05:09.74 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:05:09.74 Line: 1281, column: 20
+Mar 12, 2017 22:08:49.47 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:08:49.47 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:08:49.47 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:08:49.47 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:08:49.47 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:08:49.47 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:08:49.47 Line: 1281, column: 20
+Mar 12, 2017 22:08:49.47 console.error: 
+Mar 12, 2017 22:08:49.47   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:08:49.47 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:08:49.47 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:08:49.47 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:08:49.47 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:08:49.47 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:08:49.47 Line: 1281, column: 20
+Mar 12, 2017 22:10:36.51 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:10:36.51 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:10:36.51 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:10:36.51 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:10:36.51 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:10:36.51 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:10:36.51 Line: 1281, column: 20
+Mar 12, 2017 22:10:36.51 console.error: 
+Mar 12, 2017 22:10:36.51   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:10:36.51 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:10:36.51 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:10:36.51 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:10:36.51 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:10:36.51 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:10:36.51 Line: 1281, column: 20
+Mar 12, 2017 22:10:49.40 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:10:49.40 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:10:49.40 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:10:49.40 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:10:49.40 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:10:49.40 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:10:49.40 Line: 1281, column: 20
+Mar 12, 2017 22:10:49.40 console.error: 
+Mar 12, 2017 22:10:49.40   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:10:49.40 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:10:49.40 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:10:49.40 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:10:49.40 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:10:49.40 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:10:49.40 Line: 1281, column: 20
+Mar 12, 2017 22:12:41.44 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:12:41.44 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:12:41.44 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:12:41.44 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:12:41.44 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:12:41.44 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:12:41.44 Line: 1281, column: 20
+Mar 12, 2017 22:12:41.44 console.error: 
+Mar 12, 2017 22:12:41.44   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:12:41.44 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:12:41.44 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:12:41.44 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:12:41.44 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:12:41.44 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:12:41.44 Line: 1281, column: 20
+Mar 12, 2017 22:12:49.94 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:12:49.94 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:12:49.94 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:12:49.94 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:12:49.95 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:12:49.95 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:12:49.95 Line: 1281, column: 20
+Mar 12, 2017 22:12:49.95 console.error: 
+Mar 12, 2017 22:12:49.95   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:12:49.95 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:12:49.95 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:12:49.95 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:12:49.95 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:12:49.95 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:12:49.95 Line: 1281, column: 20
+Mar 12, 2017 22:13:17.05 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:13:17.05 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:13:17.05 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:13:17.05 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:13:17.05 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:13:17.05 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:13:17.05 Line: 1281, column: 20
+Mar 12, 2017 22:13:17.05 console.error: 
+Mar 12, 2017 22:13:17.05   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:13:17.06 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:13:17.06 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:13:17.06 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:13:17.06 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:13:17.06 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:13:17.06 Line: 1281, column: 20
+Mar 12, 2017 22:13:32.90 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:13:32.90 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:13:32.90 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:13:32.90 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:13:32.90 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:13:32.90 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:13:32.90 Line: 1281, column: 20
+Mar 12, 2017 22:13:32.90 console.error: 
+Mar 12, 2017 22:13:32.90   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:13:32.90 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:13:32.90 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:13:32.90 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:13:32.90 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:13:32.90 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:13:32.90 Line: 1281, column: 20
+Mar 12, 2017 22:20:16.58 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:20:16.58 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:20:16.58 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:20:16.58 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:20:16.58 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:20:16.58 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:20:16.58 Line: 1281, column: 20
+Mar 12, 2017 22:20:16.58 console.error: 
+Mar 12, 2017 22:20:16.58   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:20:16.58 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:20:16.58 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:20:16.58 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:20:16.58 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:20:16.58 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:20:16.58 Line: 1281, column: 20
+Mar 12, 2017 22:20:36.38 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:20:36.38 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:20:36.38 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:20:36.38 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:20:36.38 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:20:36.38 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:20:36.38 Line: 1281, column: 20
+Mar 12, 2017 22:20:36.38 console.error: 
+Mar 12, 2017 22:20:36.39   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:20:36.39 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:20:36.39 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:20:36.39 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:20:36.39 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:20:36.39 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:20:36.39 Line: 1281, column: 20
+Mar 12, 2017 22:45:52.15 TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:45:52.15 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:45:52.15 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:45:52.15 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:45:52.15 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:45:52.15 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:45:52.15 Line: 1281, column: 20
+Mar 12, 2017 22:45:52.15 console.error: 
+Mar 12, 2017 22:45:52.15   TabSources.prototype._fetchSourceMap threw an exception: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+Mar 12, 2017 22:45:52.15 Stack: SourceMapConsumer@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/sourcemap/source-map.js:1281:20
+Mar 12, 2017 22:45:52.15 TabSources.prototype._fetchSourceMap/fetching<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/utils/TabSources.js:472:19
+Mar 12, 2017 22:45:52.15 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:932:23
+Mar 12, 2017 22:45:52.15 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+Mar 12, 2017 22:45:52.15 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+Mar 12, 2017 22:45:52.15 Line: 1281, column: 20
+Mar 12, 2017 22:49:13.93 *************************
+Mar 12, 2017 22:49:13.93 A coding exception was thrown and uncaught in a Task.
+Mar 12, 2017 22:49:13.93 
+Mar 12, 2017 22:49:13.93 Full message: TypeError: parent is null
+Mar 12, 2017 22:49:13.93 Full stack: MarkupView.prototype._isImagePreviewTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/markup/markup.js:522:1
+Mar 12, 2017 22:49:13.93 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.93 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.93 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.93 TooltipToggle.prototype.isValidHoverTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:147:21
+Mar 12, 2017 22:49:13.93 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.93 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.93 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.93 TooltipToggle.prototype._onMouseMove/this.toggleTimer<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:127:9
+Mar 12, 2017 22:49:13.93 
+Mar 12, 2017 22:49:13.93 *************************
+Mar 12, 2017 22:49:13.93 *************************
+Mar 12, 2017 22:49:13.93 A coding exception was thrown and uncaught in a Task.
+Mar 12, 2017 22:49:13.93 
+Mar 12, 2017 22:49:13.93 Full message: TypeError: parent is null
+Mar 12, 2017 22:49:13.93 Full stack: MarkupView.prototype._isImagePreviewTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/markup/markup.js:522:1
+Mar 12, 2017 22:49:13.93 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.93 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.93 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.93 TooltipToggle.prototype.isValidHoverTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:147:21
+Mar 12, 2017 22:49:13.93 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.93 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.93 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.93 TooltipToggle.prototype._onMouseMove/this.toggleTimer<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:127:9
+Mar 12, 2017 22:49:13.93 
+Mar 12, 2017 22:49:13.93 *************************
+Mar 12, 2017 22:49:13.93 console.error: 
+Mar 12, 2017 22:49:13.96   isValidHoverTarget rejected with unexpected reason:
+Mar 12, 2017 22:49:13.96 console.error: 
+Mar 12, 2017 22:49:13.96   Message: TypeError: parent is null
+Mar 12, 2017 22:49:13.96   Stack:
+Mar 12, 2017 22:49:13.96     MarkupView.prototype._isImagePreviewTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/markup/markup.js:522:1
+Mar 12, 2017 22:49:13.96 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.96 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.96 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.96 TooltipToggle.prototype.isValidHoverTarget<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:147:21
+Mar 12, 2017 22:49:13.96 TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+Mar 12, 2017 22:49:13.96 TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+Mar 12, 2017 22:49:13.96 createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+Mar 12, 2017 22:49:13.96 TooltipToggle.prototype._onMouseMove/this.toggleTimer<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/widgets/tooltip/TooltipToggle.js:127:9
+Mar 12, 2017 22:49:13.96 
+Mar 12, 2017 23:04:38.82 [2828:3076:0312/230438.821:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 12, 2017 23:04:38.96 [2828:3076:0312/230438.965:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 12, 2017 23:34:21.26 [2828:2576:0312/233421.269:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2017 23:34:48.44 [2828:2576:0312/233448.446:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2017 23:35:37.44 [2828:2576:0312/233537.442:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2017 23:37:27.89 [2828:2576:0312/233727.897:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2017 23:41:07.24 [2828:2576:0312/234107.243:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2017 23:48:04.30 [2828:2576:0312/234804.306:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/nmedianet.js?cid=8CU4XQ78I, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/nmedianet.js?cid=8CU4XQ78I, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=462087476&size=300x250&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fwww.google.co.in&nse=3&vi=1489388332515353371&lw=1&ugd=4&re=1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=462087476&size=300x250&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fwww.google.co.in&nse=3&vi=1489388332515353371&lw=1&ugd=4&re=1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=731833477&size=300x600&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fwww.google.co.in&nse=3&vi=1489388332999427247&lw=1&ugd=4&re=1&hlt=1&dfp=1&rtbs=1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=731833477&size=300x600&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fwww.google.co.in&nse=3&vi=1489388332999427247&lw=1&ugd=4&re=1&hlt=1&dfp=1&rtbs=1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/nmedianet.js?cid=8CU4XQ78I, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/nmedianet.js?cid=8CU4XQ78I, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:03.40 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=462087476&size=300x250&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fwww.cssscript.com&nse=3&vi=1489388378728998061&lw=1&ugd=4&re=1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:00:42.44 A Parser-blocking, cross-origin script, http://contextual.media.net/fcmdynet.js?&cid=8CU4XQ78I&cpcd=CSmaysVO0FvyX6XWCTFVtQ%3D%3D&crid=462087476&size=300x250&cc=IN&vif=1&requrl=http%3A%2F%2Fwww.cssscript.com%2Fgeneric-country-state-dropdown-list-countries-js%2F&kwrf=http%3A%2F%2Fw[2828:2576:0313/000042.448:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+Mar 13, 2017 24:13:32.80 [2828:3076:0313/001332.800:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:13:32.81 [2828:3076:0313/001332.818:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/countryus.php?ver=3.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra_20-04-2016.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/countryus.php?ver=3.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:14:00.50 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:21:30.90 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via do[2828:3076:0313/002130.903:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:21:30.90 [2828:3076:0313/002130.905:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:37:18.04 [2828:3076:0313/003718.040:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:37:18.05 [2828:3076:0313/003718.054:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:40:25.19 [4552:2452:0313/004025.181:ERROR:gles2_cmd_decoder.cc(16945)] [.DisplayCompositor-000000000E7AAE50]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Mar 13, 2017 24:40:25.19 [4552:2452:0313/004025.190:ERROR:gles2_cmd_decoder.cc(16945)] [.DisplayCompositor-000000000E7AAE50]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Mar 13, 2017 24:40:25.19 [4552:2452:0313/004025.190:ERROR:gles2_cmd_decoder.cc(9408)] [.DisplayCompositor-000000000E7AAE50]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Mar 13, 2017 24:40:25.19 [4552:2452:0313/004025.191:ERROR:gles2_cmd_decoder.cc(9408)] [.DisplayCompositor-000000000E7AAE50]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Mar 13, 2017 24:40:36.42 [2828:3076:0313/004036.420:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:40:36.44 [2828:3076:0313/004036.442:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:47:00.11 [2828:3076:0313/004700.119:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:47:00.12 [2828:3076:0313/004700.124:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:48:05.73 [2828:3076:0313/004805.732:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:48:05.73 [2828:3076:0313/004805.733:ERROR:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'channel' of null", source: chrome-extension://dbfmnekepjoapopniengjbcpnbljalfg/js/class.js (1)
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/countryus.php?ver=3.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://www.eboundservices.com/ads/extra_20-04-2016.js?ver=0.1, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/country.php?ver=1.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://eboundservices.com/ads/countryus.php?ver=3.0, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.
+Mar 13, 2017 24:48:34.00 A Parser-blocking, cross-origin script, http://publisher.eboundservices.com/keywords/report.js?ver=0.7, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity. See https://www.chromestatus.com/feature/5718547946799104 for more details.

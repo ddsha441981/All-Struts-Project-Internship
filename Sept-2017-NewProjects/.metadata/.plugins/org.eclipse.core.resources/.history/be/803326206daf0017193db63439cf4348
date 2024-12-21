@@ -1,0 +1,14 @@
+package com.crud;
+
+import java.sql.Connection;
+
+public class ConnectionEx {
+
+	static Connection con;
+	
+	public static Connection myConnection(){
+		
+		Connection con = con.
+		return con;
+	}
+}

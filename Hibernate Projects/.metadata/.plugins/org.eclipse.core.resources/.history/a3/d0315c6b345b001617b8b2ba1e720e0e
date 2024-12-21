@@ -1,0 +1,6 @@
+package com.hibernate.example;
+
+public class Date {
+
+	int dd,mm,yy;
+}

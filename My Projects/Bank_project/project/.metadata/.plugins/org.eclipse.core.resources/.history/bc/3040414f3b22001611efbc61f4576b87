@@ -1,0 +1,11 @@
+package com;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class FeedbackAction extends ActionSupport
+{
+	private String uname;
+	private String email;
+	private String contact;
+	private String message;
+}

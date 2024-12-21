@@ -1,0 +1,4 @@
+1489408023323	Move 'demo-servlet.xml' to 'WEB-INF'
+1489408629827	Rename package 'org.spring.hibernate.crud.examples'
+1489495303952	Delete element
+1489586960837	Infer generic type arguments

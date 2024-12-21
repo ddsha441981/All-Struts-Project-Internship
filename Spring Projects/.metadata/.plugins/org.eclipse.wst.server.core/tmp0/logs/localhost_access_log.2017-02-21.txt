@@ -1,0 +1,13 @@
+127.0.0.1 - - [21/Feb/2017:03:22:15 -0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:22:19 -0800] "GET /MVC-Insurance-Project-6/ HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:22:19 -0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:25:54 -0800] "GET /MVC-Insurance-Project-6/AdminLogin.jsp HTTP/1.1" 200 5362
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:26:09 -0800] "POST /MVC-Insurance-Project-6/adminlogin HTTP/1.1" 200 818
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:26:17 -0800] "GET /MVC-Insurance-Project-6/adminregister HTTP/1.1" 200 8967
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:26:34 -0800] "GET /MVC-Insurance-Project-6/saveAgentByAdmin?agentId=&agentName=&agentemail=&agentpassword=&agentcfpassword=&agentaddress=&agentpanNo=&agentdob=&agentmobNo=&agentstate=&agentpostcode=&agentcountry= HTTP/1.1" 400 968
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:26:57 -0800] "GET /MVC-Insurance-Project-6/addpolicybyAdmin HTTP/1.1" 200 8607
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:27:37 -0800] "GET /MVC-Insurance-Project-6/1 HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:27:45 -0800] "GET /MVC-Insurance-Project-6/viewallofClientAddedByAgent HTTP/1.1" 200 5213
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:28:10 -0800] "GET /MVC-Insurance-Project-6/viewallofClientAddedByAgent HTTP/1.1" 200 5213
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:28:30 -0800] "GET /MVC-Insurance-Project-6/adminviewAndDeleteDataOfPolicy HTTP/1.1" 200 5159
+0:0:0:0:0:0:0:1 - - [21/Feb/2017:03:28:59 -0800] "GET /MVC-Insurance-Project-6/viewAllcontentsofInsurance HTTP/1.1" 200 5471

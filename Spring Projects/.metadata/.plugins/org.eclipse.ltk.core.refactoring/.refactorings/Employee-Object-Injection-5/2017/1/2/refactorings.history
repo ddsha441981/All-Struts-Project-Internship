@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring.xml&apos; to &apos;ConstrutorInjectionExample/src&apos;&#x0D;&#x0A;- Original project: &apos;SimpleExample&apos;&#x0D;&#x0A;- Destination element: &apos;ConstrutorInjectionExample/src&apos;&#x0D;&#x0A;- Original element: &apos;spring.xml&apos;" description="Copy file" destination="=ConstrutorInjectionExample/src" element1="src/spring.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1484411747640" units="0" version="1.0"/>
+</session>

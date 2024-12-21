@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+		<bean id="custom1" class="com.org.scopeOfbean.example.Customer" scope="singleton">
+			<property name="customId" value="1"></property>
+			<property name="customName" value="Deendayal"></property>
+		
+		</bean>
+		
+		
+		<bean id="custom2" class="com.org.scopeOfbean.example.Customer" scope="prototype">
+			<property name="customId" value="2"></property>
+			<property name="customName" value="Kumawat"></property>
+		
+		</bean>
+		
+	</beans>

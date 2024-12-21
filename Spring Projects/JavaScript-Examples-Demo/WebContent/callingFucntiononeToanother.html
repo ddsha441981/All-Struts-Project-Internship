@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calling Fucntion One To Another</title>
+<script type="text/javascript">
+
+function addition(a,b) {
+//alert("Addtion Method Executed");
+var c = a+ b;
+return c;
+}
+
+ function sub(x,y) {
+var z = x-y;
+return z;
+}
+
+function Multi(x,y) {
+var z = x*y;
+return z;
+}
+
+function Division(x,y) {
+var z = x/y;
+return z;
+}
+
+function mod(x,y) {
+var z = x%y;
+return z; 
+	
+}
+function callAll() {
+document.write(addition(10,15));
+document.write(sub(10,15));
+document.write(Multi(10,15));
+document.write(Division(10,15));
+document.write(mod(10,15));
+}
+ 
+callAll();
+	 
+</script>
+</head>
+<body>
+
+</body>
+</html>

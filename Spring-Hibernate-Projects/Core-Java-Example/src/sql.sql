@@ -1,0 +1,1 @@
+select employees.first_name,employees.last_name,departments.department_name from employees inner join departments on employees.employee_id = departments.department_id order by employees.first_name;

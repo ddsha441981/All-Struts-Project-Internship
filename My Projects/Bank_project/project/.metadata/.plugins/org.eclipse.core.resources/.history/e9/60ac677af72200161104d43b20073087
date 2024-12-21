@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 6px;
+}
+
+li {
+	display: inline;
+}
+a:LINK,a:VISITED 
+{
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: black;
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:HOVER,a:ACTIVE
+ {
+ background-color: grey;
+}
+
+.imglogo
+
+{
+background-image: url("images/big_logo.gif");
+}
+
+h2 {
+	background-color: grey;
+	
+}
+p {
+	color: navy;
+}
+
+body {
+	background-color: grey;
+	
+}
+.btn-logout
+{
+position: absolute;top: 2%; left: 93%;
+}
+
+
+
+.loggername
+{   position: absolute;
+    top: 5%;
+    left: 85%;
+}
+ 
+ .btn-logout
+{
+position: absolute;top: 4%; left: 93%;
+}
+
+submit:ACTIVE {
+	background-color: blacl;
+}

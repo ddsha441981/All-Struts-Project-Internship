@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+  <struts>
+  		<package name="default" extends="struts-default">
+  		
+  		<interceptors>
+  			<interceptor name="timmer" class="com.hospital.Timmerinterceptor"></interceptor>
+  			<interceptor name="sdata" class="com.hospital.Interceptordatabase"></interceptor>
+  			<interceptor-stack name="my">
+  				<interceptor-ref name="timmer"/>
+  				<interceptor-ref name="sdata"/>
+  				<interceptor-ref name="defaultStack"/>
+  			
+  			</interceptor-stack>
+  		</interceptors>
+  		<default-interceptor-ref name="my"></default-interceptor-ref>
+  		
+  		<action name="enquirydata" class="com.hospital.Penquiry"> <!-- Enquiry Insert Data  -->
+  		<result name="success">/dataenquiry.jsp</result>
+  		<result name="input">/enquiry.jsp</result>
+  		</action>
+  		
+  		<action name="fetchdata" class="com.hospital.Enquiryfetch">
+  		<result name="success">/EnquiryDisplay.jsp</result>
+  		<!-- <result name="success">/EnquiryDisplay.jsp</result>  --><!-- Enquiry Data Fetch -->
+  		</action>
+  		
+  		<action name="showprofile" class="com.hospital.Member1"> <!-- Doctor profile1 Data Fetch -->
+  		<result name="success">/member1.jsp</result>
+  			<!-- <result name="success">/tryout.jsp</result> --> <!-- here you can also show data in this file all doctors details -->
+  		</action>
+  		
+  		<action name="docprofile" class="com.hospital.DocProfile"><!-- Add Doctor Details for Profile -->
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="searchdoc" class="com.hospital.Finddoc"> <!-- find Doctor  -->
+  		<result name="success">/finddoctor.jsp</result>
+  		</action>
+  		
+  		<!-- <action name="alldoctors" class="com.hospital.AllDoctors">
+  		<result name="success">/dee.jsp</result>doctors.jsp
+  		</action> -->
+  		
+  		<action name="doct" class="com.hospital.AllDoctors">
+  		<result name="success">/doctors.jsp</result><!-- doctors.jsp -->
+  		</action>
+  		
+  		<action name="greeting" class="com.hospital.Greeting"><!-- Greeting Reviews -->
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="greetingFetch" class="com.hospital.GreetingMain"><!-- Greeting Reviews -->
+  		<result name="success">/AllGreeting.jsp</result>
+  		</action>
+  		
+  		<action name="appoitttt" class="com.hospital.Appoitment_main"><!-- Appoitment Data Inserted -->
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="myappoitment" class="com.hospital.AppoitmentDetails"><!-- Appoitment Data Reterive -->
+  		<result name="success">/AllAppoitment.jsp</result>
+  		</action>
+  		
+  		<action name="searchAppoit" class="com.hospital.AppoitmentRecord"><!-- Appoitment Data Reterive -->
+  		<result name="success">/AppoitmentRecords.jsp</result>
+  		</action>
+  		
+  		<action name="database" class="com.hospital.Search">
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="Add_N_patient" class="com.hospital.AddnewPatient"><!-- Add New Patient data -->
+  		<result name="success">/All.jsp</result>
+  		 </action>
+  		
+  		 <action name="fetchpatient" class="com.hospital.New_Padmit_fetch"><!-- All Data New Patient  -->
+  		 <result name="success">/newPatientfetch.jsp</result>
+  		 </action>
+  		
+  		<action name="BillForPatient" class="com.hospital.BillForPatient"><!-- Generate New Bill -->
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="BillFetchData" class="com.hospital.BillforPatientFetch"><!-- Bill Data From Database -->
+  		<result name="success">/MyBill.jsp</result>
+  		</action>
+  		
+  		<action name="AddEmployee" class="com.hospital.AddNewEmployees"><!-- Add New Employees -->
+  		<result name="success">/All.jsp</result>
+  		</action>
+  		
+  		<action name="AddEmployeefetch" class="com.hospital.AddNewEmp_Fetch"><!-- Employees Data Fetch -->
+  		<result name="success">/AllEmployees.jsp</result>
+  		</action>
+  		
+  		<!-- <action name="receiptionst" class="com.hospital.WelcomeToRe">
+  		<result name="success" type="dispatcher">/Rlogin.jsp</result>
+  		</action>
+  		
+  		<action name="loginByRe" class="com.hospital.ReLogin">
+  		<result name="success" type="chain">receiptionst</result>
+  		</action> -->
+  		</package>
+  
+  </struts>

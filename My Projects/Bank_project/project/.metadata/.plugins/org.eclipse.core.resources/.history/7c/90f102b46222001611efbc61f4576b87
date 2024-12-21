@@ -1,0 +1,76 @@
+package com;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class AdddetailsAction extends ActionSupport
+{
+	
+	private static final long serialVersionUID = 1L;
+	
+	private String fname;
+	private String lname;
+	private String address;
+	private String bgroup;
+	private String category1;
+	private String category2;
+	
+	public String getFname() 
+	{
+		return fname;
+	}
+	public void setFname(String fname) 
+	{
+		this.fname = fname;
+	}
+	public String getLname() 
+	{
+		return lname;
+	}
+	public void setLname(String lname) 
+	{
+		this.lname = lname;
+	}
+	public String getAddress() 
+	{
+		return address;
+	}
+	public void setAddress(String address)
+	{
+		this.address = address;
+	}
+	public String getBgroup() 
+	{
+		return bgroup;
+	}
+	public void setBgroup(String bgroup) 
+	{
+		this.bgroup = bgroup;
+	}
+	public String getCategory1() 
+	{
+		return category1;
+	}
+	public void setCategory1(String category1)
+	{
+		this.category1 = category1;
+	}
+	public String getCategory2() 
+	{
+		return category2;
+	}
+	public void setCategory2(String category2) 
+	{
+		this.category2 = category2;
+	}
+	
+	public String execute() throws Exception 
+	{
+		int i=AddDetailcon.db(this);
+		if(i>0)
+		{
+			return SUCCESS;
+		}
+		return INPUT;
+		
+	}
+}

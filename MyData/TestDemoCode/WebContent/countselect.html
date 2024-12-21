@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+        <script>
+             function getCount(){
+                 var comboBoxes = document.querySelectorAll("input");
+                 var selected = [];
+                 for(var i=0,len=comboBoxes.length;i<len;i++){
+                        var combo = comboBoxes[i];
+                        var options = combo.children;
+                        for(var j=0,length=options.length;j<length;j++){
+                             var option = options[j];
+                             if(option.selected){
+                               selected.push(option.text);
+                             }
+                        }
+                 }
+                alert("Selected Options '" + selected + "' Total Count "+ selected.length);
+             }  
+        </script> 
+    </head>
+ <body>
+<!-- <select multiple onchange="getCount()">
+       <option>Google</option>
+       <option>Yahoo</option>
+       <option>Microsoft</option>
+</select>
+     <select multiple onchange="getCount()">
+       <option>Apple</option>
+       <option>Banana</option>
+       <option>Guava</option>
+</select>
+ -->
+ <input type="checkbox" name="a" value="A" onchange="getCount()"><br>
+ <input type="checkbox" name="b" value="B" onchange="getCount()"><br>
+ <input type="checkbox" name="c" value="C" onchange="getCount()"><br>
+ <input type="checkbox" name="d" value="D" onchange="getCount()"><br>
+ <input type="checkbox" name="e" value="E" onchange="getCount()"><br>
+</body>
+</html>

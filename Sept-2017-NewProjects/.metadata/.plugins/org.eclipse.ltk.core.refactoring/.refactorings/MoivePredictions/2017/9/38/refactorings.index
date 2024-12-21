@@ -1,0 +1,9 @@
+1506155522756	Rename package 'org.spring'
+1506155526941	Delete element
+1506155537321	Delete element
+1506156983493	Move 'common' to 'pages'
+1506166032670	Rename resource 'marathiMoives.jsp'
+1506168503523	Rename resource 'allMoives.jsp'
+1506174143723	Delete element
+1506174186103	Rename type 'UserLoginDao'
+1506174644909	Rename type 'UserLoginDaoImpl'

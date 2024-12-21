@@ -1,0 +1,9 @@
+package com.multithreading;
+
+public class Demo1StartMethod extends Thread {
+
+	public void run(){
+		
+	}
+	
+}

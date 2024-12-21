@@ -1,0 +1,15 @@
+package com.interruptMethod;
+
+public class InterruptMethodTest1 {
+
+	public static void main(String[] args) {
+		
+		InterruptMethodDemo1 tm = new InterruptMethodDemo1();
+		tm.start();
+		tm.interrupt();
+		for (int i = 0; i < 10; i++) {
+			
+			
+		}
+	}
+}

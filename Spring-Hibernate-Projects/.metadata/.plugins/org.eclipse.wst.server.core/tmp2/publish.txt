@@ -1,0 +1,4 @@
+#GlassFish 3
+#Thu Jun 29 10:44:20 PDT 2017
+org.eclipse.jst.jee.server\:HEllo=I\:\\Modular Java\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\HEllo
+org.eclipse.jst.jee.server\:e-Learning-System=I\:\\Modular Java\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\e-Learning-System

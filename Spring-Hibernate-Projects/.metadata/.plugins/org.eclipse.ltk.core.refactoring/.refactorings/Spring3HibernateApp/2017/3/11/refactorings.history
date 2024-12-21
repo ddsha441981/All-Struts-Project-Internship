@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Spring3HibernateApp/WebRoot&apos; to &apos;WebContent&apos;" description="Rename resource &apos;WebRoot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebRoot" name="WebContent" stamp="1489554877675" updateReferences="true"/>
+</session>

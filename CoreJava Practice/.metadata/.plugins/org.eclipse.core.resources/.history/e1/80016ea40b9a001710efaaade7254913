@@ -1,0 +1,6 @@
+package com.synchronizationBlock;
+
+public class SynchronizationBlockDemo1 extends Thread {
+
+	
+}

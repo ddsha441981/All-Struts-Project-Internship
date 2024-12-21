@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ProjectDispachter</display-name>
+  <servlet>
+  <servlet-name>HelloSer</servlet-name>
+  <servlet-class>com.Dispatcher.MyDispatcher</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>HelloSer</servlet-name>
+  <url-pattern>/validate</url-pattern>
+  
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Welcome</servlet-name>
+  <servlet-class>com.Dispatcher.Welcome</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Welcome</servlet-name>
+  <url-pattern>/vaild</url-pattern>
+  
+  </servlet-mapping>
+</web-app>

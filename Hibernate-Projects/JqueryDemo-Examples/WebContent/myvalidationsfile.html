@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery validation plug-in - main demo</title>
+	<link rel="stylesheet" href="css/screen.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script>
+
+	$().ready(function() {
+		
+		// validate signup form on keyup and submit
+		$("#signupForm").validate({
+			rules: {
+				
+				username: {
+					required: true,
+					minlength: 2
+				},
+				password: {
+					required: true,
+					minlength: 5
+				},
+				confirm_password: {
+					required: true,
+					minlength: 5,
+					equalTo: "#password"
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				
+			},
+			messages: {
+				
+				username: {
+					required: "Please enter a username",
+					minlength: "Your username must consist of at least 2 characters"
+				},
+				password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long"
+				},
+				confirm_password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long",
+					equalTo: "Please enter the same password as above"
+				},
+				email: "Please enter a valid email address",
+				
+			}
+		});
+
+		
+	}); 
+	</script>
+	
+</head>
+<body>
+
+<div id="main">
+	<p>Default submitHandler is set to display an alert into of submitting the form</p>
+	
+	<form class="cmxform" id="signupForm" method="get" action="">
+		<fieldset>
+			<legend>Validating a complete form</legend>
+			
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name="password" type="password">
+			</p>
+			<p>
+				<label for="confirm_password">Confirm password</label>
+				<input id="confirm_password" name="confirm_password" type="password">
+			</p>
+			<p>
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email">
+			</p>
+			
+			
+			<p>
+				<input class="submit" type="submit" value="Submit">
+			</p>
+		</fieldset>
+	</form>
+	
+	
+</div>
+
+</body>
+</html>

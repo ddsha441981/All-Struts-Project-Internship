@@ -1,0 +1,56 @@
+package com.hospital;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Finddoc extends ActionSupport implements Myconnection{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	static Connection con;
+	
+	String name;
+	
+public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+@Override
+public String execute() throws Exception {
+	PreparedStatement pstmt;
+	pstmt=con.prepareStatement("select * from doctors where name=?");
+	pstmt.setString(2, name);
+	ResultSet rs = pstmt.executeQuery();
+	
+	while(rs.next())
+	{
+	name=rs.getString(2);
+	
+	System.out.println("Name is doctors="+name);
+	}
+	
+	return SUCCESS;
+}
+
+	public void getconnection(Connection con) {
+		this.con=con;
+		
+	}
+
+
+	
+
+}

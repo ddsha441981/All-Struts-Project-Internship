@@ -1,0 +1,7 @@
+package com.login.page;
+
+public class Login 
+{
+	String user;
+
+}

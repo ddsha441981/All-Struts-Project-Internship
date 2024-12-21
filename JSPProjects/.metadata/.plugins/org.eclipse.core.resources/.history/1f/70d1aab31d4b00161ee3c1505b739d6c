@@ -1,0 +1,24 @@
+package com.DataOfLogin;
+
+public class Frd {
+
+	String fname;
+	String lname;
+	String eid;
+	int mno;
+	String pwd;
+	String cpwd;
+	
+	public String getfname()
+	{
+
+		this.fname = fname;
+		
+	}
+	public String setfname(String fname)
+	{
+		return fname;
+	}
+	
+	
+}

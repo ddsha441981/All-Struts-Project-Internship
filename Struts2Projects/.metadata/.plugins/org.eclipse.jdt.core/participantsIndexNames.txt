@@ -1,0 +1,27 @@
+INDEX VERSION 1.126
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1327636853.index
+\StrutsJavaBeansObject\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1256284252.index
+\StrutsActionValidate\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1665936320.index
+\StrutsOGNLData_Projects\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1169387474.index
+\Hello\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3028798277.index
+\Struts_Result_Projects\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4264337359.index
+\Struts_ModelDriven_Project\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4201671125.index
+\Struts2_ValidationsXml\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2284716347.index
+\UserPageStruts\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3904153617.index
+\StrutsLoginPage\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1201769827.index
+\Interceptor_Project\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3331939601.index
+\Struts_Student_RegistrationExample\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4071129105.index
+\StudentInformation_Struts_Project\src
+I:\Eclipse\Struts2Projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1406213844.index
+\Hello\src

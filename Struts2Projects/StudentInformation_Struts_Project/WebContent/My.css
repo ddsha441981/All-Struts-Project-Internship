@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+.txtcolor
+{
+	color: orange;
+	font-family: cursive;
+	font-style: italic;
+}
+.cc
+{
+	color: purple;
+}
+.nextf
+{
+	color: blue;
+	a:hover;
+}
+	

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootstrapTemplates/WebContent/manament.sql&apos; to &apos;EmployeeMangament.sql&apos;" description="Rename resource &apos;manament.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/manament.sql" name="EmployeeMangament.sql" stamp="1491970656748" updateReferences="true"/>
+</session>

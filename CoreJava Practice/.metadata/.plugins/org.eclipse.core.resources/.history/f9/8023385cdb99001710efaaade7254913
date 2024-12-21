@@ -1,0 +1,9 @@
+package com.synchronization;
+
+public class SynchronizationTest {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

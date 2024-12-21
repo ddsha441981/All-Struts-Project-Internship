@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;jquery.min.js, show_ads.js, wavytext.js&apos; to &apos;js&apos;" description="Move 3 resources to &apos;js&apos;" destination="WebContent/js" element1="WebContent/jquery.min.js" element2="WebContent/show_ads.js" element3="WebContent/wavytext.js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1473770173065" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+package com.GettingSettingThread;
+
+public class GeetingSettingThreadTest {
+
+	public static void main(String[] args) {
+		
+		GeetingSettingThreadDemo1 t1 = new GeetingSettingThreadDemo1();
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MailSending.java&apos; to &apos;cabSystem/src/org.spring.utility&apos;&#x0D;&#x0A;- Original project: &apos;MiniPhoneBookDiary&apos;&#x0D;&#x0A;- Destination element: &apos;cabSystem/src/org.spring.utility&apos;&#x0D;&#x0A;- Original element: &apos;org.spring.utility.MailSending.java&apos;" description="Copy compilation unit" destination="=cabSystem/src&lt;org.spring.utility" element1="/src&lt;org.spring.utility{MailSending.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1497897283764" units="1" version="1.0"/>
+</session>

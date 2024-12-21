@@ -1,0 +1,11 @@
+package com.multiOverview;
+
+public class OverridingStartMethodTest {
+
+	public static void main(String[] args) {
+		
+		OverloadingRunMethod t1 = new OverloadingRunMethod();
+		t1.start();
+		System.out.println("Main Thread");
+	}
+}

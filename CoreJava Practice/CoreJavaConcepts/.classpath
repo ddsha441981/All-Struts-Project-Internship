@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="abstractDemo"/>
+	<classpathentry kind="src" path="Excaptions"/>
+	<classpathentry kind="src" path="adapterClass"/>
+	<classpathentry kind="src" path="interfaceExample"/>
+	<classpathentry kind="src" path="Serializations"/>
+	<classpathentry kind="src" path="PracticeDaily"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="I:/Eclipse/MyData/Intern-Tracking/WebContent/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

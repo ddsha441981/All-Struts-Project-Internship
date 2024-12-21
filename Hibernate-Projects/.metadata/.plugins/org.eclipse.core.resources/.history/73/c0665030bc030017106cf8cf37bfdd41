@@ -1,0 +1,17 @@
+package org.spring.emailController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ @author Deendayal
+ @since 7 march 2017
+ @version 1.1.2
+ */
+@Controller
+public class SendEmailController {
+
+	@RequestMapping(value = "/sendEmail",method = RequestMethod.POST)
+	 
+	public String sendingEmails(EmailBeans emailbean)
+}

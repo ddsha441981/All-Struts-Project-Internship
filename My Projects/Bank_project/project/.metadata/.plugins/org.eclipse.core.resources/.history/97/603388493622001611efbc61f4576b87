@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts SYSTEM "struts-2.0.dtd">
+
+<struts>
+
+		<package name="mypack" extends="struts-default">
+			<action name="mylogin" class="com.LoginAction">
+			<result name="Patient">PatientPage.jsp</result>
+			<result name="Pharmacist">pharmastistP.jsp</result>
+			<result name="Doctor">DoctorP.jsp</result>
+			<result name="error">HomePage.jsp</result>
+			</action>
+					
+			
+			<action name="register" class="com.RegisterAction">
+			<result name="success">PatientPage.jsp</result>
+			<result name="input">Registration.jsp</result>
+			</action>
+			
+			<action name="change" class="com.Upadate_password">
+			<result name="success">PatientPage.jsp</result>
+			
+			<result name="input">ChangePassword.jsp</result>
+			</action>
+			
+			<action name="logout" class="com.LoginAction" method="logout">
+			<result name="input">HomePage.jsp</result>
+			</action>
+			
+			<action name="addetails" class="com.AdddetailsAction">
+			<result name="success">PatientPage.jsp</result>
+			<result name="input">ProfileDetails.jsp</result>
+			</action>
+		
+		</package>
+</struts>

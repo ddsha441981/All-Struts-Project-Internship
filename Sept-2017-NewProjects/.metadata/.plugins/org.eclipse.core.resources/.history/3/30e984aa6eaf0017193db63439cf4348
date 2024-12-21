@@ -1,0 +1,15 @@
+package com.crud;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Student st = new Student();
+		st.setId(20);
+		st.setName("Deendayal");
+		st.setPassword("abc");
+		st.setSalary(90000);
+		
+	}
+
+}

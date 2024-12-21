@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+#p1
+{
+	font-style: italic;
+	font-size: 20px;
+}
+@CHARSET "ISO-8859-1";
+#p2
+	{
+	font-size: 40px;
+	font-style: normal;
+	font-family: inherit;
+	color: red;
+	}
+	
+@CHARSET "ISO-8859-1";
+#p3
+	{
+	background-color: aqua;
+	}	
+	
+	@CHARSET "ISO-8859-1";
+#p4
+		{
+		font-size: 18px;
+		color: teal;
+		text-align: center;
+		}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+  		
+  			<field name="batch_id">
+  			<field-validator type="requiredstring">
+  			<message>Batch ID field is Empty</message>
+  			</field-validator>
+  			<field-validator type="int">
+  			<message>ID must be in Number</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="batch_name">
+  			<field-validator type="requiredstring">
+  			<message>Batch is required</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="start_date">
+  			<field-validator type="requiredstring">
+  			<message>Birth Date is required</message>
+  			</field-validator>
+  			</field>
+
+			<field name="end_date">
+  			<field-validator type="requiredstring">
+  			<message>Join Date is required</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="technology">
+  			<field-validator type="requiredstring">
+  			<message>Technology field is required</message>
+  			</field-validator>
+  			</field>
+  			
+</validators>

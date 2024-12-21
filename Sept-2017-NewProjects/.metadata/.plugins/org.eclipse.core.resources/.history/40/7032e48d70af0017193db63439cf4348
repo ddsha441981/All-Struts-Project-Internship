@@ -1,0 +1,27 @@
+package com.crud;
+
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class Test {
+	
+	public static void main(String[] args) throws SQLException {
+		
+		 Connection con ;
+		 
+		Student st = new Student();
+		st.setId(20);
+		st.setName("Deendayal");
+		st.setPassword("abc");
+		st.setSalary(90000);
+		
+		 con = ConnectionEx.myConnection();
+		
+		 java.sql.Statement stmt =  con.createStatement();
+		 ((java.sql.Statement) stmt).executeUpdate("insert into std values('"+st.getId()+"' , '"+st.getName()+"' ,'"+st.getPassword()+"' ,'"+st.getSalary()+"')");
+		 System.out.println("Record affected");
+		 con.close();
+	}
+
+}

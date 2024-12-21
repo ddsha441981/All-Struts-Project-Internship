@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="I:\Eclipse\MyData\Struts2FileDownload"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="377" key="DIALOG_HEIGHT"/>
+		<item value="113" key="DIALOG_Y_ORIGIN"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Deendayal\Desktop\online Exam\Online Quiz Project Using JSP Servlet_Blog\Online Quiz Project Using JSP Servlet_Blog"/>
+			<item value=""/>
+			<item value="I:\Eclipse\MyData\multiconfiguration"/>
+			<item value="I:\Eclipse\TestProjects\Struts2Example"/>
+			<item value="I:\Eclipse\MyData\Struts2Example"/>
+			<item value="I:\Eclipse\MyData\JqueryJsonServlet"/>
+			<item value="I:\Eclipse\MyData\CRUD"/>
+			<item value="I:\Eclipse\Struts2Projects\New-Projects"/>
+			<item value="I:\Eclipse\Struts2Projects\Struts_Result_Projects"/>
+			<item value="I:\Eclipse\MyData\new-Project"/>
+			<item value="I:\Eclipse\MyData"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\Deendayal\Desktop\online Exam\onlinequiz_2.zip"/>
+			<item value="C:\Users\Deendayal\Downloads\Compressed\multinamespace.zip"/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

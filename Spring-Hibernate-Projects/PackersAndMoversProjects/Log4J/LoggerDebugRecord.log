@@ -1,0 +1,6 @@
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.spring.Controller.ForgotPasswordController:LoginAllUsersDebugging
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.springframework.web.servlet.DispatcherServlet:renderRendering view [org.springframework.web.servlet.view.JstlView: name 'login'; URL [/WEB-INF/views/login.jsp]] in DispatcherServlet with name 'packer'
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.springframework.web.servlet.view.JstlView:exposeModelAsRequestAttributesAdded model object 'adminBeans' of type [org.spring.dto.AdminBeans] to request in view with name 'login'
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.springframework.web.servlet.view.JstlView:exposeModelAsRequestAttributesAdded model object 'org.springframework.validation.BindingResult.adminBeans' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'login'
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.springframework.web.servlet.view.JstlView:renderMergedOutputModelForwarding to resource [/WEB-INF/views/login.jsp] in InternalResourceView 'login'
+2017-06-16-http-bio-8080-exec-6--DEBUG-org.springframework.web.servlet.DispatcherServlet:processRequestSuccessfully completed request

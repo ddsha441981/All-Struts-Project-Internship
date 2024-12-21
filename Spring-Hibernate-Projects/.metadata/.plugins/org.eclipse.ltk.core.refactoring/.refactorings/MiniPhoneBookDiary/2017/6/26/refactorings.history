@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;cabSystem/resources&apos;&#x0D;&#x0A;- Original project: &apos;MiniPhoneBookDiary&apos;&#x0D;&#x0A;- Destination element: &apos;cabSystem/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ErrorLog4JError.properties&#x0D;&#x0A;     MsgLog4J.properties&#x0D;&#x0A;     DebugLog4J.properties" description="Copy files" destination="=cabSystem/resources" element1="resources/ErrorLog4JError.properties" element2="resources/MsgLog4J.properties" element3="resources/DebugLog4J.properties" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1498493145758" units="0" version="1.0"/>
+</session>

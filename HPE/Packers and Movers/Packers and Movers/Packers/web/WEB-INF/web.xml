@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+        <servlet>
+        <servlet-name>Logins</servlet-name>
+        <servlet-class>View.logins</servlet-class>
+        </servlet>
+    
+        <servlet>
+        <servlet-name>ServiceInsert</servlet-name>
+        <servlet-class>View.ServiceInsert</servlet-class>
+        </servlet>
+        
+        <servlet>
+        <servlet-name>AgentInsert</servlet-name>
+        <servlet-class>View.AgentInsert</servlet-class>
+        </servlet>
+        
+        <servlet>
+        <servlet-name>AgentLogin</servlet-name>
+        <servlet-class>View.AgentLogin</servlet-class>
+        </servlet>
+        
+        <servlet>
+        <servlet-name>agentsearch</servlet-name>
+        <servlet-class>View.agentsearch</servlet-class>
+        </servlet>
+        
+        <servlet>
+        <servlet-name>Quotations</servlet-name>
+        <servlet-class>View.Quotations</servlet-class>
+        </servlet>
+
+        <servlet>
+        <servlet-name>feedback</servlet-name>
+        <servlet-class>View.feedback</servlet-class>
+        </servlet>
+
+        <servlet>
+        <servlet-name>VehicleInsert</servlet-name>
+        <servlet-class>View.VehicleInsert</servlet-class>
+        </servlet>
+
+        <servlet>
+        <servlet-name>Maintenance</servlet-name>
+        <servlet-class>View.Maintenance</servlet-class>
+        </servlet>
+
+        <servlet>
+        <servlet-name>DriverInsert</servlet-name>
+        <servlet-class>View.DriverInsert</servlet-class>
+        </servlet>
+
+         <servlet>
+        <servlet-name>updateagnt</servlet-name>
+        <servlet-class>View.updateagnt</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+        <servlet-name>Logins</servlet-name>
+        <url-pattern>/logins</url-pattern>
+        </servlet-mapping>
+   
+        <servlet-mapping>
+        <servlet-name>ServiceInsert</servlet-name>
+        <url-pattern>/ServiceInsert</url-pattern>
+        </servlet-mapping>
+   
+         <servlet-mapping>
+        <servlet-name>AgentInsert</servlet-name>
+        <url-pattern>/AgentInsert</url-pattern>
+        </servlet-mapping>
+   
+        <servlet-mapping>
+        <servlet-name>AgentLogin</servlet-name>
+        <url-pattern>/AgentLogin</url-pattern>
+        </servlet-mapping>
+   
+      <servlet-mapping>
+        <servlet-name>agentsearch</servlet-name>
+        <url-pattern>/agentsearch</url-pattern>
+        </servlet-mapping>
+    
+    
+      <servlet-mapping>
+        <servlet-name>Quotations</servlet-name>
+        <url-pattern>/Quotations</url-pattern>
+        </servlet-mapping>
+        
+        <servlet-mapping>
+        <servlet-name>feedback</servlet-name>
+        <url-pattern>/feedback</url-pattern>
+        </servlet-mapping>
+   
+          <servlet-mapping>
+        <servlet-name>VehicleInsert</servlet-name>
+        <url-pattern>/VehicleInsert</url-pattern>
+        </servlet-mapping>
+   
+        <servlet-mapping>
+        <servlet-name>Maintenance</servlet-name>
+        <url-pattern>/Maintenance</url-pattern>
+        </servlet-mapping>
+   
+        <servlet-mapping>
+        <servlet-name>DriverInsert</servlet-name>
+        <url-pattern>/DriverInsert</url-pattern>
+        </servlet-mapping>
+   
+        <servlet-mapping>
+        <servlet-name>updateagnt</servlet-name>
+        <url-pattern>/updateagnt</url-pattern>
+        </servlet-mapping>
+   
+        <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

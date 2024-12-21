@@ -1,0 +1,21 @@
+import java.util.HashSet;
+import java.util.Iterator;
+
+
+public class collectiondemo {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> h1=new HashSet<>();
+		
+		h1.add("pune");
+		h1.add("seed");
+		
+		Iterator<String> itr=h1.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
+	}
+}

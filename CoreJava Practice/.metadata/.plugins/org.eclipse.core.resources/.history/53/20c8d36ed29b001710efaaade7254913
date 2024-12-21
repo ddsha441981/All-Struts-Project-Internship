@@ -1,0 +1,21 @@
+package com.practice;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class MaptoListConvert {
+
+	public static void main(String[] args) {
+		
+		Map<Integer, String> map = new HashMap<>();
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		List<Integer> keyValue = new ArrayList(map.keySet());
+		List<Integer> Valuelist = new ArrayList(map.keySet());
+	}
+}

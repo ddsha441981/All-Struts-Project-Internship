@@ -1,0 +1,46 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Map;
+
+import org.apache.struts2.dispatcher.SessionMap;
+import org.apache.struts2.interceptor.SessionAware;
+
+public class Updateprofile 
+{
+
+
+	static String n;
+	public static int db(RegisterAction r) throws Exception{
+
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection conn = DriverManager.getConnection(
+			"jdbc:oracle:thin:@aquarius.parth.com:1521:oracle11",
+			"java", "java");
+	PreparedStatement ps = conn
+			.prepareStatement("select * from reg where uname='" + n
+					+ "'");
+	System.out.println("after conn");
+	ResultSet rs = ps.executeQuery();
+	System.out.println("user" + n);
+	String u = rs.getString("uname");
+	System.out.println("user edit" + u);
+	String m = rs.getString("mono");
+	System.out.println("mono edit" + m);
+	String e = rs.getString("email");
+	System.out.println("email edit" + e);
+
+	while (rs.next()) {
+
+}
+	PreparedStatement ps1 = conn.prepareStatement("update reg set uname='" + u
+			+ "',mono='" + m + "',email='" + e
+			+ "' where uname='" + n + "'");
+ ps1.executeUpdate();
+return ps1.executeUpdate();
+	}
+	
+}

@@ -1,0 +1,21 @@
+
+Oct 13, 2017 11:04:38.82 NEW SESSION
+Oct 13, 2017 11:04:38.82 [3324:752:1013/110438.820:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 13, 2017 11:04:59.66 [3324:752:1013/110459.662:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 13, 2017 11:05:12.00 [3324:2368:1013/110512.005:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 13, 2017 11:05:12.00 [3324:2368:1013/110512.005:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 13, 2017 11:05:54.56 [3324:752:1013/110554.566:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+
+Oct 16, 2017 20:37:41.71 NEW SESSION
+Oct 16, 2017 20:37:41.71 [5960:4048:1016/203741.565:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:38:02.70 [5960:4048:1016/203802.708:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:38:14.82 [5960:5872:1016/203814.825:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 16, 2017 20:38:14.82 [5960:5872:1016/203814.825:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 16, 2017 20:39:21.47 [3796:3668:1016/203921.455:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:39:44.19 [3796:3668:1016/203944.195:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:39:54.44 [3796:3436:1016/203954.447:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 16, 2017 20:39:54.44 [3796:3436:1016/203954.447:ERROR:account_tracker.cc(328)] OnGetTokenFailure: Connection failed (-106).
+Oct 16, 2017 20:40:41.31 [3796:3668:1016/204041.311:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:42:34.43 [3796:3668:1016/204234.436:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Oct 16, 2017 20:45:06.87 [3796:3668:1016/204506.705:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -21
+Oct 16, 2017 20:45:10.39 [3796:2208:1016/204510.390:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates

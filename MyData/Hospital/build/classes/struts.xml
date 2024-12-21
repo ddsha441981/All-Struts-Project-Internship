@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+  <struts>
+  		<package name="default" extends="struts-default">
+  		
+  		<interceptors>
+  			<interceptor name="timmer" class="com.hospital.Timmerinterceptor"></interceptor>
+  			<interceptor name="sdata" class="com.hospital.Interceptordatabase"></interceptor>
+  			<interceptor-stack name="my">
+  				<interceptor-ref name="timmer"/>
+  				<interceptor-ref name="sdata"/>
+  				<interceptor-ref name="defaultStack"/>
+  			
+  			</interceptor-stack>
+  		</interceptors>
+  		<default-interceptor-ref name="my"></default-interceptor-ref>
+  		
+  		<action name="patientenqiury" class="com.hospital.Penquiry">
+  		<result name="success">/patientdata.jsp</result>
+  		<result name="input">/enquiry.jsp</result>
+  		</action>
+  		
+  		<action name="memmer1" class="com.hospital.Member1">
+  		<result name="success">/member1.jsp</result>
+  		</action>
+  		</package>
+  
+  </struts>

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/admin/header.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/adminHome.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/basicTable.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/dataTable.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/form1.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/form2.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/gallery.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/googleMap.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/registerTrainer.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/vectorMap.jsp=UTF-8

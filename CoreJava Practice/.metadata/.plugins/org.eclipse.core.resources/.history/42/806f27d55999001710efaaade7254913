@@ -1,0 +1,5 @@
+package com.multiOverview;
+
+public class RunMethodOverridingNot extends Thread {
+
+}

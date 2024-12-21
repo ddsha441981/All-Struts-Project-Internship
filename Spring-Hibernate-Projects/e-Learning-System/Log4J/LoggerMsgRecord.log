@@ -1,0 +1,319 @@
+2017-06-29 11:46:31 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:46:31 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-29 11:46:31 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:47:02 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:47:36 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:47:36 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 11:46:15 PDT 2017]; root of context hierarchy
+2017-06-29 11:48:35 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:48:36 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-29 11:48:36 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:48:55 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:48:55 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-29 11:48:56 INFO  LoginController:58 - Login Request Mapping Successfully
+2017-06-29 11:54:59 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 11:47:38 PDT 2017]; root of context hierarchy
+2017-06-29 13:00:14 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:00:47 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 12:59:56 PDT 2017]; root of context hierarchy
+2017-06-29 13:02:10 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:03:02 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 13:01:51 PDT 2017]; root of context hierarchy
+2017-06-29 13:03:12 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:06:24 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:06:45 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:08:11 INFO  LoginController:66 - Login Request Mapping Successfully
+2017-06-29 13:14:15 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 13:03:04 PDT 2017]; root of context hierarchy
+2017-06-29 13:17:21 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 13:17:58 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 13:17:07 PDT 2017]; root of context hierarchy
+2017-06-29 13:18:06 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 13:22:01 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 13:18:00 PDT 2017]; root of context hierarchy
+2017-06-29 13:22:05 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 13:22:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-06-29 13:22:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-06-29 13:22:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-06-29 13:22:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-06-29 13:22:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-06-29 13:22:34 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 13:23:53 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 13:22:02 PDT 2017]; root of context hierarchy
+2017-06-29 13:24:33 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:10:16 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:11:31 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 20:09:37 PDT 2017]; root of context hierarchy
+2017-06-29 20:11:34 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:15:34 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 20:11:32 PDT 2017]; root of context hierarchy
+2017-06-29 20:15:46 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:18:26 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 20:15:35 PDT 2017]; root of context hierarchy
+2017-06-29 20:26:56 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:27:38 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 20:26:37 PDT 2017]; root of context hierarchy
+2017-06-29 20:27:49 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 20:28:39 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 20:27:39 PDT 2017]; root of context hierarchy
+2017-06-29 22:02:23 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:04:21 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:02:09 PDT 2017]; root of context hierarchy
+2017-06-29 22:14:07 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:17:56 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:13:44 PDT 2017]; root of context hierarchy
+2017-06-29 22:18:08 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:18:29 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:17:58 PDT 2017]; root of context hierarchy
+2017-06-29 22:18:46 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:19:31 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:19:53 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:20:02 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:18:31 PDT 2017]; root of context hierarchy
+2017-06-29 22:20:04 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:20:34 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:20:03 PDT 2017]; root of context hierarchy
+2017-06-29 22:21:37 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:22:38 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:22:59 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:26:08 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:21:04 PDT 2017]; root of context hierarchy
+2017-06-29 22:37:22 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:38:21 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:38:25 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:36:53 PDT 2017]; root of context hierarchy
+2017-06-29 22:38:38 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:38:39 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-29 22:38:39 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:39:06 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:39:07 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-06-29 22:39:07 INFO  SQLErrorCodesFactory:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2017-06-29 22:39:31 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:39:38 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:38:26 PDT 2017]; root of context hierarchy
+2017-06-29 22:39:50 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-29 22:39:51 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-29 22:39:51 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 01:28:57 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Jun 29 22:39:39 PDT 2017]; root of context hierarchy
+2017-06-30 02:25:32 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 02:27:04 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 02:25:23 PDT 2017]; root of context hierarchy
+2017-06-30 05:58:49 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 05:59:04 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 05:59:05 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 05:59:06 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 06:14:54 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 03:31:51 PDT 2017]; root of context hierarchy
+2017-06-30 06:43:59 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 06:45:43 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 06:45:43 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 06:45:44 INFO  LoginController:67 - Login Request Mapping Successfully
+2017-06-30 06:51:08 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 06:43:02 PDT 2017]; root of context hierarchy
+2017-06-30 09:39:29 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 09:39:32 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 09:39:32 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 09:39:36 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/registerTrainerByAdmin] in DispatcherServlet with name 'main'
+2017-06-30 09:39:41 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/registerTrainerByAdmin] in DispatcherServlet with name 'main'
+2017-06-30 09:39:48 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/registerTrainerByAdmin] in DispatcherServlet with name 'main'
+2017-06-30 09:40:55 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 07:40:30 PDT 2017]; root of context hierarchy
+2017-06-30 09:41:20 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 09:41:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 09:41:21 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:22:57 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:23:36 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:25:20 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:25:35 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:25:51 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:26:29 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:27:28 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:35:55 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:35:56 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:35:56 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:27 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:27 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:44:27 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:51 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:51 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:44:52 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:55 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:44:55 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:44:55 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:37 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 09:41:01 PDT 2017]; root of context hierarchy
+2017-06-30 10:46:53 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:54 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:46:54 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:57 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:57 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:46:57 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:59 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:46:59 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:46:59 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:52:18 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:53:00 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:53:00 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:53:53 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:53:53 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:54:07 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:54:07 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:55:07 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:55:07 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:55:42 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:55:42 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:55:58 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:55:58 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 10:55:58 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 10:57:00 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:57:00 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:57:11 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:57:11 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:57:56 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:57:56 INFO  LoginController:107 - We've sent login credentials to your mail
+2017-06-30 10:58:02 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:00 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:03 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:42 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:52 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:55 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:56 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 10:59:57 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:00:13 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:00:43 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:00:51 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:01:11 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:01:56 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:02:39 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:02:41 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 10:46:39 PDT 2017]; root of context hierarchy
+2017-06-30 11:02:46 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:03:34 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:03:55 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:05:16 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 11:02:43 PDT 2017]; root of context hierarchy
+2017-06-30 11:05:47 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:06:12 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:11:07 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:11:07 INFO  LoginController:109 - We've sent login credentials to your mail
+2017-06-30 11:11:14 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:11:14 INFO  LoginController:109 - We've sent login credentials to your mail
+2017-06-30 11:11:57 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 11:11:57 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 11:11:57 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 11:12:15 INFO  LoginController:80 - Forgot password Request Mapping
+2017-06-30 11:12:15 INFO  LoginController:109 - We've sent login credentials to your mail
+2017-06-30 22:45:20 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 22:45:21 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 22:45:22 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 22:59:05 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 22:59:06 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 22:59:06 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 22:59:09 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/adminChangePassword] in DispatcherServlet with name 'main'
+2017-06-30 22:59:15 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/adminChangePassword] in DispatcherServlet with name 'main'
+2017-06-30 22:59:55 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 11:05:29 PDT 2017]; root of context hierarchy
+2017-06-30 23:01:45 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-06-30 23:01:46 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-06-30 23:01:46 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:36:47 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2017-07-04 09:38:10 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:38:28 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:43:54 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:44:56 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:44:57 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 09:45:01 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:45:33 INFO  LoginController:80 - Forgot password Request Mapping
+2017-07-04 09:45:34 INFO  LoginController:109 - We've sent login credentials to your mail
+2017-07-04 09:46:12 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 09:46:13 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 09:46:13 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 20:36:45 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 20:36:45 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 20:36:46 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 20:38:27 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Jun 30 23:01:20 PDT 2017]; root of context hierarchy
+2017-07-04 22:16:41 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 22:16:46 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 22:16:46 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 22:18:15 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Tue Jul 04 22:15:51 PDT 2017]; root of context hierarchy
+2017-07-04 23:27:00 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:27:30 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:28:30 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:28:32 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 23:28:33 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:33:01 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Tue Jul 04 23:25:25 PDT 2017]; root of context hierarchy
+2017-07-04 23:54:26 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:54:27 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 23:54:27 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:55:08 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Tue Jul 04 23:54:06 PDT 2017]; root of context hierarchy
+2017-07-04 23:59:22 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:59:58 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-04 23:59:58 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-04 23:59:58 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:25:30 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:25:32 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-07 22:25:33 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:32:14 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:34:47 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Nov 07 22:24:10 PST 2013]; root of context hierarchy
+2013-11-07 22:42:14 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:42:15 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-07 22:42:15 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:44:15 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:44:15 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-07 22:44:16 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:44:26 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 22:44:31 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-07 22:56:06 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 22:56:13 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 22:57:11 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 22:57:11 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 22:59:13 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-07 23:01:20 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/images/about-img.jpg] in DispatcherServlet with name 'main'
+2013-11-08 01:15:35 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 01:15:36 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 01:15:36 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 01:15:49 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 01:18:38 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 01:18:39 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 01:18:39 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 01:22:44 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Thu Nov 07 22:34:54 PST 2013]; root of context hierarchy
+2013-11-08 01:24:34 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 01:25:04 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 12:44:23 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 01:22:46 PST 2013]; root of context hierarchy
+2013-11-08 12:44:32 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 12:58:57 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 12:44:25 PST 2013]; root of context hierarchy
+2013-11-08 13:03:43 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:03:43 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:03:44 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:06:04 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 12:59:53 PST 2013]; root of context hierarchy
+2013-11-08 13:34:40 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:34:41 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:34:41 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:34:44 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/logoutAdmin] in DispatcherServlet with name 'main'
+2013-11-08 13:34:51 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:34:54 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:34:54 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:34:54 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:34:55 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:34:55 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:34:55 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:34:56 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:34:56 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:34:57 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:34:59 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/logoutAdmin] in DispatcherServlet with name 'main'
+2013-11-08 13:35:29 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/logoutAdmin] in DispatcherServlet with name 'main'
+2013-11-08 13:35:33 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:35:33 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:35:33 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:35:42 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/logoutAdmin] in DispatcherServlet with name 'main'
+2013-11-08 13:37:28 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 13:07:48 PST 2013]; root of context hierarchy
+2013-11-08 13:37:55 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:37:55 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:37:56 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:38:22 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:38:23 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:38:23 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:38:50 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 13:37:35 PST 2013]; root of context hierarchy
+2013-11-08 13:43:36 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:43:38 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:43:39 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:43:54 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 13:43:54 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 13:43:54 WARN  PageNotFound:198 - Request method 'GET' not supported
+2013-11-08 13:52:52 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Fri Nov 08 13:42:00 PST 2013]; root of context hierarchy
+2013-11-08 14:00:18 INFO  LoginController:71 - Login Request Mapping Successfully
+2013-11-08 14:00:19 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2013-11-08 14:00:19 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-07-14 09:12:25 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-14 09:12:28 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-14 09:12:28 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-07-14 09:12:35 INFO  LoginController:58 - Logout Request Mapping Successfully
+2017-07-14 09:12:52 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-14 09:12:53 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-14 09:12:53 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-07-18 05:38:53 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-18 05:38:54 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-18 05:38:55 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-07-18 06:02:42 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/trainerRegister] in DispatcherServlet with name 'main'
+2017-07-18 06:32:56 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Tue Jul 18 05:37:35 PDT 2017]; root of context hierarchy
+2017-07-18 10:32:07 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-07-18 10:32:13 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-07-18 10:32:13 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-07-18 10:32:38 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/basic_table.html] in DispatcherServlet with name 'main'
+2017-07-18 10:36:13 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Tue Jul 18 10:31:19 PDT 2017]; root of context hierarchy
+2017-09-18 06:38:40 INFO  LoginController:71 - Login Request Mapping Successfully
+2017-09-18 06:38:41 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/css/morris.css] in DispatcherServlet with name 'main'
+2017-09-18 06:38:42 WARN  PageNotFound:198 - Request method 'GET' not supported
+2017-09-18 06:39:36 WARN  PageNotFound:1118 - No mapping found for HTTP request with URI [/e-Learning-System/login.html] in DispatcherServlet with name 'main'
+2017-09-18 06:50:50 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'main-servlet': startup date [Mon Sep 18 06:36:07 PDT 2017]; root of context hierarchy

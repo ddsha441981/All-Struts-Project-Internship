@@ -1,0 +1,12 @@
+span {
+background-color: white;
+-webkit-transition: all 0.25s;
+-moz-transition: all 0.25s;
+-o-transition: all 0.25s;
+-ms-transition: all 0.25s;
+transition: all 0.25s;
+position: relative;
+float: left;
+top: 400px;
+opacity: 0;
+}

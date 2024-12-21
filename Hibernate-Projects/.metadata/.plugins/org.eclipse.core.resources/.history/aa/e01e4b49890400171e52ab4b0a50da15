@@ -1,0 +1,10 @@
+package org.spring.pdfdownload;
+
+public class Book {
+private String title;
+private String author;
+private String isbn;
+private String publishedDate;
+private String price;
+
+}

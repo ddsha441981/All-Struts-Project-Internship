@@ -1,0 +1,9 @@
+package org.spring.emailController;
+/**
+ @author Deendayal
+ @since 7 march 2017
+ @version 1.1.2
+ */
+public class SendEmailController {
+
+}

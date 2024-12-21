@@ -1,0 +1,6 @@
+package com.multiOverview;
+
+public class OverridingStartMethod extends Thread {
+
+	
+}

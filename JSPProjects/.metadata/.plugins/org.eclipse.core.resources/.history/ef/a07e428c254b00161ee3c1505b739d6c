@@ -1,0 +1,6 @@
+package com.DataOfLogin;
+
+public interface Provider {
+String driver ="oracle.jdbc.driver.OracleDriver";
+
+}

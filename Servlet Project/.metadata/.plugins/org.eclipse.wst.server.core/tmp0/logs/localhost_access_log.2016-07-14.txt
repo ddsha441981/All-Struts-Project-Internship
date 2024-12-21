@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Jul/2016:08:13:48 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Jul/2016:08:13:49 -0700] "GET /SessionProject/SessionStatic.html HTTP/1.1" 200 483
+0:0:0:0:0:0:0:1 - - [14/Jul/2016:08:13:59 -0700] "GET /SessionProject/Servlet1?user=seed&pwd=hhh HTTP/1.1" 200 26
+127.0.0.1 - - [14/Jul/2016:18:27:00 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Jul/2016:18:27:01 -0700] "GET /SessionProject/SessionStatic.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jul/2016:18:27:30 -0700] "GET /SessionProject/Servlet1?user=seed&pwd=123 HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [14/Jul/2016:18:27:33 -0700] "GET /SessionProject/SessionSevlet2 HTTP/1.1" 404 1009

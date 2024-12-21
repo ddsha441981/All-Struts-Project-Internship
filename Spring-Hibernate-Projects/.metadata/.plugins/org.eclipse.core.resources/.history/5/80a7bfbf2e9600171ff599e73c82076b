@@ -1,0 +1,10 @@
+package com.collection;
+
+public class HashTableDemo1Test {
+
+	int i;
+	
+	public HashTableDemo1Test(int i){
+		int i = i;
+	}
+}

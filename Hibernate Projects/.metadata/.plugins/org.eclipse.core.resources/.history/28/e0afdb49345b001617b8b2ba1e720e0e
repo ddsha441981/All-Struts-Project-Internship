@@ -1,0 +1,8 @@
+package com.hibernate.example;
+
+public class Customer {
+
+	int cid;
+	String cname;
+	
+}

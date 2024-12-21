@@ -1,0 +1,76 @@
+ package com;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts2.dispatcher.RequestMap;
+import org.apache.struts2.interceptor.RequestAware;
+import org.apache.struts2.interceptor.ServletRequestAware;
+import org.apache.struts2.interceptor.SessionAware;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport implements SessionAware,RequestAware,ServletRequestAware
+{
+	
+	private static final long serialVersionUID = 1L;
+	
+	private String uname;
+	private String upass;
+	Map map;
+	HttpServletRequest req;
+	
+	
+	public String getUname() 
+	{
+		return uname;
+	}
+	public void setUname(String uname) 
+	{
+		this.uname = uname;
+	}
+	public String getUpass() 
+	{
+		return upass;
+	}
+	public void setUpass(String upass) 
+	{
+		this.upass = upass;
+	}
+	
+	
+	
+	public String execute() throws SQLException
+	{
+		System.out.println("In Execute");
+		
+		 String type=Logincon.db(this);
+		 
+			map.put("HomePage", "true");
+			map.put("uname","uname");
+			map.put("upass","upass");
+			
+			return type;
+		
+	}
+	@Override
+	public void setSession(Map arg0) {
+		map=arg0;
+		
+	}
+	@Override
+	public void setRequest(Map arg) {
+		req=arg;
+		
+	}
+	@Override
+	public void setServletRequest(HttpServletRequest arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

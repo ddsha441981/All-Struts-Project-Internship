@@ -1,0 +1,12 @@
+1485260039737	Rename package 'org.spring.customer.controller'
+1485260062005	Rename type 'CustomerContoller'
+1485260542033	Move 'client-register.jsp' to 'Agent'
+1485322200458	Rename resource 'logerfile.txt'
+1485322663178	Copy file
+1485322777766	Rename resource 'logerfile.properties'
+1485323628180	Delete element
+1485323633691	Copy file
+1485326289001	Delete element
+1485495027692	Rename package 'org.spring.agent.beanclasses'
+1485495643804	Rename type 'ClientRegister'
+1485611065219	Rename type 'AgentLogin'

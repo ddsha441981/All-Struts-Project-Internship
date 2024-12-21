@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+I:\Eclipse\MyData\BillFormat\.metadata\.plugins\org.eclipse.jdt.core
+1919013227.index
+1821406963.index
+1516498769.index
+3371809034.index
+2557662206.index
+1784535423.index
+1653304636.index
+1890662154.index
+51185920.index
+1401889833.index
+2525758486.index
+1084157406.index
+1561865233.index
+3942067957.index
+312075285.index
+21211709.index
+1852294119.index
+1327334599.index
+3103347230.index
+2583620379.index
+2807075264.index
+4034364752.index

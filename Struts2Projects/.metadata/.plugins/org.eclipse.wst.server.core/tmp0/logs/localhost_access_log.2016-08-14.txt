@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Aug/2016:20:29:10 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Aug/2016:20:29:12 -0700] "GET /New-Projects/index.jsp HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [14/Aug/2016:20:29:16 -0700] "POST /New-Projects/kumawat.action;jsessionid=B602C197CF52B1B76434E6E0E3DF18DC HTTP/1.1" 500 11435
+0:0:0:0:0:0:0:1 - - [14/Aug/2016:20:30:06 -0700] "POST /New-Projects/kumawat.action;jsessionid=B602C197CF52B1B76434E6E0E3DF18DC HTTP/1.1" 500 11435

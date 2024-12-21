@@ -1,0 +1,24 @@
+ <!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+
+	  <validators>
+	
+	<field name="upass">
+	<field-validator type="requiredstring">
+	<message>Valid Password is required</message>
+	</field-validator>
+	<validators>
+  		<field name="conpass">
+		<field-validator type="fieldexpression">
+		<param name="expression">(newpass==connass)</param> 
+		<message>password and re-entered password must be same</message>
+		</field-validator>
+		</field>
+  		</validators>
+		
+		
+	
+	</field>
+	</validators>

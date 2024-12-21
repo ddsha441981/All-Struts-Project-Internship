@@ -1,0 +1,24 @@
+package com.expcaptions.throwNthorws;
+
+public class ThrowsExample {
+
+	public static void main(String[] args)  {
+		
+		doStuff();
+	}
+	public  static  void doStuff(){
+	
+		doMoreStuff();
+	}
+	
+	public  static  void doMoreStuff(){
+		
+		doNoStuff();
+	}
+
+	public  static  void doNoStuff(){
+	
+		int no = 10;
+	}
+
+}

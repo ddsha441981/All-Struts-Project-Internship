@@ -1,0 +1,15 @@
+package com.login.page;
+
+public class Logindata {
+
+	Login obj;
+
+	public Login getObj() {
+		return obj;
+	}
+
+	public void setObj(Login obj) {
+		this.obj = obj;
+	}
+	
+}

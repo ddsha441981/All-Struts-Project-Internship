@@ -1,0 +1,19 @@
+INDEX VERSION 1.129+I:\Eclipse\Inquiry-WorkSpace\.metadata\.plugins\org.eclipse.jdt.core
+3059158756.index
+53748941.index
+680429552.index
+1269183262.index
+2451058472.index
+192081947.index
+2506192191.index
+2607506073.index
+1039855981.index
+166776846.index
+3807279936.index
+1358049608.index
+1936224340.index
+2661381517.index
+4182530004.index
+2701284951.index
+2067893749.index
+1548200603.index

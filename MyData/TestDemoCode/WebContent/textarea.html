@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Checkbox Text</title>
+<script type="text/javascript">
+// From: http://www.webdeveloper.com/forum/showthread.php?t=236046
+
+var msgList = [
+	'Huzza CheckBox 1 is selected.\n',
+	'Huzza CheckBox 2 is selected.\n',
+	'Huzza CheckBox 3 is selected.\n',
+	'Huzza CheckBox 4 is selected.\n',
+	'Huzza CheckBox 5 is selected.\n',
+];
+function DisplayText() {
+  var IDS = '';
+  document.getElementById('TArea').value = '';
+  for (var i=0; i<msgList.length; i++) {
+    IDS = 'SBox'+i;
+    obj = document.getElementById(IDS);
+    if (obj.checked) { document.getElementById('TArea').value += msgList[i]; }
+  }
+}
+</script>
+</head>
+<body>
+<script type="text/javascript">
+  var IDS = '';
+  for (var i=0; i<msgList.length; i++) {
+	IDS = 'SBox'+i;
+    str = '<input type="checkbox" name="jai" id="'+IDS+'"';
+    str += ' onclick="DisplayText()"> ';
+    str += msgList[i]+'<br>';
+    document.write(str);
+  }
+</script>
+<textarea id="TArea" cols="40" rows="9"></textarea>
+</body>
+</html>

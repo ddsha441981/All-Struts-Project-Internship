@@ -1,0 +1,15 @@
+127.0.0.1 - - [16/Jul/2016:00:10:02 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:00:10:02 -0700] "GET /JavaBeansProjects2/WEB-INF/classes/com/DataOfLogin/LoginConnection.java HTTP/1.1" 404 949
+127.0.0.1 - - [16/Jul/2016:11:59:50 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:11:59:52 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 200 611
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:00:02 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=dd&sel=Java HTTP/1.1" 500 2852
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:00:44 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:00:51 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=dd&sel=Java HTTP/1.1" 200 283
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:01:13 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:01:22 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=Deendayal&sel=Java HTTP/1.1" 200 288
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:01:49 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 200 609
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:01:55 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=dd&sel=.Net HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:08:48 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 200 622
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:08:53 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=dd&sel=C%2B%2B&hello=Submit+Query HTTP/1.1" 200 307
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:09:17 -0700] "GET /JavaBeansProjectDemo/Select.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jul/2016:12:09:22 -0700] "GET /JavaBeansProjectDemo/Data.jsp?user=ddd&sel=.Net&hello=Submit+Query HTTP/1.1" 200 286

@@ -1,0 +1,7 @@
+package com.multiOverview;
+
+public class OverloadingRunMethod extends Thread {
+
+	{}
+	
+}

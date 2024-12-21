@@ -1,0 +1,272 @@
+package org.spring.admin.repositries;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.spring.admin.beanclasses.AddnewPolicy;
+import org.spring.admin.beanclasses.AdminLoginbean;
+import org.spring.admin.beanclasses.RegisterAgent;
+import org.spring.agent.beanofAgent.PolicyHolderRegister;
+import org.spring.utilitytablesquery.Queriesfile;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.PreparedStatementCallback;
+import org.springframework.jdbc.core.ResultSetExtractor;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author Deendayal
+ * @since getloginAdmin
+ * @version 1.1.2
+ */
+@Repository
+public class AdminDao {
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	
+	/**
+	 * @param admin123 table Name of Database
+	 * @param createAdminTable() method is used to create table for add Admin Data in Database
+	 * @param (Queriesfile.createtableofAdmin) used to create table
+	 * @param This Method return type is void
+	 */
+	public void createAdminTable(){
+				
+				jdbcTemplate.execute(Queriesfile.createtableofAdmin);
+				System.out.println("Table Created SuccessFully");
+	}
+	
+	/**
+	 * @param admin123 table Name of Database
+	 * @param saveAdminTableData() method is used to insert data in database for Register Admin One Time
+	 * @param (Queriesfile.savecontentOfAdmin) used to create table
+	 * @param This method return type is Boolean
+	 */
+	public Boolean saveAdminTableData(AdminLoginbean adminlogin){
+		return jdbcTemplate.execute(Queriesfile.savecontentOfAdmin, new PreparedStatementCallback<Boolean>() {
+
+			@Override
+			public Boolean doInPreparedStatement(PreparedStatement pstmt) throws SQLException, DataAccessException {
+				pstmt.setString(1, adminlogin.getUsername());
+				pstmt.setString(2, adminlogin.getPassword());
+				return pstmt.execute();
+			}
+		});
+	}
+	
+	/**
+	 * @param admin123 table Name of Database
+	 * @param viewProfileofAdminById() method is used to Retrive data from database
+	 * @param (Queriesfile.viewAdminOwnProfile) used to retrive data
+	 * @param Queriesfile is class and viewAdminOwnProfile is varriable name
+	 * @param This method return type is List
+	 * @param adminbean is Object 
+	 */
+	public AdminLoginbean viewProfileofAdminById(Integer adminId){
+		
+		return jdbcTemplate.queryForObject(Queriesfile.viewAdminOwnProfile,new Object[]{adminId},new BeanPropertyRowMapper<AdminLoginbean>(AdminLoginbean.class));
+	}
+	
+	/**
+	 * @param agentregister table Name of Database
+	 * @param getlogin() method is used to Login Agent 
+	 * @param (Queriesfile.loginOfAgent) used to Login by checking existing  database data
+	 * @param Queriesfile is class and loginOfAgent is varriable name
+	 * @param This method return type is Integer
+	 */
+	public int getloginAdmin(AdminLoginbean adminlogin){
+		
+		return jdbcTemplate.query(Queriesfile.loginAdminUsingLogin,new Object[]{adminlogin.getUsername(),adminlogin.getPassword()},new ResultSetExtractor<Integer>(){
+
+			@Override
+			public Integer extractData(ResultSet rs) throws SQLException, DataAccessException {
+				int count = 0;
+				while(rs.next()){
+					adminlogin.setUsername(rs.getString(1));
+					adminlogin.setPassword(rs.getString(2));
+					count = rs.getInt("adminId");
+					
+				}
+				System.out.println("In Admin Login  Count is " +count );
+				return count;
+			}
+			
+		});
+	}
+
+	/**
+	 * @param policy111 table Name of Database
+	 * @param createpolicytable() method is used to create table for add new policy
+	 * @param (Queriesfile.createpolicytable) used to create table
+	 * @param This Method return type is void
+	 */
+	public void createpolicytable(){
+				
+				jdbcTemplate.execute(Queriesfile.createpolicytable);
+				System.out.println("Table Created SuccessFully");
+	}
+	
+	/**
+	 * @param policy111 table Name of Database
+	 * @param savepolicybyAdmin() method is used to insert data in database for new policy
+	 * @param (Queriesfile.savepolicy) used to create table
+	 * @param This method return type is Boolean
+	 */
+	public Boolean savepolicybyAdmin(AddnewPolicy addpolicy) {
+		return jdbcTemplate.execute(Queriesfile.savepolicy, new PreparedStatementCallback<Boolean>() {
+
+			@Override
+			public Boolean doInPreparedStatement(PreparedStatement pstmt) throws SQLException, DataAccessException {
+				pstmt.setInt(1, addpolicy.getPolicyId());
+				pstmt.setString(2, addpolicy.getPolicyName());
+				pstmt.setString(3, addpolicy.getTypeofcoverage());
+				pstmt.setString(4, addpolicy.getDurations());
+				return pstmt.execute();
+			}
+		});
+	}
+	
+	/**
+	 * @param policy111 table Name of Database
+	 * @param getallpolicyofAdmin() method is used to Retrive data from database
+	 * @param (Queriesfile.savepolicy) used to retrive data
+	 * @param Queriesfile is class and savepolicy is varriable name
+	 * @param This method return type is List
+	 * @param P1 is Object 
+	 */
+	public List<AddnewPolicy>  getallpolicyofAdmin(){
+		
+		return jdbcTemplate.query(Queriesfile.viewpolicy, new RowMapper<AddnewPolicy>() {
+
+			@Override
+			public AddnewPolicy mapRow(ResultSet rs, int rownum) throws SQLException {
+				AddnewPolicy P1 = new AddnewPolicy();
+				P1.setPolicyId(rs.getInt(1));
+				P1.setPolicyName(rs.getString(2));
+				P1.setTypeofcoverage(rs.getString(3));
+				P1.setDurations(rs.getString(4));
+				return P1;
+			}
+		});
+		
+	}
+	
+	/**
+	 * @param createtableOfsaveAgent this method used to create new table of Agent by Admin
+	 * @param (Queriesfile.createagenttable) used to create table
+	 * @param This Method return type is void
+	 */
+	public void createtableOfsaveAgent(){
+		
+		jdbcTemplate.execute(Queriesfile.createagenttable);
+		System.out.println("Table Created SuccessFUlly");
+	}
+	
+	/**
+	 * @param saveagent() this method is used to data store in database
+	 * @param Queriesfile.saveagentindatabase used to save data in database and its query is Queryfile
+	 * @param Here used preparestatement 
+	 * @param This Method return type Boolean
+	 */
+	public Boolean saveagent(RegisterAgent registeragent) {
+		
+		return jdbcTemplate.execute(Queriesfile.saveagentindatabase, new PreparedStatementCallback<Boolean>() {
+
+			@Override
+			public Boolean doInPreparedStatement(PreparedStatement pstmt) throws SQLException, DataAccessException {
+				pstmt.setInt(1, registeragent.getAgentId());
+				pstmt.setString(2, registeragent.getAgentName());
+				pstmt.setString(3, registeragent.getAgentemail());
+				pstmt.setString(4, registeragent.getAgentpassword());
+				pstmt.setString(5, registeragent.getAgentcfpassword());
+				pstmt.setString(6, registeragent.getAgentaddress());
+				pstmt.setString(7, registeragent.getAgentgender());
+				pstmt.setString(8, registeragent.getAgentpanNo());
+				
+				pstmt.setString(9, registeragent.getAgentdob());
+				pstmt.setString(10, registeragent.getAgentmobNo());
+				pstmt.setString(11, registeragent.getAgentstate());
+				pstmt.setString(12, registeragent.getAgentpostcode());
+				pstmt.setString(13, registeragent.getAgentcountry());
+				return pstmt.execute();
+			}
+		});
+	}
+	
+	/**
+	 * @param agentregister table Name of Database
+	 * @param getallAgentofAdmin() method is used to Retrive data from database
+	 * @param (Queriesfile.viewallagent) used to retrive data
+	 * @param Queriesfile is class and savepolicy is varriable name
+	 * @param This method return type is List
+	 * @param R1 is Object 
+	 */
+	public List<RegisterAgent>  getallAgentofAdmin(){
+		
+		return jdbcTemplate.query(Queriesfile.viewallagent, new RowMapper<RegisterAgent>() {
+
+			@Override
+			public RegisterAgent mapRow(ResultSet rs, int rownum) throws SQLException {
+				RegisterAgent R1 = new RegisterAgent();
+				R1.setAgentId(rs.getInt(1));
+				R1.setAgentName(rs.getString(2));
+				R1.setAgentemail(rs.getString(3));
+				R1.setAgentpassword(rs.getString(4));
+				R1.setAgentcfpassword(rs.getString(5));
+				R1.setAgentaddress(rs.getString(6));
+				R1.setAgentgender(rs.getString(7));
+				R1.setAgentpanNo(rs.getString(8));
+				//R1.setAgentdob(rs.getDate(9));
+				R1.setAgentdob(rs.getString(9));
+				R1.setAgentmobNo(rs.getString(10));
+				R1.setAgentstate(rs.getString(11));
+				R1.setAgentpostcode(rs.getString(12));
+				R1.setAgentcountry(rs.getString(13));
+				return R1;
+			}
+		});
+		
+	}
+
+	/**
+	 * @param clientregister table Name of Database
+	 * @param viewofPolicyhoderContents() method is used to Retrive data from database
+	 * @param (Queriesfile.viewallofPolicyHoderClient) used to retrive data
+	 * @param Queriesfile is class and viewallofPolicyHoderClient is varriable name
+	 * @param This method return type is List
+	 * @param policyhoderObj is Object 
+	 */
+	public List<PolicyHolderRegister>  viewofPolicyhoderContents(){
+		
+		return jdbcTemplate.query(Queriesfile.viewallofPolicyHoderClient, new RowMapper<PolicyHolderRegister>() {
+
+			@Override
+			public PolicyHolderRegister mapRow(ResultSet rs, int rownum) throws SQLException {
+				PolicyHolderRegister policyhoderObj = new PolicyHolderRegister();
+				policyhoderObj.setClientId(rs.getInt(1));
+				policyhoderObj.setClientName(rs.getString(2));
+				policyhoderObj.setClientemail(rs.getString(3));
+				policyhoderObj.setClientpassword(rs.getString(4));
+				policyhoderObj.setClientaddress(rs.getString(5));
+				policyhoderObj.setClientgender(rs.getString(6));
+				policyhoderObj.setClientpanNo(rs.getString(7));
+				policyhoderObj.setClientdob(rs.getString(8));
+				policyhoderObj.setClientmobNo(rs.getString(9));
+				policyhoderObj.setClientstate(rs.getString(10));
+				policyhoderObj.setClientpostcode(rs.getString(11));
+				policyhoderObj.setClientoccuption(rs.getString(12));
+				policyhoderObj.setClientincome(rs.getString(13));
+				policyhoderObj.setClientcountry(rs.getString(14));
+				policyhoderObj.setAgentId(rs.getInt(15));
+				
+				return policyhoderObj;
+			}
+		});
+		
+	}
+}

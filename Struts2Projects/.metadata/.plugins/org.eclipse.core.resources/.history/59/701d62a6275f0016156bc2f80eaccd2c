@@ -1,0 +1,32 @@
+package com.login.page;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DAO implements GConnection{
+	
+	Logindata d1;Login obj;
+	private Connection con;
+	
+	static void fireQuery() throws SQLException
+	{
+		Connection con = null;
+		PreparedStatement pstmt;
+		Statement stmt;
+		ResultSet rs;
+		System.out.println("In execute Methods+++++++++++++++++++");
+		pstmt=con.prepareStatement("insert into tryout values(?)");
+		pstmt.setString(1, );
+		
+		
+	}
+
+	@Override
+	public void getConnection(Connection con) {
+		this.con=con;
+		
+	}
+}

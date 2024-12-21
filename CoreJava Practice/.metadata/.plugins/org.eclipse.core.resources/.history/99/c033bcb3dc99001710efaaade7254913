@@ -1,0 +1,9 @@
+package com.synchronization;
+
+public class Display2 {
+
+	public synchronized void displayNumber(){
+		
+		
+	}
+}

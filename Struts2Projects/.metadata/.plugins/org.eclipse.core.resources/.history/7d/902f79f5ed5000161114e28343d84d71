@@ -1,0 +1,39 @@
+package com.data.Login;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+public class Database {
+
+	Ldata da = new Ldata();
+	public static  int mydatabase(Ldata da) throws SQLException, ClassNotFoundException
+	{
+		Connection con;
+		Statement stmt;
+		ResultSet rs;
+		PreparedStatement pstmt;
+		int status =0;
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		String url ="jdbc:oracle:thin:@Deendayal-PC:1521:XE";
+		Properties p = new Properties();
+		p.put("user", "HR");
+		p.put("password","password");
+		con=DriverManager.getConnection(url,p);
+		stmt=con.createStatement();
+		System.out.println("Connection Successfully");
+		
+		//String sql ="insert into mydata values(??)";
+		pstmt = con.prepareStatement("insert into mydata values(??)");
+		pstmt.setString(1,da.getUser());
+		pstmt.setString(2, da.getPwd());
+		status = pstmt.executeUpdate();
+		System.out.println("Statement Executed");
+		return status;
+	}
+}

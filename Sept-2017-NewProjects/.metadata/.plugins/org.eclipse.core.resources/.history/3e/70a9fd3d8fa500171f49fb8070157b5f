@@ -1,0 +1,10 @@
+package com.expcaptions.throwNthorws;
+
+public class ThrowExample {
+
+	public static void main(String[] args) {
+		
+		int age = Integer.parseInt(args[0]);
+		
+	}
+}

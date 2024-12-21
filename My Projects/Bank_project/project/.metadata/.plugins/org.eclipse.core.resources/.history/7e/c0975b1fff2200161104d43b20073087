@@ -1,0 +1,44 @@
+<%@page import="java.sql.ResultSet"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<title>Profile page</title>
+<%@taglib uri="/struts-tags" prefix="s"%>
+</head>
+<%
+	request.getSession();
+	String n=(String)session.getAttribute("uname");
+	System.out.println(n);
+%>
+<body>
+	<div class="loggername">
+		Welcome
+		<s:property value="uname" />
+	</div>
+	"<input type="button" value="logout"></a>
+	<div>
+		<ul>
+			<li><a href="Forum.jsp">Forum</a></li>
+			<li><a href="ChangePassword.jsp">Change Password</a></li>
+			<li><a href="ProfileDetails.jsp">Profile Details</a></li>
+			<li><a href="feedback.jsp">feedback</a></li>
+		</ul>
+	</div>
+	
+	
+	<table>
+		<tr>
+			<td><input class="search"></input></td>
+			<td>
+				<button type="button" value="search"></button>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

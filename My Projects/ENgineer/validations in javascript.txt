@@ -1,0 +1,91 @@
+<script type="text/javascript">
+     function validate() {
+         var email = document.getElementById("txtEmail").value;
+            if (email == "") {
+
+                alert("Please enter Email Address");
+                return false;
+            }
+
+          
+            atpos = email.indexOf("@");
+            dotpos = email.lastIndexOf(".");
+            if (atpos < 1 || (dotpos - atpos < 2))
+             {
+                alert("Not a valid Email Address!!!");
+                return false;
+            }
+            
+
+            var fname = document.getElementById("txtFName").value;
+            if (fname == "") 
+            {
+                alert("Please enter First Name");
+                return false;
+            }
+            var MName = document.getElementById("txtMName").value;
+            if (MName == "") 
+            {
+                alert("Please enter Middle Name");
+                return false;
+            }
+            var LName = document.getElementById("txtLName").value;
+            if (LName == "") 
+            {
+                alert("Please enter Last Name");
+                return false;
+
+            }
+            if ((document.getElementById("rbMale").checked) == false && (document.getElementById("rbFemale").checked) == false) 
+            {
+                alert("Please enter your Gender!!!");
+                return false;
+            }
+            if(document.getElementById("txtBDate").value=="") {
+                alert("Please enter Date of Birth");
+                return false;
+
+            }
+            if (document.getElementById("txtTempAddr").value == "") {
+                alert("Please enter Temparary Address");
+                return false;
+
+            }
+            if (document.getElementById("txtParAdr").value == "") {
+                alert("Please enter Paramanent Address");
+                return false;
+
+            }
+            if (document.getElementById("txtContact").value == "") {
+                alert("Please enter Contact Number");
+                return false;
+
+            }
+            if (document.getElementById("txtAlterContact").value == "") {
+                alert("Please enter Alternate Number");
+                return false;
+
+            }
+            if (document.getElementById("txtAlterContact").value == "") {
+                alert("Please enter Alternate Number");
+                return false;
+
+            }
+            if ((document.getElementById("chkMarathi").checked == false) && (document.getElementById("chkHindi").checked == false) && (document.getElementById("chkEnglish").checked == false)) {
+                alert("Please check anyone language!!!");
+                return false;
+            }
+            if (document.getElementById("txtPwd").value == "") {
+                alert("Please enter Password");
+                return false;
+
+            }
+            if (document.getElementById("txtRePwd").value == "") {
+                alert("Please Re-enter Password");
+                return false;
+
+            }
+            return true;
+        }
+       
+    </script>

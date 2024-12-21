@@ -1,0 +1,54 @@
+ package com;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.struts2.dispatcher.SessionMap;
+import org.apache.struts2.interceptor.ServletRequestAware;
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.Action;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport
+{
+	private String uname;
+	private String upass;
+	
+	public String getUname() 
+	{
+		return uname;
+	}
+	public void setUname(String uname) 
+	{
+		this.uname = uname;
+	}
+	public String getUpass() 
+	{
+		return upass;
+	}
+	public void setUpass(String upass) 
+	{
+		this.upass = upass;
+	}
+	
+	
+	
+	public String execute() throws SQLException
+	{
+		System.out.println("In Execute");
+		
+		if(Logincon.db(this))
+		{ 
+			return SUCCESS;
+			
+		}
+			
+			return INPUT;
+	}
+	
+	
+	
+}

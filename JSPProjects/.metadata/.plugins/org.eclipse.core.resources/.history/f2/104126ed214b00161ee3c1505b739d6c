@@ -1,0 +1,16 @@
+package com.DataOfLogin;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class LoginConnection {
+
+	Connection con;
+	PreparedStatement stmt;
+	
+	public void connect()
+	{
+		Class.forName("driver");
+		
+	}
+}

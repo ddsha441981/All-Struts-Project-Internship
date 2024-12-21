@@ -1,0 +1,22 @@
+package com.joinMethod;
+
+public class JoinMethodTest2 {
+
+	public static void main(String[] args) {
+		
+		JoinMethodDemo2 demo =  (JoinMethodDemo2) Thread.currentThread();
+		JoinMethodDemo2 join2 = new JoinMethodDemo2();
+		join2.start();
+		for (int i = 0; i < 10; i++) {
+			
+			System.out.println("Rama");
+			try{
+				join2.sleep(2000);
+			}
+			catch(InterruptedException IE){
+				IE.printStackTrace();
+			}
+			
+		}
+	}
+}

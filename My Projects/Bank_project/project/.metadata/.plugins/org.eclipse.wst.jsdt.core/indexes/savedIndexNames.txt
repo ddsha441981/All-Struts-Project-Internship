@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+D:\paridhi_lapalikar\project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3702246026.index
+2920690289.index
+72254850.index
+3581163120.index
+73021501.index

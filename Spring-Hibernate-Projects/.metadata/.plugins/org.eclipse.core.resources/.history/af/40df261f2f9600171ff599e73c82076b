@@ -1,0 +1,11 @@
+package com.collection;
+
+import java.util.Hashtable;
+
+public class HashTableDemo1 {
+
+	public static void main(String[] args) {
+		
+		Hashtable hash = new Hashtable();
+	}
+}

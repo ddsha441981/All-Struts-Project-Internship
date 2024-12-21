@@ -1,0 +1,47 @@
+package com.login.page;
+
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Logindata extends ActionSupport implements SessionAware {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	Login obj;
+	Map<String, String> data;
+	public Login getObj() {
+		return obj;
+	}
+
+	public void setObj(Login obj) {
+		this.obj = obj;
+	}
+	
+	@Override
+	public void setSession(Map a1) {
+	
+		data=a1;
+	}
+	@Override
+	public String execute() throws Exception {
+		DAO.fireQuery(obj);
+		
+		data.put("Username", obj.user);
+		System.out.println("In Method");
+		
+		return SUCCESS;
+	}
+
+	public String getUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}

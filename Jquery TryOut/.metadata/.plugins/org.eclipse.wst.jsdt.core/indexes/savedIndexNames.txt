@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+I:\Eclipse\Jquery TryOut\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+751384700.index
+4139984874.index
+3363418757.index
+3348154694.index
+4133958617.index
+2868256276.index
+44021734.index
+360133257.index
+1713737018.index

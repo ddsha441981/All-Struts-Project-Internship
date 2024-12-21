@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Jquery Using Css Class</title>
+<script src="js/jquery.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("button").click(function(){
+$(".test").hide();
+});
+});
+</script>
+
+<style type="text/css">
+.test{
+color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome</h1>
+
+<p class="test">Deendayal Kumawat
+
+<br>
+We can map collection elements of Persistent class in Hibernate. You need to declare the type of collection in Persistent class from one of the following types:
+
+    java.util.List
+    java.util.Set
+    java.util.SortedSet
+    java.util.Map
+    java.util.SortedMap
+    java.util.Collection
+    or write the implementation of org.hibernate.usertype.UserCollectionType
+
+The persistent class should be defined like this for collection element.
+</p>
+
+<button>Click Me</button>
+</body>
+</html>

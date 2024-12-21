@@ -1,0 +1,6 @@
+package com.JavaBeans;
+
+public class MyLogic {
+
+	String user,pwd,email;
+}

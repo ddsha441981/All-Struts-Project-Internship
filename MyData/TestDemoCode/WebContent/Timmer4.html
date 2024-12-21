@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Run JavaScript function at specific intervals of time</title>
+<script type="text/javascript">
+var count=0,chkfn=null;
+function changeColor() {
+// Call function with 1000 milliseconds gap
+chkfn = setInterval(starttimer, 1000);
+}
+function starttimer() {
+count += 1;
+var oElem = document.getElementById("divtxt");
+oElem.style.color = oElem.style.color == "red" ? "blue" : "red";
+document.getElementById("pcount").innerHTML = "Your Time Starts: " + count;
+}
+function stoptimer() {
+clearInterval(chkfn);
+chkfn = null;
+count = 0;
+document.getElementById("pcount").innerHTML = '';
+}
+</script>
+</head>
+<body>
+<div id="divtxt">
+<p id="pcount" style="font:bold 24px verdana"></p>
+</div>
+<button onclick="changeColor();">Start Timer</button>
+<button onclick="stoptimer();">Stop Timer</button>
+</body>
+</html>

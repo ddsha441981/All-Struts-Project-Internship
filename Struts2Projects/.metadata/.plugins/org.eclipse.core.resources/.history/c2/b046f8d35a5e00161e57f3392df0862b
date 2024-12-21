@@ -1,0 +1,23 @@
+package com.login.page;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Logindata extends ActionSupport {
+
+	Login obj;
+
+	public Login getObj() {
+		return obj;
+	}
+
+	public void setObj(Login obj) {
+		this.obj = obj;
+	}
+	
+	@Override
+	public String execute() throws Exception {
+		
+		return super.execute();
+	}
+	
+}

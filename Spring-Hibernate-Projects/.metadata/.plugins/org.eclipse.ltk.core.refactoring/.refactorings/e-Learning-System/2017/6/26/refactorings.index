@@ -1,0 +1,23 @@
+1498639913503	Rename resource 'Hello-Servlet.xml'
+1498663507534	Move 'include' to 'views'
+1498665218314	Rename resource 'include'
+1498670072481	Rename resource 'index.jsp'
+1498670690565	Rename resource 'Trainner'
+1498677749625	Rename resource 'Index.jsp'
+1498678398054	Rename resource 'index.jsp'
+1498678551396	Move 'home.jsp' to 'views'
+1498750940539	Rename package 'org.spring'
+1498752268205	Rename package 'org.spring.DaoImpl'
+1498760962074	Rename resource 'msgLoggerFile'
+1498760995121	Rename resource 'errorLogger'
+1498761085948	Rename resource 'debugLogger.properties'
+1498761095574	Rename resource 'errorLogger.properties'
+1498761115145	Rename resource 'msgLoggerFile.properties'
+1498762109625	Rename resource 'trainnerHome.jsp'
+1498765239434	Move compilation unit
+1498765248546	Delete element
+1498765280946	Rename package 'org.spring.Services'
+1498765349363	Delete element
+1498815724983	Delete element
+1498830627986	Delete element
+1498840211906	Delete elements

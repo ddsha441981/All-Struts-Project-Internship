@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="multinamespace"
+  id="myeclipse.1343837786643"
+  context-root="/multinamespace"
+  j2ee-spec="5.0"
+  archive="multinamespace.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

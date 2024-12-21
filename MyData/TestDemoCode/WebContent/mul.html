@@ -1,0 +1,112 @@
+<html>
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+ 
+ 
+ 
+ 
+</head>
+ 
+<body>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<form action="car.php" method="post">
+ 
+ 
+Wraps: <input type="text" id="showValues" name="wrap" /><br />
+    <input onclick="ATHD()" id="1" type="checkbox" name="pr" value="Password Reset" />*Password Reset<br />
+    <input onclick="ATHD()" id="2" type="checkbox" name="ps" value="Password Setup" />*Password Setup<br />
+    <input onclick="ATHD()" id="3" type="checkbox" name="fu" value="Firmware Upgrade (if applicable)" />*Firmware Upgrade (if 
+ 
+applicable)<br />
+    <input onclick="ATHD()" id="4" type="checkbox" name="la" value="Local Access Setup" />*Local Access Setup<br />
+    <input onclick="ATHD()" id="5" type="checkbox" name="ra" value="Remote Access Setup" />*Remote Access Setup<br />
+    <input onclick="ATHD()" id="6" type="checkbox" name="ma" value="Mobile Access Setup" />*Mobile Access Setup<br />
+    <input onclick="ATHD()" id="7" type="checkbox" name="rss" value="Recording Schedule Setup" />*Recording Schedule Setup<br 
+ 
+/>
+    <input onclick="ATHD()" id="8" type="checkbox" name="pb" value="How to playback video" />*How to playback video<br />
+    <input onclick="ATHD()" id="9" type="checkbox" name="cv" value="How to convert video" />*How to convert video<br />
+    <input onclick="ATHD()" id="10" type="checkbox" name="en" value="Email Notification Setup" />*Email Notification Setup<br 
+ 
+/>
+    <input onclick="ATHD()" id="11" type="checkbox" name="ptz" value="PTZ Setup (if applicable)" />*PTZ Setup (if 
+ 
+applicable)<br />
+    <input type="hidden" id="hdnValues" />
+    <textarea id="showValue" row="10" cols="50"></textarea><br />
+ 
+ 
+fruit: <input type="text" id="showValuess" name="ball" /><br />
+    <input onclick="ATHDU()" id="12" type="checkbox" name="pr" value="Password Reset" />*Password Reset<br />
+    <input onclick="ATHU()" id="13" type="checkbox" name="ps" value="Password Setup" />*Password Setup<br />
+    <input onclick="ATHDU()" id="14" type="checkbox" name="fu" value="Firmware Upgrade (if applicable)" />*Firmware Upgrade 
+ 
+(if applicable)<br />
+    <input onclick="ATHDU()" id="15" type="checkbox" name="la" value="Local Access Setup" />*Local Access Setup<br />
+    <input onclick="ATHDU()" id="16" type="checkbox" name="ra" value="Remote Access Setup" />*Remote Access Setup<br />
+    <input onclick="ATHDU()" id="17" type="checkbox" name="ma" value="Mobile Access Setup" />*Mobile Access Setup<br />
+    <input onclick="ATHDU()" id="18" type="checkbox" name="rss" value="Recording Schedule Setup" />*Recording Schedule 
+ 
+Setup<br />
+    <input onclick="ATHDU()" id="19" type="checkbox" name="pb" value="How to playback video" />*How to playback video<br />
+    <input onclick="ATHDU()" id="20" type="checkbox" name="cv" value="How to convert video" />*How to convert video<br />
+    <input onclick="ATHDU()" id="21" type="checkbox" name="en" value="Email Notification Setup" />*Email Notification 
+ 
+Setup<br />
+    <input onclick="ATHDU()" id="22" type="checkbox" name="ptz" value="PTZ Setup (if applicable)" />*PTZ Setup (if 
+ 
+applicable)<br />
+    <input type="hidden" id="hdnValues" />
+    <textarea id="showValue" row="10" cols="50"></textarea><br />
+ 
+ 
+<input type="submit" name="subscribe">
+</form>
+ 
+ 
+ 
+ 
+ 
+ 
+<script type="text/javascript">
+ 
+// find number of checkboxes (you haven't specified if you 
+// have a set number or not. If you have a set number, just 
+// set checkboxCount to whatever number you have.
+var checkboxCount = 0;
+var inputTags = document.getElementsByTagName('input');
+for (var i=0, length = inputTags.length; i<length; i++) {
+     if (inputTags[i].type == 'checkbox') {
+         checkboxCount++;
+     }
+}
+ 
+function ATHD() {
+    var totalValue = '';
+    for (var i = 1; i < checkboxCount; i++) {
+        if (document.getElementById(i).checked)
+            totalValue += inputTags[i].value + ';';
+    }
+    document.getElementById("hdnValues").value = totalValue;
+    document.getElementById("showValues").value = totalValue;
+}
+ 
+ 
+</script>
+ 
+ 
+ 
+ 
+ 
+ 
+</body>
+ 
+</html>

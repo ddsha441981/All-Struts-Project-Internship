@@ -1,0 +1,85 @@
+package com.intern.project;
+import java.util.Date;
+public class AddBatchMain {
+int Bid;
+String Bname;
+Date Bstrt;
+Date Bend;
+int id;/*Id is project manger*/
+/*String leftlist; Data fetch from database without save data */
+String rightlist; /* data insert*/
+
+
+
+public int getId() {
+	return id;
+}
+
+public void setId(int id) {
+	this.id = id;
+}
+
+public int getBid() {
+	return Bid;
+}
+
+public void setBid(int bid) {
+	Bid = bid;
+}
+
+public String getBname() {
+	return Bname;
+}
+
+public void setBname(String bname) {
+	Bname = bname;
+}
+
+public Date getBstrt() {
+	return Bstrt;
+}
+
+public void setBstrt(Date bstrt) {
+	Bstrt = bstrt;
+}
+
+public Date getBend() {
+	return Bend;
+}
+
+public void setBend(Date bend) {
+	Bend = bend;
+}
+
+/*public String getLeftlist() {
+	return leftlist;
+}
+
+public void setLeftlist(String leftlist) {
+	this.leftlist = leftlist;
+}*/
+
+public String getRightlist() {
+	return rightlist;
+}
+
+public void setRightlist(String rightlist) {
+	this.rightlist = rightlist;
+}
+
+@Override
+public String toString() {
+	return "AddBatchMain [Bid=" + Bid + ", Bname=" + Bname + ", Bstrt=" + Bstrt + ", Bend=" + Bend + "]";
+}
+
+public String saveBatch(){
+	int i= AddBatchDao.addBatchByProjectManger(this);
+	if(i>0)
+	{
+		return "success";
+	}
+	return "error";
+}
+
+	
+}

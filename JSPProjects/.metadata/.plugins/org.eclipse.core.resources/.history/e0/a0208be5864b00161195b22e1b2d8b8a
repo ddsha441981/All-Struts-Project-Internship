@@ -1,0 +1,8 @@
+package com.SelectText;
+
+public class Sitem {
+
+	String user;
+	String sel;
+	
+}

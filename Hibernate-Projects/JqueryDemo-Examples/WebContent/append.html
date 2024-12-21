@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Append Using J query</title>
+<script src="js/jquery.js">
+</script>
+<!-- <script type="text/javascript">
+$(document).ready(function(){
+$("button").click(function(){
+$("p").append("Jquery");
+});
+});
+</script> -->
+<script type="text/javascript">
+$(document).ready(function(){
+$("button").click(function(){
+$("p").after("Jquery");
+});
+});
+</script>
+</head>
+<body>
+<h2>Demo 1</h2>
+<p>Demo 2</p>
+<p>Demo 3</p>
+<p>Demo 4</p>
+<p>Demo 5</p>
+<h2>Demo 6</h2>
+<button>Click Me</button>
+</body>
+</html>

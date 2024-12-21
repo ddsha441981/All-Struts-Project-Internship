@@ -1,0 +1,7 @@
+<classpath>
+  <container id="StrutsLoginPage!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="I:/Eclipse/Struts2Projects/StrutsLoginPage/WebContent/WEB-INF/lib/struts2-core-2.0.11.2.jar">
+      <source-attachment-path>/StrutsLoginPage</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

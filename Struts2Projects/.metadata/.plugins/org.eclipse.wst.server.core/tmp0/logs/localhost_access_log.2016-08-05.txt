@@ -1,0 +1,5 @@
+127.0.0.1 - - [05/Aug/2016:21:10:52 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2016:21:11:01 -0700] "GET /Struts_Student_RegistrationExample/Index.jsp HTTP/1.1" 200 883
+0:0:0:0:0:0:0:1 - - [05/Aug/2016:21:11:05 -0700] "POST /Struts_Student_RegistrationExample/viewrecords.action;jsessionid=ACF4A654489C9F16CCB2471B46F53C05 HTTP/1.1" 200 782
+0:0:0:0:0:0:0:1 - - [05/Aug/2016:21:11:12 -0700] "GET /Struts_Student_RegistrationExample/register.jsp HTTP/1.1" 200 2750
+0:0:0:0:0:0:0:1 - - [05/Aug/2016:21:11:27 -0700] "POST /Struts_Student_RegistrationExample/register.action HTTP/1.1" 200 1001

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="emp" class="com.org.simple.dataof.employee.Employee">
+		<property name="eId" value="121"></property>
+		<property name="eName" value="Deendayal"></property>
+		
+		<property name="address">
+			
+				<ref bean="add1"></ref>
+		</property>
+		
+		<property name="leave">
+			<list>
+				<ref bean="lea1"></ref>
+				<ref bean="lea2"></ref>
+				<ref bean="lea3"></ref>
+			</list>
+		</property> 
+	
+		 <property name="task">
+			<map>
+				
+				<entry key="1" value="Read"/>
+				<entry key="2" value="Demo" />
+				<entry key="3" value="Implements" />
+				<entry key="4" value="Task Complete" />
+				<entry key="5" value="Show" />
+			
+			</map>
+		</property> 
+	</bean>
+	 
+	<bean id="add1" class="com.org.simple.dataof.employee.Address">
+		<property name="aId" value="123"></property>
+		<property name="pin" value="411037"></property>
+		<property name="city" value="Pune"></property>
+		<property name="state" value="Maharastra"></property>
+		<property name="country" value="India"></property>
+	</bean>
+
+	<bean id="lea1" class="com.org.simple.dataof.employee.Leave">
+		<property name="lId" value="111"></property>
+		<property name="des" value="Hello This is Test For Leave1"></property>
+		<property name="startdate" value="19/01/2017"></property>
+		<property name="enddate" value="31/01/2017"></property>
+	</bean>
+	
+	<bean id="lea2" class="com.org.simple.dataof.employee.Leave">
+		<property name="lId" value="112"></property>
+		<property name="des" value="Hello This is Test For Leave2"></property>
+		<property name="startdate" value="19/01/2017"></property>
+		<property name="enddate" value="31/01/2017"></property>
+	</bean>
+	
+	<bean id="lea3" class="com.org.simple.dataof.employee.Leave">
+		<property name="lId" value="113"></property>
+		<property name="des" value="Hello This is Test For Leave3"></property>
+		<property name="startdate" value="19/01/2017"></property>
+		<property name="enddate" value="31/01/2017"></property>
+	</bean> 
+	
+	
+	
+	
+	</beans>

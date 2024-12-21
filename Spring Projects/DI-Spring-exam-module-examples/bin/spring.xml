@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="exams" class="com.org.DIexample.example.Exam">
+	<property name="id" value="1"></property>
+	<property name="name" value="JavaExam"></property>
+	<property name="marks" value="50"></property>
+	
+	<property name="questions">
+		<list>
+			<ref bean="quest"></ref>
+			<ref bean="quest2"></ref>
+			
+		</list>
+	</property>
+</bean>
+
+<bean id="quest" class="com.org.DIexample.example.Question">
+		<property name="qId" value="2"></property>
+		<property name="question" value="This is Test Example"></property>
+	 	<!-- <property name="opt" value="A,B"></property> -->		
+	
+	<property name="opt">
+			<list>
+				<value>A</value>
+				<value>B</value>
+				<value>C</value>
+				<value>D</value>
+			</list>
+		</property> 
+</bean> 
+	
+	<bean id="quest2" class="com.org.DIexample.example.Question">
+		<property name="qId" value="3"></property>
+		<property name="question" value="This is Test"></property>
+		
+		 <property name="opt">
+			<list>
+				<value>A</value>
+				<value>B</value>
+				<value>C</value>
+				<value>D</value>
+			</list>
+		</property> 
+			
+	</bean>
+
+</beans>

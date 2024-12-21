@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:fetch-data" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Hospital1"/>
+  <module moduleId="org.eclipse.jst.jee.server:new-Project" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:multiconfiguration" serverId="Tomcat v7.0 Server at localhost"/>
+</modules>

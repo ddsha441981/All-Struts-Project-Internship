@@ -1,0 +1,9 @@
+package com.multiOverview;
+
+public class OverridingStartMethod2Demo extends Thread {
+
+	public void start(){
+		
+	}
+}
+

@@ -1,0 +1,26 @@
+ <!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+
+	  <validators>
+	<field name="uname">
+	<field-validator type="requiredstring">
+	<message>Valid UserName is required</message>
+	</field-validator>
+	</field>
+	<field name="upass">
+	<field-validator type="requiredstring">
+	<message>Valid Password is required</message>
+	</field-validator>
+	<field-validator type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">4</param>
+			<param name="trim">true</param>
+			<message>Enter password 4-10 characters long...</message>
+	</field-validator>
+		
+		
+	
+	</field>
+	</validators>

@@ -1,0 +1,6 @@
+package com.DataOfLogin;
+
+public class DataofLog {
+String user;
+String pwd;
+}

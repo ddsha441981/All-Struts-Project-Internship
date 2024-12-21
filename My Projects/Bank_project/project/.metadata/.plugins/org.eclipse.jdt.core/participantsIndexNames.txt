@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+D:\paridhi_lapalikar\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\314088565.index
+\project\src
+D:\paridhi_lapalikar\project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2605920417.index
+\Struts-insert-edit-delete\src

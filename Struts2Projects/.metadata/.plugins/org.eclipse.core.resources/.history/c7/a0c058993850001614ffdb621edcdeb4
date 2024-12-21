@@ -1,0 +1,8 @@
+package com.model.driven;
+
+public class MLogin {
+
+	String user;
+	String pwd;
+	
+}

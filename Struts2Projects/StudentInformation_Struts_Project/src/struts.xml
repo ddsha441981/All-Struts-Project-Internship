@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+
+<package name="default" extends="struts-default">
+
+<action name="mylogin" class="com.Login.Data.Ldata">
+
+<result name="SUCCESS">/Home.jsp</result>
+<result name="error">/error.jsp</result>
+</action>
+
+<action name="ssssss" class="com.Login.Data.Pdata" method="myexecute">
+<result name="Success">/p_data.jsp</result>
+
+</action>
+
+<action name="gdata" class="com.Login.Data.GData">
+<result name="Success">/G_Data.jsp</result>
+
+</action>
+
+</package>
+
+</struts>

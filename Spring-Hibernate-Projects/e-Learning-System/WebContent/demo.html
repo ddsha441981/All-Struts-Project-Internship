@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<script>
+function Degree()
+{
+if (document.getElementById('pupil').disable == true)
+  {
+	document.getElementById('Name').removeAttribute('disabled'); document.getElementById('Relation').removeAttribute('disabled');
+ }
+else
+  {
+   	document.getElementById('Name').removeAttribute('disabled','disabled');
+ 	document.getElementById('Relation').removeAttribute('disabled','disabled');
+  }
+}
+</script>
+</head>
+<body>
+<h2> Admission Form</h2>
+<form id="orderform" >
+
+Name: <input type= "Text"><br>
+DOB:  <input type= "Text"><br>
+Does this pupil belong to our school: <input type= "checkbox"  id= "pupil" name="pupil"  value="yes" onclick="javascript:Degree();">Yes
+<input type= "checkbox"> No<br>
+
+Name of the pupil: <input type="text" id="Name" name="Name" disabled/>
+Relation with the Pupil:<input type="text" id="Relation" name="Relation" disabled />
+
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+package com.practice;
+
+public class CurrentDirectory {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Jquery3 Writing Text">
+        <property name="context-root" value="Jquery3_Writing_Text"/>
+    </wb-module>
+</project-modules>

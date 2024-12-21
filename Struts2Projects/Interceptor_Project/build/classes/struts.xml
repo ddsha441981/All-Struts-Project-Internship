@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">  
+ <struts>
+ <package name ="default" extends="struts-default">
+ 
+  <!-- <interceptors>
+ 
+ <interceptor name="time" class="com.intercepters.methods.Timmer_Interceptor2"/>
+ <interceptor name="logg" class="com.intercepters.methods.Logger_Interceptor1"/>
+ 
+ Basic Stack
+ <interceptor-ref name="mystackdemo">Here you give your own stack name
+ <interceptor-ref name="time"/>
+ <interceptor-ref name="logg"/>
+ <interceptor-ref name="defaultstack"/>
+   </interceptor-stack>
+ </interceptors>
+ <default-interceptor-ref name="mystackdemo"/> -->
+ 
+ <action name="MyLoginpage" class="com.intercepters.methods.MyLoginpage">
+  <result name="success">/welcome.jsp</result>
+  <result name="error">/login.jsp</result>
+ </action>
+ </package>
+ 
+ </struts>

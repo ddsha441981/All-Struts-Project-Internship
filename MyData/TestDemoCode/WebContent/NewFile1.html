@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+function getValues(){
+var numVal1=document.getElementById("one").value;
+var numVal2=document.getElementById("two").value;
+var numVal3=document.getElementById("three").value;
+
+document.getElementById("main").value = numVal1+"<br/>"+numVal2+"<br/>"+numVal3;
+{
+</script>
+	</script>
+	</head>
+<body>
+textbox1:<br/>
+<input type="text" id="one" value=""/>
+textbox2:<br/>
+<input type="text" id="two" value=""/>
+textbox3:<br/>
+<input type="text" id="three" value=""/>
+<br/><br/>
+Main TextBox:<br/>
+<textarea id="main" value=""></textarea>
+<input type="button" value="get text" onClick="getValues()" />
+</body>
+</html>

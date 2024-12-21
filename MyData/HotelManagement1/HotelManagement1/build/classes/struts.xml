@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<interceptors>
+			
+<interceptor name="myin" class="com.pack1.Demo"></interceptor>
+			<interceptor-stack name="demo">
+				<interceptor-ref name="myin" />
+
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+
+		</interceptors>
+		<default-interceptor-ref name="demo"></default-interceptor-ref>
+		<action name="login" class="com.pack1.BookRoomAction">
+			<result name="success">/Succes.jsp</result>
+			<result name="input">BookRoom.jsp</result>
+		</action>
+
+		<action name="login1" class="com.pack1.FeedBachAction">
+			<result name="success">/Feed.jsp</result>
+			<result name="input">FeedBack.jsp</result>
+		</action>
+
+<action name="login2" class="com.pack1.BookHallAction">
+			<result name="success">/Succes.jsp</result>
+			<result name="input">/BookHall.jsp</result>
+		</action>
+		
+		<action name="login3" class="com.pack1.BookSpaAction">
+			<result name="success">/Succes.jsp</result>
+			<result name="input">/BookSpa.jsp</result>
+		</action>
+		
+		<action name="login4" class="com.pack1.BookTableAction">
+			<result name="success">/Succes.jsp</result>
+			<result name="input">/BookTable.jsp</result>
+		</action>
+		
+		<action name="login5" class="com.pack1.ReviewsAction">
+			<result name="success">/Reviews1.jsp</result>
+			<result name="input">/Review.jsp</result>
+		</action>
+	</package>
+	
+</struts>

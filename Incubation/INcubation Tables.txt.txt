@@ -1,0 +1,229 @@
+create table Role_F(roleid number(3) primary key,
+rolename varchar(100));
+
+
+create table Register_F( userid number(10) primary key,
+Name varchar(100), 
+contactno varchar(100),
+email varchar(100),
+status varchar(50),
+city varchar(100),
+intern_type varchar(100),
+username varchar(100),
+password varchar(100),
+roleid number(3) references Role_F(roleid),
+PM_id number(4) references Register_F(userid),
+b_id number(10) references Batch_F(b_id),
+g_id number(10) references Group_F(g_id),
+p_id number(10) references Project_F(p_id)
+);
+
+
+alter table register_f add PM_id number(4) references Register_F(userid);
+------------------------------------------------
+insert query for project manager
+
+insert into register_f(userid,name,contactno,email,status,city,username,password,roleid) values(userid.NEXTVAl,'sumit naikwadi','7896578976','sumitn@gmail.com','active','pune','sumitn','sumitn123',2);
+
+insert query for intern
+
+insert into register_f(userid,name,contactno,email,status,city,intern_type,username,password,roleid) values(userid.NEXTVAl,'farazpathan','7020048345','farazpathan2@gmail.com','active','khandwa','developer','farazp','farazp123',3,21,1,21);
+
+
+---------------------------------------
+
+insert query for intern
+
+insert into register_f(userid,name,contactno,email,status,city,intern_type,username,password,roleid,pm_id) values(userid.nextval,'faraz','7020048345','farazpathan2@gmail.com','active','khandwa','java devloper','farazpathan','farazp123',3,1);
+-------------------------------------------------------------------------
+
+create sequence userid;
+
+
+create table Batch_F(b_id number(10) primary key,
+b_name varchar(100),
+b_startdate date,
+b_enddate date,
+b_status varchar(100),
+PM_id number(4) references Register_F(userid)
+);
+-----------------------------------------
+insert query for batch
+
+insert into batch_f(b_id,b_name,b_startdate,b_enddate,b_status,pm_id) values(b_id.nextval,'spic6',to_date('2016/05/17','yyyy/mm/dd'),to_date('2017/05/17','yyyy/mm/dd'),'active',1);
+
+--------------------------------------------------------------
+	
+create sequence b_id;
+
+create sequence g_id;
+
+create table Group_F(g_id number(10) primary key,
+g_name varchar(100),
+g_startdate date,
+g_status varchar(100),
+b_id number(10) references Batch_F(b_id),
+PM_id number(4) references Register_F(userid),
+p_id number(10) references Project_F(p_id)
+);
+
+------------------------------------------------------------------
+
+insert query for group
+
+insert into group_f values(g_id.nextval,'group_1',to_date('2016/12/17','yyyy/mm/dd'),'active',21,1,21);
+
+
+----------------------------------------------
+
+create table Project_F(p_id number(10) primary key,
+p_name varchar(100),
+p_startdate date,
+p_expecteddate date,
+p_enddate  date,
+p_status varchar(100),
+p_desc blob,
+PM_id number(4) references Register_F(userid)
+);
+
+--------------------------------------------
+
+insert query for project
+
+insert into project_f values(p_id.nextval,'phonbook',to_date('2016/12/15','yyyy/mm/dd'),to_date('2017/01/15','yyyy/mm/dd'),to_date('2017/02/05','yyyy/dd/mm'),'completed',120,1);
+
+--------------------------------------------------------------------
+insert query for task_f
+
+
+insert into task_f values(t_id.nextval,'java test',to_date('2017/06/02','yyyy/mm/dd'),to_date('2017/06/02','yyyy/mm/dd'),'completed',21,1);
+
+------------------------------------------------
+create sequence p_id;
+
+create table Task_F(t_id number(10) primary key,
+t_desc varchar(150),
+t_startdate date,
+t_enddate date,
+t_status varchar(100),
+userid number(10) references Register_F(userid),
+PM_id number(4) references Register_F(userid)
+);
+
+create sequence t_id;
+
+create table Internprofile_F(i_id number(10) primary key,
+i_salary number(20),
+i_resume blob,
+i_10th varchar(50),
+i_12th varchar(50),
+i_degree varchar(50),
+i_pg varchar(50),
+i_address varchar(150),
+userid number(4) references Register_F(userid)
+);
+
+---------------------------------------------------
+
+insert query for intern
+
+insert into internprofile_f(i_id,i_salary,i_resume,i_10th,i_12th,i_degree,i_pg,i_address,userid) values(i_id.nextval,6000,'abc','71%','65%','68%','not done','khandwa',21);
+----------------------------------------------------------------
+create sequence i_id;
+----------------------------------------
+insert query for leave
+
+insert into leave_f values(l_id.nextval,to_date('2017/06/03','yyyy/mm/dd'),to_date('2017/06/10','yyyy/mm/dd'),'official','approved','vacation of Goa',21)
+
+
+-------------------------------------------
+create table Leave_F(l_id number(10) primary key,
+l_startdate date,
+l_enddate date,
+l_type varchar(50),
+l_status varchar(50),
+l_desc varchar(200),
+userid number(4) references Register_F(userid)
+);
+
+create sequence l_id;
+
+create table Placement_F(pl_id number(10) primary key,
+interview_date date, 
+company_name varchar(100),
+status varchar(100),
+description varchar(200),
+userid number(4) references Register_F(userid)
+ );
+
+create sequence pl_id;
+-----------------------------------------------
+
+insert for placement
+
+insert into placement_f values(pl_id.nextval,to_date('2017/06/02','yyyy/mm/dd'),'softcell','not selected','due to program error',21);
+
+----------------------------------------------------------------------
+
+create table Feedback_F( f_id number(10) primary key,
+f_date date,
+f_subject varchar(300),
+f_desc blob,
+f_status varchar(200),
+userid number(10) references Register_F(userid)
+);
+---------------------------------------------
+insert for feedback
+
+insert into feedback_f values(f_id.nextval,to_date('2017/06/02','yyyy/mm/dd'),'intw','aaa','veiwed',21);
+
+------------------------------------------------------
+create table Exam_f(e_id number(10),
+e_name varchar(100),
+totalmarks number(20),
+totaltime  varchar(100),
+e_instruction varchar(200),
+t_id number(10) references technology_f(t_id),
+PM_id number(4) references Register_F(userid),
+status varchar2(20)
+);
+create sequence e_id;
+
+create table technology_f(t_id number(10) primary key,
+t_name varchar(50),
+PM_id number(4) references Register_F(userid));
+
+
+create sequence t_id;
+
+
+create table Question_f(q_id number(10),
+e_id number(10) references Exam_f(e_id),
+q_desc clob,
+q_opt1 varchar(100),
+q_opt2 varchar(100),
+q_opt3 varchar(100),
+q_opt4 varchar(100),
+q_cans varchar(100)
+);
+create sequence q_id;
+
+
+
+create table Result_f(r_id number(10) primary key,
+r_date date,
+r_marks number(20),
+e_id number(10) references Exam_f(e_id),
+userid number(10) references Register_F(userid)
+);
+create sequence r_id;
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+CREATE SEQUENCE f_id
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 20;
+

@@ -1,0 +1,8 @@
+package com.synchronizationBlock;
+
+public class SynchronizationBlockDisplay {
+
+	public void wish(){
+		
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+<!--
+function setValue(val){
+var frm = document.getElementById("form2");
+frm.textname.value+=val+",";
+}
+//-->
+</script>
+</head>
+
+<body class="body">
+<form name="form1">
+<input type="checkbox" name="checkboxname" value="coffee" onclick="setValue(this.value);">
+<input type="checkbox" name="checkboxname" value="tea" onclick="setValue(this.value);">
+<input type="checkbox" name="checkboxname" value="beer" onclick="setValue(this.value);">
+<input type="checkbox" name="checkboxname" value="soda" onclick="setValue(this.value);">
+<input type="checkbox" name="checkboxname" value="orangejuice" onclick="setValue(this.value);">
+</form>
+
+<form name="form2">
+<input type="text" name="textname">
+</form>
+
+</body>
+</html>

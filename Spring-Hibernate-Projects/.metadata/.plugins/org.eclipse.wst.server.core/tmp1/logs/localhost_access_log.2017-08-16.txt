@@ -1,0 +1,16 @@
+127.0.0.1 - - [16/Aug/2017:06:08:12 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/ HTTP/1.1" 200 3294
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/CssFile/Styles.css HTTP/1.1" 200 578
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/js/bootstrap.min.js HTTP/1.1" 200 37045
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/css/bootstrap.min.css HTTP/1.1" 200 121200
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/js/jquery-3.1.1.min.js HTTP/1.1" 200 86709
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:15 -0700] "GET /ContactBook/image/2.jpg HTTP/1.1" 200 154382
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:16 -0700] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:24 -0700] "GET /ContactBook/Home.jsp HTTP/1.1" 200 3294
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:26 -0700] "GET /ContactBook/Login.jsp HTTP/1.1" 200 4116
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:26 -0700] "GET /ContactBook/validation/ValidateLogin.js HTTP/1.1" 200 1611
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:28 -0700] "GET /ContactBook/UserRegistration.jsp HTTP/1.1" 200 6716
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:28 -0700] "GET /ContactBook/validation/validate.js HTTP/1.1" 200 4027
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:28 -0700] "GET /ContactBook/CssFile/1.css HTTP/1.1" 200 133
+0:0:0:0:0:0:0:1 - - [16/Aug/2017:06:08:35 -0700] "GET /ContactBook/UserRegistration.jsp HTTP/1.1" 200 6716

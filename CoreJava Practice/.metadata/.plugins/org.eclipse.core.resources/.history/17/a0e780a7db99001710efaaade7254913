@@ -1,0 +1,10 @@
+package com.synchronization;
+
+public class SynchronizationTest {
+
+	public static void main(String[] args) {
+		
+		SynchronizationDisplay sd = new SynchronizationDisplay();
+		SynchronizationDemo1 d = new SynchronizationDemo1(sd,"Deendayal");
+	}
+}

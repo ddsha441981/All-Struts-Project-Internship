@@ -1,0 +1,88 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page import="java.sql.*" %>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<%@ taglib uri="/struts-tags" prefix="s"%>
+   
+    
+<div>
+	<img src="img/spiclogo.png"></img>
+<b><h1 align="center">SPIC BANK</h1></b>
+<hr>
+</div>
+</head>
+<body style="background-color: cornsilk">
+
+<div align="right">
+<a href="Login.jsp"><input type="button" value="logout"></a><br/>
+welcome:<s:property value="iuname"/>
+
+
+<hr>
+</div>
+<s:a href="Transfer.jsp">Transfer</s:a>
+<s:a href="UpdatePass.jsp">Change Password</s:a>
+<%
+session.setAttribute("acno", session.getAttribute("acno"));
+String str= (String)session.getAttribute("iuname");
+session.setAttribute("iuname", session.getAttribute("iuname"));
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection conn=DriverManager.getConnection("jdbc:oracle:thin:@aquarius.parth.com:1521:oracle11","java","java");
+
+String query="select * from registrationinfo where iuname='"+str+"'";
+Statement stmt=conn.createStatement();
+ResultSet rs=stmt.executeQuery(query);
+while(rs.next())
+{
+	%>
+	<table>
+	<tr><td>UserName :</td><td><input type="text" value="<%=rs.getString("iuname")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>Account Number :</td><td><input type="text" value="<%=rs.getString("acno")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>Branch Code :</td><td><input type="text" value="<%=rs.getString("brcode")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>Register Mobile NO. </td><td><input type="text" value="<%=rs.getString("mob")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>City:</td><td><input type="text" value="<%=rs.getString("city")%>" disabled="disabled"></td></tr>
+	</table>
+	<%
+}
+%>
+<%
+rs.close();
+stmt.close();
+conn.close();
+%>
+
+<%
+session.setAttribute("acno", session.getAttribute("acno"));
+String str1= (String)session.getAttribute("acno");
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection conn1=DriverManager.getConnection("jdbc:oracle:thin:@aquarius.parth.com:1521:oracle11","java","java");
+String query1="select * from myaccount where acno='"+str1+"'";
+Statement stmt1=conn1.createStatement();
+ResultSet rs1=stmt1.executeQuery(query1);
+while(rs1.next())
+{
+	%>
+	<table>
+	<tr><td>Account Type :</td><td> <input type="text" value="<%=rs1.getString("ac_type")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>Opening Date:</td><td> <input type="text" value="<%=rs1.getString("opening_date")%>" disabled="disabled"></td></tr><br/>
+	<tr><td>Balance :</td><td> <input type="text" value="<%=rs1.getString("balance")%>" disabled="disabled"></td></tr><br/>
+	</table>
+	<%
+	}
+	%>
+<%
+rs1.close();
+stmt1.close();
+conn1.close();
+%>
+
+
+</body>
+
+<a href="Home.jsp">Home</a>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A counter that you can Start/Stop/Pause</p>
+<p id="timer"></p>
+
+<button onclick="ReStartFunction()">ReStart</button>
+<button onclick="StopFunction()">Stop</button>
+<button id="pause" onclick="PauseFunction()">pause</button>
+
+<script>
+
+var pause=0;
+var count=0;
+var counter=setInterval(timer, 1000); 
+var stoped=0
+function timer()
+{
+  count=count+1;
+  document.getElementById("timer").innerHTML=count + " secs"; 
+}
+
+function StopFunction()
+{
+  clearInterval(counter);
+  window.count=0;
+  window.pause=0;
+  document.getElementById("pause").innerHTML="Pause"
+  window.stoped=1
+  document.getElementById("timer").innerHTML=count + " secs";
+}
+
+function ReStartFunction()
+{
+  if (counter)
+  {
+    clearInterval(counter);
+    window.pause=0;
+    window.count=0;
+    window.stoped=0
+    window.counter=setInterval(timer, 1000); 
+    count=count+1;
+    document.getElementById("pause").innerHTML="Pause"
+    document.getElementById("timer").innerHTML=count + " secs"; 
+  }
+}
+
+function PauseFunction()
+{
+  if (stoped==0)
+  { 
+    if (pause==0) 
+    {
+      clearInterval(counter);
+      document.getElementById("pause").innerHTML="Resume"
+      pause=1;
+      return;
+    }
+
+  if (pause==1) 
+    {
+      window.counter=setInterval(timer, 1000); 
+      document.getElementById("timer").innerHTML=count + " secs"; 
+      document.getElementById("pause").innerHTML="Pause"
+      pause=0;
+      return;
+    }
+  }
+  return;
+}
+
+</script>
+
+</body>
+</html>

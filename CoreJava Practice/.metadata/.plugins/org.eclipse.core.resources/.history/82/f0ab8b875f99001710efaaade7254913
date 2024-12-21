@@ -1,0 +1,9 @@
+package com.GettingSettingThread;
+
+public class GeetingSettingThreadTest {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

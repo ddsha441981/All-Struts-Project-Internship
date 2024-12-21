@@ -1,0 +1,10 @@
+package com.synchronizationBlock;
+
+public class SynchronizationBlockTest {
+
+	public static void main(String[] args) {
+		
+		SynchronizationBlockDisplay sdiDisplay = new SynchronizationBlockDisplay();
+		SynchronizationBlockDemo1 sb = new SynchronizationBlockDemo1(sdiDisplay, "Deendayal");
+	}
+}

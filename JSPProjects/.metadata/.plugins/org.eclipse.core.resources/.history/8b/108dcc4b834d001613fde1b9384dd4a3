@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <section class="contact section-padding color-white">
+        <div class="container">
+            <div class="main-title font-color-m-light">Contact Us</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <form action="MAILTO:gargk13@gmail.com"  method="post" enctype="text/plain">
+            <div class="col-12">
+                <div class="textbox-set col-12">
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name*" id="name" /></div>
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Phone" /></div>
+                    <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Email*" id="email" /></div>
+                    
+                    <div class="col-12 textbox-box padding-tblr"><textarea  class="col-12 textbox" placeholder="Message*" style="height:100px;padding:10px 0px;resize:none;" id="message" ></textarea></div>
+
+                    <div class="send padding-lr"><button id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;" onclick="getCheck()">Send</button></div>
+                </div>
+            </div>
+                </form> 
+            </div>
+        </section>
+
+</body>
+</html>

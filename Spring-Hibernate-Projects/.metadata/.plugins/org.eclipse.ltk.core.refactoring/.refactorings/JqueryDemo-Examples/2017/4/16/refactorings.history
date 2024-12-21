@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JqueryDemo-Examples/WebContent/myvalidationsfile.jsp&apos; to &apos;myvalidationsfile.html&apos;" description="Rename resource &apos;myvalidationsfile.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/myvalidationsfile.jsp" name="myvalidationsfile.html" stamp="1492524125182" updateReferences="true"/>
+</session>

@@ -1,0 +1,51 @@
+// DocRenderer.java
+// A simple class that implements Runnable and provides a method to run itself
+// in a new Thread.
+class DocRenderer implements Runnable {
+
+  // Create a new renderer for the given document. A name is provided to
+  // distinguish the output of different renderers.
+  public DocRenderer(String rname, Document doc) {
+    this.rname = rname;
+    this.doc = doc;
+  }
+
+  // This method is called by AbstractDocument.render(). It "renders" the
+  // document by sleeping for 3 sec, then dumping the doc contents to stdout.
+  public void run() {
+    try {
+      System.out.println(rname + " start renderer.run(): "
+        + (System.currentTimeMillis()-startTime));
+
+      // Simulate a slow rendering process.
+      Thread.sleep(3000);
+    } catch (InterruptedException ex) {}
+
+    // "render" by writing the text to stdout
+    try {
+      System.out.println(rname + ":" + doc.getText(0, doc.getLength()));
+    } catch (BadLocationException ex) {ex.printStackTrace();}
+  }
+
+  // Calls render() on the document in a new Thread.
+  public void renderInThread(final long startTime) {
+    this.startTime = startTime;
+
+    // An anonymous inner class for a new Thread
+    new Thread() {
+      public void run() {
+        System.out.println(rname + " start rendering: "
+          + (System.currentTimeMillis() - startTime));
+
+        doc.render(DocRenderer.this);
+
+        System.out.println(rname + " done rendering: "
+          + (System.currentTimeMillis()-startTime));
+      }
+    }.start();        // start the new thread
+  }
+
+  private Document doc;
+  private String rname;
+  private long startTime;
+}

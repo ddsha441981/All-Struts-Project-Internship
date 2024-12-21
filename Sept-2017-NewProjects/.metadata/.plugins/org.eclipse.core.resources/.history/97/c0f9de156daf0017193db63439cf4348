@@ -1,0 +1,10 @@
+package com.crud;
+
+public class ConnectionEx {
+
+	public String myConnection(){
+		
+		Conn  con = con.DriverManager.getConnection();
+		return con;
+	}
+}

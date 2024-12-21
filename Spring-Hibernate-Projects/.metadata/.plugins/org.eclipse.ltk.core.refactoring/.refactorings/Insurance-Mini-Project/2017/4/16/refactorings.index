@@ -1,0 +1,7 @@
+1492870958556	Move 2 resources to 'WebContent'
+1492870984482	Move 4 resources to 'myPage'
+1492870997600	Move 'assets' to 'WEB-INF'
+1492880064034	Rename package 'org.spring.Controller'
+1492880244991	Rename package 'org.spring.DaoImpl'
+1492880270340	Move compilation unit
+1492880311225	Rename package 'org.spring.LoginRepositry'

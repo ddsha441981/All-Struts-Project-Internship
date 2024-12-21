@@ -1,0 +1,49 @@
+package com;
+
+import java.sql.SQLException;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.apache.struts2.interceptor.ServletRequestAware;
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class FeedbackAction extends ActionSupport implements SessionAware,ServletRequestAware
+{
+	private String uname1;
+	private String email1;
+	private String contact1;
+	private String message1;
+	Map map;
+	HttpServletRequest req;
+	HttpSession session;
+	
+	
+	
+	public String execute() throws Exception 
+	{
+		int i=AddDetailcon.db1(this);
+		if(i>0)
+		{
+			return SUCCESS;
+		}
+		return INPUT;
+		
+	}
+	@Override
+	public void setSession(@SuppressWarnings("rawtypes") Map arg0) {
+		map=arg0;
+		
+	}
+	
+	@Override
+	public void setServletRequest(HttpServletRequest arg0) {
+		
+		req=arg0;
+	}
+	
+	
+}

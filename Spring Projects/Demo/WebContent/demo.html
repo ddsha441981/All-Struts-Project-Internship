@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>http://www.experts-exchange.com/Programming/Languages/Scripting/JavaScript/Q_26706908.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="http://svn.sowingsadness.name/labs/demo/jquery/combobox.template/jquery.min.js"></script>
+<script src="http://svn.sowingsadness.name/labs/demo/jquery/combobox.template/jquery.ui.core.min.js" type="text/javascript"></script>
+<script src="http://svn.sowingsadness.name/labs/demo/jquery/combobox.template/jquery.ui.widget.min.js" type="text/javascript"></script>
+<script src="http://svn.sowingsadness.name/labs/demo/jquery/combobox.template/jquery.tmpl.min.js" type="text/javascript"></script>
+<script src="http://svn.sowingsadness.name/labs/demo/jquery/combobox.template/jquery.combobox.template.js" type="text/javascript"></script>
+<script> 
+
+var country = [ "ASEAN", "Afghanistan", "African Union", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua & Barbuda", "Arab League", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia & Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "CARICOM", "CIS", "Cambodja", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Commonwealth", "Comoros", "Congo-Brazzaville", "Congo-Kinshasa", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "England", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "European Union", "Faroes", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea-Bissau", "Guinea", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Islamic Conference", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macao", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "NATO", "Namibia", "Nauru", "Nepal", "Netherlands Antilles", "Netherlands", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "Northern Cyprus", "Northern Ireland", "Norway", "OPEC", "Olimpic Movement", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Red Cross", "Reunion", "Romania", "Russian Federation", "Rwanda", "Saint Lucia", "Samoa", "San Marino", "Sao Tome & Principe", "Saudi Arabia", "Scotland", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "Somaliland", "South Africa", "South Korea", "Spain", "Sri Lanka", "St Kitts & Nevis", "St Vincent & the Grenadines", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Tahiti", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad & Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks and Caicos Islands", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United Nations", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Viet Nam", "Virgin Islands British", "Virgin Islands US", "Wales", "Western Sahara", "Yemen", "Zambia", "Zimbabwe" ];
+
+$(function () {
+
+for ( var name in country ) {
+  $("#country-select").append( $("<option/>").text(country[name]) );
+}
+
+var optionTemplate = '\
+  <li data-value="${value}" data-filter="${name}" style="padding-top: 10px;">\
+  <img src="http://www.printableworldflags.com//icon-flags/24/${name}.png" title="${name}" style="vertical-align: bottom;"/>\
+  ${name}\
+  </li>\
+';
+
+var settings = {
+  templateItem: optionTemplate,
+  allowInput: false,
+  maxVisibleItems: 24
+};
+
+var comboBox = $( "#country-select" ).comboboxtmpl( settings );
+$(comboBox).bind( 'comboboxtmplchange', function ( event, ui ) {
+  $("#selected").text( $( ui ).attr( 'data-value' ) );
+} );
+
+});
+ 
+ 
+</script>
+
+</head>
+
+<body>
+
+<select id="country-select"></select>
+
+<span id="selected" />
+ 
+</body>
+</html>

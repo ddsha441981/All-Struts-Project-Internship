@@ -1,0 +1,9 @@
+package com.sleepMethod;
+
+public class SleepMethodDemo1 extends Thread {
+
+	public void run(){
+		
+		Thread.sleep(2000);
+	}
+}

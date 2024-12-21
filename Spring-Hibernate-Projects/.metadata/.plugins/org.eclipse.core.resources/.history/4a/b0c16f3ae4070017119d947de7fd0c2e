@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Hibernate-Spring-Crud-Example">
+        <property name="context-root" value="Hibernate-Spring-Crud-Example"/>
+        <property name="java-output-path" value="/Hibernate-Spring-Crud-Example/build/classes"/>
+    </wb-module>
+</project-modules>

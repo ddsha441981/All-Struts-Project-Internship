@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="employeemain" class="com.org.employee.example.EmployeeMain">
+		<property name="Empcommon" ref="Empcommon1"></property>
+		<property name="EmpBasic" ref="EmpBasic2"></property>
+		<property name="EmpDepart" ref="EmpDepart3"></property>
+	
+	</bean>
+	
+	<bean id="Empcommon1" class="com.org.employee.example.EmployeeCommon">
+		<property name="empId" value="124"></property>
+		<property name="empName" value="Deendayal"></property>
+		<property name="empGender" value="Male"></property>
+	</bean>
+	
+	<bean id="EmpBasic2" class="com.org.employee.example.EmployeeBasic">
+		<property name="empAge" value="24"></property>
+		<property name="empAdd" value="Pune (Maharastra)"></property>
+		<property name="phone" value="9602063435"></property>
+		<property name="empSal" value="150000"></property>
+		<property name="empEdu" value="BCA"></property>
+		<property name="empExperience" value="1 Year"></property>
+	</bean>
+		
+	<bean id="EmpDepart3" class="com.org.employee.example.EmployeeDepartment">
+		<property name="depId" value="10"></property>
+		<property name="empDepartment" value="Java Developer"></property>
+	</bean>
+	
+	</beans>

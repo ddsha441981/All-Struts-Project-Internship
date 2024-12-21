@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+function ShiptoBill() {
+	  var billing = document.getElementById("txtbilling");
+	 
+	  var shipping = document.getElementById("txtshipping");
+
+	  var check = document.getElementById("checkboxId").checked; 
+	   
+
+	  if (check == true) {
+	    shipping.value = billing.value;
+	    
+	  } else {
+	    shipping.value = '';
+	  }
+	  
+	 
+	}
+</script></head>
+<body>
+Option1<input type="text" id="txtbilling" />
+click it<input type="checkbox" onchange="ShiptoBill()" id="checkboxId" />
+
+<br><br>
+Answer<input type="text" id="txtshipping" />
+</body>
+</html>

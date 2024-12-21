@@ -1,0 +1,6 @@
+package com.synchronization;
+
+public class Thread1 extends Thread{
+
+	
+}

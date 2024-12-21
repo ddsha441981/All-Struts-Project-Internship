@@ -1,0 +1,8 @@
+package com.interruptMethod;
+
+public class InterruptMethodTest1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

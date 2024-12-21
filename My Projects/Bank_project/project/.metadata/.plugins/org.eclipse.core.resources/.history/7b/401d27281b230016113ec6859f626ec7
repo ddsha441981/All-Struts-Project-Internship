@@ -1,0 +1,80 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@page import="java.sql.*;"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@taglib uri="/struts-tags" prefix="s"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="assets/css/default.css" type="text/css" rel="stylesheet">
+<title>Profile Details</title>
+<%
+	request.getSession();
+	String n = (String) session.getAttribute("uname");
+	System.out.println(n);
+%>
+</head>
+
+<body>
+	<table align="center">
+		<tr>
+			<td><img alt="logo" src="images/Logo.gif" height="100"
+				width="200"></td>
+			<td><h1>Profile Details</h1></td>
+
+			<td><input type="button" value="Logout"
+				onclick="location.href='HomePage.jsp'"></td>
+		</tr>
+
+	</table>
+	<div>
+		<ul>
+			<li><a href="Forum.jsp">Forum</a></li>
+			<li><a href="ChangePassword.jsp">Change Password</a></li>
+			<li><a href="ProfileDetails.jsp">Profile Details</a></li>
+
+		</ul>
+	</div>
+	<hr>
+
+		<% Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection conn = DriverManager.getConnection(
+			"jdbc:oracle:thin:@aquarius.parth.com:1521:oracle11",
+			"java", "java");
+	PreparedStatement ps = conn
+			.prepareStatement("select * from reg where uname='" + n
+					+ "'");
+					while (rs.next()) {
+		
+}%>
+					
+		UserName:<input type="text" value="<%=rs.getString("uname")%>" />
+		Mobile No:<input type="text" value="<%=rs.getString("mono")%>" />
+		E-mail:<input type="text" value="<%=rs.getString("email")%>" />
+		
+		<%
+	System.out.println("after conn");
+	ResultSet rs = ps.executeQuery();
+	System.out.println("user" + n);
+	String u = rs.getString("uname");
+	System.out.println("user edit" + u);
+	String m = rs.getString("mono");
+	System.out.println("mono edit" + m);
+	String e = rs.getString("email");
+	System.out.println("email edit" + e);
+
+	
+	%>	
+	<%PreparedStatement ps1 = conn.prepareStatement("update reg set uname='" + u
+			+ "',mono='" + m + "',email='" + e
+			+ "' where uname='" + n + "'");
+ ps1.executeUpdate();
+ %>
+		<s:form action="update" method="post">
+			<s:submit value="save"></s:submit>
+		</s:form>
+	
+
+	
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function toggle()
+{
+	if(document.getElementById("hidethis").style.display=='none')
+		{
+		document.getElementById("hidethis").style.display='table-row';
+		}
+	else
+		{
+		document.getElementById("hidethis").style.display='none';
+		}
+	}
+
+</script>
+</head>
+<body>
+<span onclick="toggle();">Toggle</span><br/><br/>
+<table border="1">
+<tr>
+<td>Always Visiable</td>
+
+</tr>
+<tr id="hidethis">
+<td>Hide This</td>
+</tr>
+<tr>
+<td>Always Visiable</td>
+</tr>
+
+</table>
+</body>
+</html>

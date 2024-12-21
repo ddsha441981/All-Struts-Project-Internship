@@ -1,0 +1,18 @@
+package com.multiOverviewRunnable;
+
+public class ThreadDemoTest {
+
+	public static void main(String[] args) {
+		
+		ThreadDemo1 td1 = new ThreadDemo1();
+		Thread t1 = new Thread(td1);
+		Thread t2 = new Thread(td1);
+		//t1.start();
+		t1.run();//New thread will not create run() method treat just like normal method
+		//t2.run();//New thread will not create run() method treat just like normal method
+		for (int i = 0; i < 10; i++) {
+			
+			System.out.println("Main Thread");
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;e-Learning-System/WebContent/WEB-INF/assets/validation/adminChangePasswordValidation&apos; to &apos;adminChangePasswordValidation.js&apos;" description="Rename resource &apos;adminChangePasswordValidation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/assets/validation/adminChangePasswordValidation" name="adminChangePasswordValidation.js" stamp="1498890425481" updateReferences="true"/>
+</session>

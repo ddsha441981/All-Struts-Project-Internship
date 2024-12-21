@@ -1,0 +1,11 @@
+127.0.0.1 - - [08/Mar/2017:07:07:44 -0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:07:46 -0800] "GET /MVC-Insurance-Project-6/ HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:05 -0800] "GET /MVC-Insurance-Project-6/ClientLogin.jsp HTTP/1.1" 200 5389
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:12 -0800] "GET /MVC-Insurance-Project-6/AgentLogin.jsp HTTP/1.1" 200 5379
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:27 -0800] "POST /MVC-Insurance-Project-6/agentlogin HTTP/1.1" 200 1298
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:33 -0800] "GET /MVC-Insurance-Project-6/viewallclientbyAgent/1 HTTP/1.1" 200 9551
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:39 -0800] "GET /MVC-Insurance-Project-6/selectJoindata/21 HTTP/1.1" 200 12108
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:50 -0800] "GET /MVC-Insurance-Project-6/AdminLogin.jsp HTTP/1.1" 200 5362
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:08:58 -0800] "POST /MVC-Insurance-Project-6/adminlogin HTTP/1.1" 200 818
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:09:01 -0800] "GET /MVC-Insurance-Project-6/addpolicybyAdmin HTTP/1.1" 200 8607
+0:0:0:0:0:0:0:1 - - [08/Mar/2017:07:09:45 -0800] "GET /MVC-Insurance-Project-6/addpolicybyAdmin HTTP/1.1" 200 8607

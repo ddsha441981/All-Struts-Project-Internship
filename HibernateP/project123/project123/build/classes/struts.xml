@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<package name="default" extends="struts-default"> 
+<!--      All Login Action -->
+		<action name="login" class="pack1.LoginAction">
+		<result name="AD">/admin_homepage.jsp</result>
+		<result name="PM">/ProjectManager_homepage.jsp</result>
+		<result name="I">/Intern_homepage.jsp</result>
+		<result name="GL">/GroupLeader_homepage.jsp</result>
+		<result name="error">/error.jsp</result>
+		</action>
+		
+<!-- 		Home Page Actions -->
+
+             <action name="home">
+			<result name="success">/admin_homepage.jsp</result>
+            </action>
+		
+<!--    change password actions -->
+    <action name="change_password" class="pack1.changePasswordAdmin">
+    <result name="success">/index.jsp</result>
+	<result name="error">/error.jsp</result>
+	</action>
+	<action name="ChangePwdProjectManager" class="pack1.changePasswordAdmin" method="manager">
+	<result name="success">/index.jsp</result>
+	<result name="error">/error.jsp</result>
+	</action>
+	<action name="ChangePassIntern1" class="pack1.changePasswordAdmin" method="Intern">
+	<result name="success">/index.jsp</result>
+	<result name="error">/error.jsp</result>
+	</action>
+	<action name="ChangePassGL1" class="pack1.changePasswordAdmin" method="GL">
+	<result name="success">/index.jsp</result>
+	<result name="error">/error.jsp</result>
+	</action>
+	
+<!-- 	Logout Actions -->
+	<action name="logoutadmin" class="pack1.LogoutAction">
+	<result name="success">/index.jsp</result>
+	</action>
+	<action name="logoutProjectManager" class="pack1.LogoutAction">
+	<result name="success">/index.jsp</result>
+	</action>
+	<action name="logoutIntern" class="pack1.LogoutAction">
+	<result name="success">/index.jsp</result>
+	</action>
+	<action name="LogoutGL" class="pack1.LogoutAction">
+	<result name="success">/index.jsp</result>
+	</action>
+	
+<!-- 	Ajax Call Operations -->
+
+ <action name="redirectToViewExam" class="pack1.AjaxCallJDBC" method="examstatus">
+ <result name="success">/view_CreatedExam.jsp</result>
+ </action>
+ 
+ <action name="redirectToViewStatusLeave" class="pack1.AjaxCallJDBC" method="leavestatus">
+ <result name="success">/view_leaves.jsp</result>
+ </action>
+ 
+ <action name="redirectToViewStatusTask" class="pack1.AjaxCallJDBC" method="taskstatus">
+ <result name="success">/view_task.jsp</result>
+ </action>
+	   
+<!-- 	Add,View,Edit Actions -->
+	 <action name="create" class="pack1.viewPM">
+			<result name="success">/admin_homepage.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	<action name="viewprojectmanager" class="pack1.viewPM" method="view">
+			<result name="success">/ViewProjectManager.jsp</result>
+			<result name="error">/error.jsp</result>
+	</action>
+	  <action name="editContact" class="pack1.viewPM" method="getEditRecord">
+	  <result name="success">/Edit_PM.jsp</result>
+	  </action>
+	  <action name="edit" class="pack1.viewPM" method="edit">
+	  <result name="success" type="redirectAction">viewprojectmanager</result>
+	  </action>
+	
+	
+	   <action name="create_batch" class="pack1.Batch">
+			<result name="error">/batch.jsp</result>
+			<result name="success">/ProjectManager_homepage.jsp</result>
+	   </action>
+	   <action name="view_batch" class="pack1.view_batch">
+			<result name="success">/view_batch.jsp</result>
+			<result name="error">/error.jsp</result>
+	   </action>
+	
+	   <action name="create_intern" class="pack1.Intern">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+			<result name="error">/intern.jsp</result>
+		</action>
+		<action name="viewdata" class="pack1.view_Intern">
+			<result name="success">/view_intern1.jsp</result>
+			<result name="error">/error.jsp</result>
+	    </action>
+		
+		<action name="creategroup" class="pack1.create_group">
+			<result name="success">/create_Group.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
+			<action name="view_all_group" class="pack1.create_group" method="view4" >
+			<result name="success">/view_group.jsp</result>
+			<result name="error">/error.jsp</result>
+			</action>
+			
+			<action name="createGL" class="pack1.add_view_GLeader">
+			<result name="success">/create_GroupLeader.jsp</result>
+			<result name="error">/error.jsp</result>
+		    </action>
+		    
+		    <action name="viewGL" class="pack1.view_GL">
+			<result name="success">/view_GroupLeader.jsp</result>
+			<result name="error">/error.jsp</result>
+		    </action>
+		    
+		    <action name="add_projects" class="pack1.add_view_projects">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+			<result name="error">/error.jsp</result>
+		    </action>
+		    
+		    <action name="view_project" class="pack1.add_view_projects" method="view5">
+			<result name="success">/view_projects.jsp</result>
+			<result name="error">/error.jsp</result>
+		    </action>
+		   
+		   <action name="f" class="pack1.Feedback">
+			<result name="success">/Intern_homepage.jsp</result>
+			<result name="error">/error.jsp</result>
+		    </action>
+		    
+		   <action name="view_feedback" class="pack1.view_feedbackPM">
+		  <result name="success">/PM_view_feedback.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      <action name="leave" class="pack1.Leaves_intern">
+		  <result name="success">/Intern_homepage.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	       <action name="view_list" class="pack1.ViewLeaves_PM">
+		  <result name="success">/view_leaves.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      <action name="task" class="pack1.dropdownlistview">
+		  <result name="success">/add_task.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      <action name="task1" class="pack1.add_task">
+		  <result name="success">/GroupLeader_homepage.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	       <action name="view_task1" class="pack1.view_task">
+		  <result name="success">/view_task.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+		    
+<!-- 		   Back Operations -->
+            <action name="back">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backPM">
+			<result name="success">/admin_homepage.jsp</result>
+            </action>
+            <action name="backAD">
+			<result name="success">/admin_homepage.jsp</result>
+            </action>
+            <action name="backbatch">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backintern">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backgroup">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backGL1">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backprojects">
+			<result name="success">/ProjectManager_homepage.jsp</result>
+            </action>
+            <action name="backI">
+			<result name="success">/Intern_homepage.jsp</result>
+            </action>
+            <action name="backGL2">
+			<result name="success">/GroupLeader_homepage.jsp</result>
+            </action>
+            <action name="backview">
+            <result name="success">/view_CreatedExam.jsp</result>
+            </action>
+<!--             Upload file -->
+            <action name="upload" class="pack1.UploadResume">
+			<interceptor-ref name="fileUpload">
+			<param name="maximumSize">2097152</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success">UploadWelcome.jsp</result>
+			<result name="error">UploadError.jsp</result>
+		</action>
+<!-- 		Download Resume -->
+        <action name="download" class="pack1.download_resume">
+		<result name="success" type="stream">
+		<param name="contentType">text/html</param>
+		<param name="inputName">inputStream</param>
+		<param name="contentDisposition">attachment;filename="${filename}"</param>
+		<param name="bufferSize">4096</param>
+		</result>
+		</action>
+		
+		<action name="resumeList" class="pack1.ResumeList" >
+			<result name="success">/DownloadResume.jsp</result>
+			<result name="error">/error.jsp</result>
+			</action>
+			
+<!-- 			Exam Module Actions -->
+          <action name="Exam1" class="pack1.CreateExam">
+		  <result name="success" type="redirectAction">view_exam</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	        
+          <action name="view_exam" class="pack1.View_Exam">
+		  <result name="success">/view_CreatedExam.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	     <action name="add_que" class="pack1.Add_Question">
+		 <result name="success" type="redirectAction">
+		<param name="actionName">view_que</param>
+        <param name="exam_id">${ex_id}</param>
+		</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      
+	      <action name="view_que" class="pack1.view_question">
+		  <result name="success">/view_questions.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	     
+	      <action name="view_exam_by_intern" class="pack1.View_Exam">
+		  <result name="success">/view_exam_by_intern.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      <action name="give_exam" class="pack1.Give_Exam">
+		  <result name="success">/GiveOnlineExam.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	      
+	      <action name="FinishTest" class="pack1.CheckAnswer" method="checkAns">
+		  <result name="success">/Result.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	          
+	      <action name="ResultView" class="pack1.View_Results">
+		  <result name="success">/view_results.jsp</result>
+		  <result name="error">/error.jsp</result>
+	      </action>
+	          
+	          
+	</package>
+</struts>

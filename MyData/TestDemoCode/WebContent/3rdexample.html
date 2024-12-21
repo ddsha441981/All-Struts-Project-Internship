@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function FillBilling(f) {
+  if(f.billingtoo.checked == true) {
+    f.firstname.value = f.myname.value;
+     f.lastname.value = f.mylast.value;
+     f.allmy.value = f.firstname.value+" "+f.lastname.value;
+  } 
+  else{
+	  f.myname.value = '';
+	  f.firstname.value = '';
+	  
+	  f.mylast.value = f.mylast ='';
+	  f.lastname.value = f.lastname ='';
+  }
+  
+  
+  /* function FillBilling(f) {
+	  if(f.billingtoo.checked == true) { 
+		  f.billlingname.value = f.myname.value 
+		  } 
+	  else { 
+		  f.myname.value = ''; } 
+	  } */
+}
+</script>
+</head>
+<body>
+<b>Mailing Address</b>
+<br><br>
+<form>
+Name:
+<input type="text" name="myname">
+<br>
+City:
+<input type="text" name="mylast">
+<br>
+<input type="checkbox" name="billingtoo"  onclick="FillBilling(this.form)">
+<em>Check this box if Billing Address and Mailing Address are the same.</em>
+<P>
+<b>Billing Address</b>
+<br><br>
+Name:
+<input type="text" name="firstname">
+<br>
+City:
+<input type="text" name="lastname">
+
+<br>
+both data:
+<input type="text" name="allmy">
+<br>
+
+</form>
+</body>
+</html>

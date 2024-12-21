@@ -1,0 +1,11 @@
+package com.priorityThread;
+
+public class PriorityProcessTest {
+
+	public static void main(String[] args) {
+		
+		PriorityProcessDemo2 t1 = new PriorityProcessDemo2();
+		t1.start();
+		
+	}
+}

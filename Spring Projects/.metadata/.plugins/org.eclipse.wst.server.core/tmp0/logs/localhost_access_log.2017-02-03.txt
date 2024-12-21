@@ -1,0 +1,11 @@
+127.0.0.1 - - [03/Feb/2017:08:17:31 -0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:17:35 -0800] "GET /MVC-Insurance-Project-6/ HTTP/1.1" 200 458
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:17:38 -0800] "GET /MVC-Insurance-Project-6/AgentLogin.jsp HTTP/1.1" 200 5379
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:17:48 -0800] "POST /MVC-Insurance-Project-6/agentlogin HTTP/1.1" 500 13199
+127.0.0.1 - - [03/Feb/2017:08:22:05 -0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:07 -0800] "GET /MVC-Insurance-Project-6/ HTTP/1.1" 200 458
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:07 -0800] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:10 -0800] "GET /MVC-Insurance-Project-6/AgentLogin.jsp HTTP/1.1" 200 5379
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:28 -0800] "POST /MVC-Insurance-Project-6/agentlogin HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:30 -0800] "GET /MVC-Insurance-Project-6/viewallclientbyAgent/1 HTTP/1.1" 200 9418
+0:0:0:0:0:0:0:1 - - [03/Feb/2017:08:22:53 -0800] "POST /MVC-Insurance-Project-6/viewallclientbyAgent/registerclientbyAgent HTTP/1.1" 400 968

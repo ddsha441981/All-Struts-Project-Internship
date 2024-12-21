@@ -1,0 +1,38 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Map;
+
+import org.apache.struts2.dispatcher.SessionMap;
+import org.apache.struts2.interceptor.SessionAware;
+
+public class Updateprofile 
+{
+
+
+	String n;
+	public static int db(RegisterAction r){
+
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection conn = DriverManager.getConnection(
+			"jdbc:oracle:thin:@aquarius.parth.com:1521:oracle11",
+			"java", "java");
+	PreparedStatement ps = conn
+			.prepareStatement("select * from reg where uname='" + n
+					+ "'");
+	System.out.println("after conn");
+	ResultSet rs = ps.executeQuery();
+	System.out.println("user" + n);
+
+	while (rs.next()) {
+
+}
+}
+	@Override
+	public void setSession(Map arg0) {
+	
+	}
+}

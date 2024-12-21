@@ -1,0 +1,11 @@
+package com.joinMethod;
+
+public class JoinMethodTest2 {
+
+	public static void main(String[] args) {
+		
+		JoinMethodDemo2 join2 = new JoinMethodDemo2();
+		join2.start();
+		
+	}
+}

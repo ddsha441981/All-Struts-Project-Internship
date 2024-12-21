@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">  
+ 
+ <struts>
+ 	<package name="default" extends="struts-default">
+ 	
+ 	<interceptors>
+ 		<interceptor name="inter1" class="com.data.Login.Timmer_Interceptor2"/>
+ 			<interceptor-stack name="mystack1">
+ 				<interceptor-ref name="inter1"></interceptor-ref>
+ 				<interceptor-ref name="defaultStack"></interceptor-ref>
+ 			</interceptor-stack>
+ 					
+ 	</interceptors>
+				<default-interceptor-ref name="mystack1"/> 	
+
+ 	
+ 	
+ 	
+ 		<action name="hellopage" class="com.data.Login.Ldata">
+ 		<result name="success">/home.jsp</result>
+ 		<result name="input">/Login.jsp</result>
+ 		<result name="error">error.jsp</result>
+ 		</action>
+ 	</package>
+ 
+ </struts>

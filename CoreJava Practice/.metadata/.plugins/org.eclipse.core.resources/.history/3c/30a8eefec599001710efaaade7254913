@@ -1,0 +1,6 @@
+package com.joinMethod;
+
+public class JoinMethodDemo2 extends Thread {
+
+	
+}

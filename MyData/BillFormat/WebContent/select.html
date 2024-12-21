@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<select id="mySelect" onchange="myfunction()">
+<option value="Audi">Audi
+<option value="car">car
+<option value="mmmm">mmmm
+<option value="volvo">volvo
+
+</select>
+
+<p>Deendayal Audi</p>
+<p id="demo"></p>
+
+<script type="text/javascript">
+function myfunction()
+{
+	var x=document.getElementById("mySelect").value;
+	document.getElementById("demo").innerHtml="you selected:"+x;
+	}
+
+</script>
+ <li>
+       About 
+        <ul class="submenu">
+        <li><a href="#0">Meet the Team</a></li>
+        <li><a href="#0">Careers</a></li>
+        <li>
+          <a href="#0">More Items <i class="fa fa-caret-right"></i></a>
+           <ul class="submenu">
+            <li><a href="#0">A Sub-Item</a></li>
+            <li>
+              <a href="#0">A Sub-Item</a>
+             </li>
+</body>
+</html>

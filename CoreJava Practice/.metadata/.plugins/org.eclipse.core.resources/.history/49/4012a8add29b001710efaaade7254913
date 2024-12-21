@@ -1,0 +1,25 @@
+package com.practice;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.xml.crypto.dsig.keyinfo.KeyValue;
+
+public class MaptoListConvert {
+
+	public static void main(String[] args) {
+		
+		Map<Integer, String> map = new HashMap<>();
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		map.put(1, "A");
+		List keyValue = new ArrayList(map.keySet());
+		List Valuelist = new ArrayList(map.values());
+		System.out.println(keyValue);
+		System.out.println(Valuelist);
+	}
+}

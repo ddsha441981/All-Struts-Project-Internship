@@ -1,0 +1,9 @@
+package com;
+
+public class ChaPassAction 
+{
+
+	private String uname;
+	private String Opass;
+	private String 
+}

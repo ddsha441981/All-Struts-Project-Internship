@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC   
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"   
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd"> 
+        <validators>
+        		  <validators>
+    <field name="pid">
+      <field-validator type="int">
+       	<message>Patient Id is Required</message>
+      </field-validator>
+    </field>  
+       
+     <field name="pname">  
+        <field-validator type="requiredstring">  
+        <message>Name can't be blank</message>  
+        </field-validator>  
+        </field>  
+    
+     <field name="pemail">
+      <field-validator type="requiredstring">
+       		<message> Email is Required</message>
+      </field-validator>
+      <field-validator type="requiredstring">
+       		<message>Enter Vaild Email </message>
+      </field-validator>
+    </field> 
+    
+    <field name="padd">
+      <field-validator type="requiredstring">
+       		<message> Address is Required</message>
+      </field-validator>
+    </field>  
+    
+     <field name="pno">
+      <field-validator type="int">
+       	<message>Mobile No is Required</message>
+      </field-validator>
+    </field>  
+        
+     <field name="pgender">
+      <field-validator type="requiredstring">
+       		<message> Gender is Required</message>
+      </field-validator>
+    </field>  
+    
+    <field name="pcity">
+      <field-validator type="requiredstring">
+       		<message> City is Required</message>
+      </field-validator>
+    </field>  
+        </validators>

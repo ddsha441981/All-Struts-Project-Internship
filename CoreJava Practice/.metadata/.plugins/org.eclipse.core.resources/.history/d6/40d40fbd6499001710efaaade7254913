@@ -1,0 +1,8 @@
+package com.yieldMethod;
+
+public class YieldMethodDemo1 extends Thread {
+
+	public void run(){
+		
+	}
+}

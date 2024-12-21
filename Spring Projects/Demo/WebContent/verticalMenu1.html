@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+ 
+
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 40px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #5A55A3;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #5A55A3;
+  background-image: #5A55A3;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+    body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ui-widget-content {
+    border: 1px solid #bdc3c7;
+    background: #e1e1e1;
+	color: #222222;
+	margin-top: 4px;
+}
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width:4.0em;
+	height:1.6em;
+	cursor: default;
+	margin: 0 -20px auto !important;
+	text-align: center;	
+	line-height 20px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.ui-slider .ui-slider-handle .glyphicon {
+	color: #FFFFFF;
+	margin: 0 3px; 
+	font-size:10px;
+	opacity: 0.5;
+}
+
+.ui-corner-all {
+	border-radius: 20px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.5em;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+	border: 1px solid #f9f9f9;
+	background: #3498db;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	margin-left: -0.5em;
+}
+
+.ui-slider .ui-slider-handle {
+	cursor: pointer;
+}
+
+.ui-slider a,
+.ui-slider a:focus {
+	cursor: pointer;
+	outline: none;
+}
+
+.price-slider {
+	margin-bottom: 1px;
+}
+
+.price-slider span {
+	font-weight: 200;
+	display: inline-block;
+	color: #7f8c8d;
+	font-size: 13px;
+}
+.top-buffer { margin-top:5px; margin-bottom:5px;}
+</style>
+</head>
+<body>
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-9 col-xs-10 bhoechie-tab-container">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bhoechie-tab-menu">
+              <div class="list-group">
+                <a href="#" class="list-group-item active text-center">
+                    Regions
+                </a>
+                <a href="#" class="list-group-item text-center">
+                    Speciality
+                </a>
+                <a href="#" class="list-group-item text-center">
+                      Finance
+                </a>
+                <a href="#" class="list-group-item text-center">
+                	Resources
+                </a>
+                <a href="#" class="list-group-item text-center">
+                	Articulate Resources
+                </a>
+                <a href="#" class="list-group-item  text-center">
+                  	Systems
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  	Marketing
+                </a>
+                <a href="#" class="list-group-item text-center">
+                  	Collateral
+                </a>
+              </div>
+            </div>
+            
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+            <div class="bhoechie-tab-content active">
+            
+                <!-- Regions -->
+                <!-- <center> -->
+				  <form class="form-horizontal" role="form">
+					<fieldset>		 
+					<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">In what Countries do you sell products and services for</h4>
+						<div class="row">
+							<div class="col-xs-12 col-sm-14 col-md-14">
+							<div class="form-group">
+								<span class="col-md-6">
+									<label class="">Articulate</label>
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+									<option value="  " selected>(please select countries)</option>
+									<option value="AF">Afghanistan</option>
+									<option value="AL">Albania</option>
+									<option value="DZ">Algeria</option>
+									<option value="AS">American Samoa</option>
+									<option value="AD">Andorra</option>
+									<option value="AO">Angola</option>
+									<option value="AI">Anguilla</option>
+									<option value="AQ">Antarctica</option>
+									<option value="AG">Antigua and Barbuda</option>
+									<option value="AR">Argentina</option>
+									<option value="AM">Armenia</option>
+									<option value="AW">Aruba</option>
+									<option value="AU">Australia</option>
+									<option value="AT">Austria</option>
+									<option value="AZ">Azerbaijan</option>
+									<option value="BS">Bahamas</option>
+									<option value="BH">Bahrain</option>
+									<option value="BD">Bangladesh</option>
+									<option value="BB">Barbados</option>
+									<option value="BY">Belarus</option>
+									<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+									<option value="BJ">Benin</option>
+									<option value="BM">Bermuda</option>
+									<option value="BT">Bhutan</option>
+									<option value="BO">Bolivia</option>
+									<option value="BA">Bosnia and Herzegowina</option>
+									<option value="BW">Botswana</option>
+									<option value="BV">Bouvet Island</option>
+									<option value="BR">Brazil</option>
+									<option value="IO">British Indian Ocean Territory</option>
+									<option value="BN">Brunei Darussalam</option>
+									<option value="BG">Bulgaria</option>
+									<option value="BF">Burkina Faso</option>
+									<option value="BI">Burundi</option>
+									<option value="KH">Cambodia</option>
+									<option value="CM">Cameroon</option>
+									<option value="CA">Canada</option>
+									<option value="CV">Cape Verde</option>
+									<option value="KY">Cayman Islands</option>
+									<option value="CF">Central African Republic</option>
+									<option value="TD">Chad</option>
+									<option value="CL">Chile</option>
+									<option value="CN">China</option>
+									<option value="CX">Christmas Island</option>
+									<option value="CC">Cocos (Keeling) Islands</option>
+									<option value="CO">Colombia</option>
+									<option value="KM">Comoros</option>
+									<option value="CG">Congo</option>
+									<option value="CD">Congo, the Democratic Republic of the</option>
+									<option value="CK">Cook Islands</option>
+									<option value="CR">Costa Rica</option>
+									<option value="CI">Cote d'Ivoire</option>
+									<option value="HR">Croatia (Hrvatska)</option>
+									<option value="CU">Cuba</option>
+									<option value="CY">Cyprus</option>
+									<option value="CZ">Czech Republic</option>
+									<option value="DK">Denmark</option>
+									<option value="DJ">Djibouti</option>
+									<option value="DM">Dominica</option>
+									<option value="DO">Dominican Republic</option>
+									<option value="TP">East Timor</option>
+									<option value="EC">Ecuador</option>
+									<option value="EG">Egypt</option>
+									<option value="SV">El Salvador</option>
+									<option value="GQ">Equatorial Guinea</option>
+									<option value="ER">Eritrea</option>
+									<option value="EE">Estonia</option>
+									<option value="ET">Ethiopia</option>
+									<option value="FK">Falkland Islands (Malvinas)</option>
+									<option value="FO">Faroe Islands</option>
+									<option value="FJ">Fiji</option>
+									<option value="FI">Finland</option>
+									<option value="FR">France</option>
+									<option value="FX">France, Metropolitan</option>
+									<option value="GF">French Guiana</option>
+									<option value="PF">French Polynesia</option>
+									<option value="TF">French Southern Territories</option>
+									<option value="GA">Gabon</option>
+									<option value="GM">Gambia</option>
+									<option value="GE">Georgia</option>
+									<option value="DE">Germany</option>
+									<option value="GH">Ghana</option>
+									<option value="GI">Gibraltar</option>
+									<option value="GR">Greece</option>
+									<option value="GL">Greenland</option>
+									<option value="GD">Grenada</option>
+									<option value="GP">Guadeloupe</option>
+									<option value="GU">Guam</option>
+									<option value="GT">Guatemala</option>
+									<option value="GN">Guinea</option>
+									<option value="GW">Guinea-Bissau</option>
+									<option value="GY">Guyana</option>
+									<option value="HT">Haiti</option>
+									<option value="HM">Heard and Mc Donald Islands</option>
+									<option value="VA">Holy See (Vatican City State)</option>
+									<option value="HN">Honduras</option>
+									<option value="HK">Hong Kong</option>
+									<option value="HU">Hungary</option>
+									<option value="IS">Iceland</option>
+									<option value="IN">India</option>
+									<option value="ID">Indonesia</option>
+									<option value="IR">Iran (Islamic Republic of)</option>
+									<option value="IQ">Iraq</option>
+									<option value="IE">Ireland</option>
+									<option value="IL">Israel</option>
+									<option value="IT">Italy</option>
+									<option value="JM">Jamaica</option>
+									<option value="JP">Japan</option>
+									<option value="JO">Jordan</option>
+									<option value="KZ">Kazakhstan</option>
+									<option value="KE">Kenya</option>
+									<option value="KI">Kiribati</option>
+									<option value="KP">Korea, Democratic People's Republic of</option>
+									<option value="KR">Korea, Republic of</option>
+									<option value="KW">Kuwait</option>
+									<option value="KG">Kyrgyzstan</option>
+									<option value="LA">Lao People's Democratic Republic</option>
+									<option value="LV">Latvia</option>
+									<option value="LB">Lebanon</option>
+									<option value="LS">Lesotho</option>
+									<option value="LR">Liberia</option>
+									<option value="LY">Libyan Arab Jamahiriya</option>
+									<option value="LI">Liechtenstein</option>
+									<option value="LT">Lithuania</option>
+									<option value="LU">Luxembourg</option>
+									<option value="MO">Macau</option>
+									<option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+									<option value="MG">Madagascar</option>
+									<option value="MW">Malawi</option>
+									<option value="MY">Malaysia</option>
+									<option value="MV">Maldives</option>
+									<option value="ML">Mali</option>
+									<option value="MT">Malta</option>
+									<option value="MH">Marshall Islands</option>
+									<option value="MQ">Martinique</option>
+									<option value="MR">Mauritania</option>
+									<option value="MU">Mauritius</option>
+									<option value="YT">Mayotte</option>
+									<option value="MX">Mexico</option>
+									<option value="FM">Micronesia, Federated States of</option>
+									<option value="MD">Moldova, Republic of</option>
+									<option value="MC">Monaco</option>
+									<option value="MN">Mongolia</option>
+									<option value="MS">Montserrat</option>
+									<option value="MA">Morocco</option>
+									<option value="MZ">Mozambique</option>
+									<option value="MM">Myanmar</option>
+									<option value="NA">Namibia</option>
+									<option value="NR">Nauru</option>
+									<option value="NP">Nepal</option>
+									<option value="NL">Netherlands</option>
+									<option value="AN">Netherlands Antilles</option>
+									<option value="NC">New Caledonia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="NI">Nicaragua</option>
+									<option value="NE">Niger</option>
+									<option value="NG">Nigeria</option>
+									<option value="NU">Niue</option>
+									<option value="NF">Norfolk Island</option>
+									<option value="MP">Northern Mariana Islands</option>
+									<option value="NO">Norway</option>
+									<option value="OM">Oman</option>
+									<option value="PK">Pakistan</option>
+									<option value="PW">Palau</option>
+									<option value="PA">Panama</option>
+									<option value="PG">Papua New Guinea</option>
+									<option value="PY">Paraguay</option>
+									<option value="PE">Peru</option>
+									<option value="PH">Philippines</option>
+									<option value="PN">Pitcairn</option>
+									<option value="PL">Poland</option>
+									<option value="PT">Portugal</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="QA">Qatar</option>
+									<option value="RE">Reunion</option>
+									<option value="RO">Romania</option>
+									<option value="RU">Russian Federation</option>
+									<option value="RW">Rwanda</option>
+									<option value="KN">Saint Kitts and Nevis</option> 
+									<option value="LC">Saint LUCIA</option>
+									<option value="VC">Saint Vincent and the Grenadines</option>
+									<option value="WS">Samoa</option>
+									<option value="SM">San Marino</option>
+									<option value="ST">Sao Tome and Principe</option> 
+									<option value="SA">Saudi Arabia</option>
+									<option value="SN">Senegal</option>
+									<option value="SC">Seychelles</option>
+									<option value="SL">Sierra Leone</option>
+									<option value="SG">Singapore</option>
+									<option value="SK">Slovakia (Slovak Republic)</option>
+									<option value="SI">Slovenia</option>
+									<option value="SB">Solomon Islands</option>
+									<option value="SO">Somalia</option>
+									<option value="ZA">South Africa</option>
+									<option value="GS">South Georgia and the South Sandwich Islands</option>
+									<option value="ES">Spain</option>
+									<option value="LK">Sri Lanka</option>
+									<option value="SH">St. Helena</option>
+									<option value="PM">St. Pierre and Miquelon</option>
+									<option value="SD">Sudan</option>
+									<option value="SR">Suriname</option>
+									<option value="SJ">Svalbard and Jan Mayen Islands</option>
+									<option value="SZ">Swaziland</option>
+									<option value="SE">Sweden</option>
+									<option value="CH">Switzerland</option>
+									<option value="SY">Syrian Arab Republic</option>
+									<option value="TW">Taiwan, Province of China</option>
+									<option value="TJ">Tajikistan</option>
+									<option value="TZ">Tanzania, United Republic of</option>
+									<option value="TH">Thailand</option>
+									<option value="TG">Togo</option>
+									<option value="TK">Tokelau</option>
+									<option value="TO">Tonga</option>
+									<option value="TT">Trinidad and Tobago</option>
+									<option value="TN">Tunisia</option>
+									<option value="TR">Turkey</option>
+									<option value="TM">Turkmenistan</option>
+									<option value="TC">Turks and Caicos Islands</option>
+									<option value="TV">Tuvalu</option>
+									<option value="UG">Uganda</option>
+									<option value="UA">Ukraine</option>
+									<option value="AE">United Arab Emirates</option>
+									<option value="GB">United Kingdom</option>
+									<option value="US">United States</option>
+									<option value="UM">United States Minor Outlying Islands</option>
+									<option value="UY">Uruguay</option>
+									<option value="UZ">Uzbekistan</option>
+									<option value="VU">Vanuatu</option>
+									<option value="VE">Venezuela</option>
+									<option value="VN">Viet Nam</option>
+									<option value="VG">Virgin Islands (British)</option>
+									<option value="VI">Virgin Islands (U.S.)</option>
+									<option value="WF">Wallis and Futuna Islands</option>
+									<option value="EH">Western Sahara</option>
+									<option value="YE">Yemen</option>
+									<option value="YU">Yugoslavia</option>
+									<option value="ZM">Zambia</option>
+									<option value="ZW">Zimbabwe</option>
+									</select>								</span>
+								<span class="col-md-6">
+									<label class="">Other</label>
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+									<option value="  " selected>(please select countries)</option>
+									<option value="AF">Afghanistan</option>
+									<option value="AL">Albania</option>
+									<option value="DZ">Algeria</option>
+									<option value="AS">American Samoa</option>
+									<option value="AD">Andorra</option>
+									<option value="AO">Angola</option>
+									<option value="AI">Anguilla</option>
+									<option value="AQ">Antarctica</option>
+									<option value="AG">Antigua and Barbuda</option>
+									<option value="AR">Argentina</option>
+									<option value="AM">Armenia</option>
+									<option value="AW">Aruba</option>
+									<option value="AU">Australia</option>
+									<option value="AT">Austria</option>
+									<option value="AZ">Azerbaijan</option>
+									<option value="BS">Bahamas</option>
+									<option value="BH">Bahrain</option>
+									<option value="BD">Bangladesh</option>
+									<option value="BB">Barbados</option>
+									<option value="BY">Belarus</option>
+									<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+									<option value="BJ">Benin</option>
+									<option value="BM">Bermuda</option>
+									<option value="BT">Bhutan</option>
+									<option value="BO">Bolivia</option>
+									<option value="BA">Bosnia and Herzegowina</option>
+									<option value="BW">Botswana</option>
+									<option value="BV">Bouvet Island</option>
+									<option value="BR">Brazil</option>
+									<option value="IO">British Indian Ocean Territory</option>
+									<option value="BN">Brunei Darussalam</option>
+									<option value="BG">Bulgaria</option>
+									<option value="BF">Burkina Faso</option>
+									<option value="BI">Burundi</option>
+									<option value="KH">Cambodia</option>
+									<option value="CM">Cameroon</option>
+									<option value="CA">Canada</option>
+									<option value="CV">Cape Verde</option>
+									<option value="KY">Cayman Islands</option>
+									<option value="CF">Central African Republic</option>
+									<option value="TD">Chad</option>
+									<option value="CL">Chile</option>
+									<option value="CN">China</option>
+									<option value="CX">Christmas Island</option>
+									<option value="CC">Cocos (Keeling) Islands</option>
+									<option value="CO">Colombia</option>
+									<option value="KM">Comoros</option>
+									<option value="CG">Congo</option>
+									<option value="CD">Congo, the Democratic Republic of the</option>
+									<option value="CK">Cook Islands</option>
+									<option value="CR">Costa Rica</option>
+									<option value="CI">Cote d'Ivoire</option>
+									<option value="HR">Croatia (Hrvatska)</option>
+									<option value="CU">Cuba</option>
+									<option value="CY">Cyprus</option>
+									<option value="CZ">Czech Republic</option>
+									<option value="DK">Denmark</option>
+									<option value="DJ">Djibouti</option>
+									<option value="DM">Dominica</option>
+									<option value="DO">Dominican Republic</option>
+									<option value="TP">East Timor</option>
+									<option value="EC">Ecuador</option>
+									<option value="EG">Egypt</option>
+									<option value="SV">El Salvador</option>
+									<option value="GQ">Equatorial Guinea</option>
+									<option value="ER">Eritrea</option>
+									<option value="EE">Estonia</option>
+									<option value="ET">Ethiopia</option>
+									<option value="FK">Falkland Islands (Malvinas)</option>
+									<option value="FO">Faroe Islands</option>
+									<option value="FJ">Fiji</option>
+									<option value="FI">Finland</option>
+									<option value="FR">France</option>
+									<option value="FX">France, Metropolitan</option>
+									<option value="GF">French Guiana</option>
+									<option value="PF">French Polynesia</option>
+									<option value="TF">French Southern Territories</option>
+									<option value="GA">Gabon</option>
+									<option value="GM">Gambia</option>
+									<option value="GE">Georgia</option>
+									<option value="DE">Germany</option>
+									<option value="GH">Ghana</option>
+									<option value="GI">Gibraltar</option>
+									<option value="GR">Greece</option>
+									<option value="GL">Greenland</option>
+									<option value="GD">Grenada</option>
+									<option value="GP">Guadeloupe</option>
+									<option value="GU">Guam</option>
+									<option value="GT">Guatemala</option>
+									<option value="GN">Guinea</option>
+									<option value="GW">Guinea-Bissau</option>
+									<option value="GY">Guyana</option>
+									<option value="HT">Haiti</option>
+									<option value="HM">Heard and Mc Donald Islands</option>
+									<option value="VA">Holy See (Vatican City State)</option>
+									<option value="HN">Honduras</option>
+									<option value="HK">Hong Kong</option>
+									<option value="HU">Hungary</option>
+									<option value="IS">Iceland</option>
+									<option value="IN">India</option>
+									<option value="ID">Indonesia</option>
+									<option value="IR">Iran (Islamic Republic of)</option>
+									<option value="IQ">Iraq</option>
+									<option value="IE">Ireland</option>
+									<option value="IL">Israel</option>
+									<option value="IT">Italy</option>
+									<option value="JM">Jamaica</option>
+									<option value="JP">Japan</option>
+									<option value="JO">Jordan</option>
+									<option value="KZ">Kazakhstan</option>
+									<option value="KE">Kenya</option>
+									<option value="KI">Kiribati</option>
+									<option value="KP">Korea, Democratic People's Republic of</option>
+									<option value="KR">Korea, Republic of</option>
+									<option value="KW">Kuwait</option>
+									<option value="KG">Kyrgyzstan</option>
+									<option value="LA">Lao People's Democratic Republic</option>
+									<option value="LV">Latvia</option>
+									<option value="LB">Lebanon</option>
+									<option value="LS">Lesotho</option>
+									<option value="LR">Liberia</option>
+									<option value="LY">Libyan Arab Jamahiriya</option>
+									<option value="LI">Liechtenstein</option>
+									<option value="LT">Lithuania</option>
+									<option value="LU">Luxembourg</option>
+									<option value="MO">Macau</option>
+									<option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+									<option value="MG">Madagascar</option>
+									<option value="MW">Malawi</option>
+									<option value="MY">Malaysia</option>
+									<option value="MV">Maldives</option>
+									<option value="ML">Mali</option>
+									<option value="MT">Malta</option>
+									<option value="MH">Marshall Islands</option>
+									<option value="MQ">Martinique</option>
+									<option value="MR">Mauritania</option>
+									<option value="MU">Mauritius</option>
+									<option value="YT">Mayotte</option>
+									<option value="MX">Mexico</option>
+									<option value="FM">Micronesia, Federated States of</option>
+									<option value="MD">Moldova, Republic of</option>
+									<option value="MC">Monaco</option>
+									<option value="MN">Mongolia</option>
+									<option value="MS">Montserrat</option>
+									<option value="MA">Morocco</option>
+									<option value="MZ">Mozambique</option>
+									<option value="MM">Myanmar</option>
+									<option value="NA">Namibia</option>
+									<option value="NR">Nauru</option>
+									<option value="NP">Nepal</option>
+									<option value="NL">Netherlands</option>
+									<option value="AN">Netherlands Antilles</option>
+									<option value="NC">New Caledonia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="NI">Nicaragua</option>
+									<option value="NE">Niger</option>
+									<option value="NG">Nigeria</option>
+									<option value="NU">Niue</option>
+									<option value="NF">Norfolk Island</option>
+									<option value="MP">Northern Mariana Islands</option>
+									<option value="NO">Norway</option>
+									<option value="OM">Oman</option>
+									<option value="PK">Pakistan</option>
+									<option value="PW">Palau</option>
+									<option value="PA">Panama</option>
+									<option value="PG">Papua New Guinea</option>
+									<option value="PY">Paraguay</option>
+									<option value="PE">Peru</option>
+									<option value="PH">Philippines</option>
+									<option value="PN">Pitcairn</option>
+									<option value="PL">Poland</option>
+									<option value="PT">Portugal</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="QA">Qatar</option>
+									<option value="RE">Reunion</option>
+									<option value="RO">Romania</option>
+									<option value="RU">Russian Federation</option>
+									<option value="RW">Rwanda</option>
+									<option value="KN">Saint Kitts and Nevis</option> 
+									<option value="LC">Saint LUCIA</option>
+									<option value="VC">Saint Vincent and the Grenadines</option>
+									<option value="WS">Samoa</option>
+									<option value="SM">San Marino</option>
+									<option value="ST">Sao Tome and Principe</option> 
+									<option value="SA">Saudi Arabia</option>
+									<option value="SN">Senegal</option>
+									<option value="SC">Seychelles</option>
+									<option value="SL">Sierra Leone</option>
+									<option value="SG">Singapore</option>
+									<option value="SK">Slovakia (Slovak Republic)</option>
+									<option value="SI">Slovenia</option>
+									<option value="SB">Solomon Islands</option>
+									<option value="SO">Somalia</option>
+									<option value="ZA">South Africa</option>
+									<option value="GS">South Georgia and the South Sandwich Islands</option>
+									<option value="ES">Spain</option>
+									<option value="LK">Sri Lanka</option>
+									<option value="SH">St. Helena</option>
+									<option value="PM">St. Pierre and Miquelon</option>
+									<option value="SD">Sudan</option>
+									<option value="SR">Suriname</option>
+									<option value="SJ">Svalbard and Jan Mayen Islands</option>
+									<option value="SZ">Swaziland</option>
+									<option value="SE">Sweden</option>
+									<option value="CH">Switzerland</option>
+									<option value="SY">Syrian Arab Republic</option>
+									<option value="TW">Taiwan, Province of China</option>
+									<option value="TJ">Tajikistan</option>
+									<option value="TZ">Tanzania, United Republic of</option>
+									<option value="TH">Thailand</option>
+									<option value="TG">Togo</option>
+									<option value="TK">Tokelau</option>
+									<option value="TO">Tonga</option>
+									<option value="TT">Trinidad and Tobago</option>
+									<option value="TN">Tunisia</option>
+									<option value="TR">Turkey</option>
+									<option value="TM">Turkmenistan</option>
+									<option value="TC">Turks and Caicos Islands</option>
+									<option value="TV">Tuvalu</option>
+									<option value="UG">Uganda</option>
+									<option value="UA">Ukraine</option>
+									<option value="AE">United Arab Emirates</option>
+									<option value="GB">United Kingdom</option>
+									<option value="US">United States</option>
+									<option value="UM">United States Minor Outlying Islands</option>
+									<option value="UY">Uruguay</option>
+									<option value="UZ">Uzbekistan</option>
+									<option value="VU">Vanuatu</option>
+									<option value="VE">Venezuela</option>
+									<option value="VN">Viet Nam</option>
+									<option value="VG">Virgin Islands (British)</option>
+									<option value="VI">Virgin Islands (U.S.)</option>
+									<option value="WF">Wallis and Futuna Islands</option>
+									<option value="EH">Western Sahara</option>
+									<option value="YE">Yemen</option>
+									<option value="YU">Yugoslavia</option>
+									<option value="ZM">Zambia</option>
+									<option value="ZW">Zimbabwe</option>
+									</select>								</span>
+							</div>
+							</div>
+						</div>
+					</fieldset>
+				  </form>
+	            </center>
+                </div>
+                <div class="bhoechie-tab-content">
+				<!-- Sectors -->
+                <center>
+				  <form class="form-horizontal" role="form">
+					<fieldset>		 
+					<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">What sectors fo you focus / specialize in ...</h4>
+					<div class="col-md-9 col-md-offset-2 ">
+							<div class="form-group">	
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+										<option value="  " selected>(please select all relevant sectors)</option>
+										<option value="Accounting">Accounting and Auditing</option>
+										<option value="Marketing">Advertising and PR</option>
+										<option value="Agri">Agriculture, Forestry, and Fishing</option>
+										<option value="Archi">Architectural and Design</option>
+										<option value="IT">Computer and IT</option>
+										<option value="Building">Construction</option>
+										<option value="Ed">Education</option>
+										<option value="Eng">Engineering</option>
+										<option value="Entertain">Entertainment</option>
+										<option value="Fin">Finance</option>
+										<option value="Gov">Government and Public Sector</option>
+										<option value="Health">Healthcare</option>
+										<option value="Ins">Insurance</option>
+										<option value="Web">Internet</option>
+										<option value="Law">Legal</option>
+										<option value="Food">Restaurant and Food</option>
+										<option value="Retail">Retail</option>
+										<option value="Security">Security and Surveillance</option>
+										<option value="Staffing">Staffing and Employment</option>
+										<option value="Travel">Travel, Transportation and Tourism</option>
+									</select>								
+							</div>
+							</div>
+					        <div class="form-group">
+					  	<div class="col-md-9 col-md-offset-2 ">
+							<div class="input-group">
+					  		<span class="input-group-addon">Other</span>
+							<input id="entry_1372097857_other_option_response" name="prependedtext" class="form-control" placeholder="please specify" type="text">
+							</div>
+					  	</div>
+					</div>
+				</fieldset>
+				</form>                    
+				</center>
+                </div>
+    
+                
+                
+                <!-- Finances -->
+                <div class="bhoechie-tab-content">
+					<center>
+					<h4 style="margin-top: 15px; margin-bottom 30px; color:#55518a">Revenue</h4>
+					<form class="form-horizontal" role="form">
+					<fieldset>
+						<div class="form-group">
+							<span class="col-md-6">
+							  <input id="textinput" name="textinput" type="text" placeholder="Annual Rev (US$) Current Yr" class="form-control input-md">
+							</span>
+							<span class="col-md-6">
+							  <input id="textinput" name="textinput" type="text" placeholder="Annual Rev (US$) Previous Yr" class="form-control input-md">
+							</span>
+						</div>
+						<h5 style="margin-top: 20px; margin-bottom 30px; color:#55518a">% Revenue from sale of...</h5>
+						<div class="price-slider">
+							<span>Articulate Products % </span>
+							<span class="price lead" id="amount-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider"></div>
+							</div>
+						</div>
+						<div class="price-slider">
+							<span>Articulate Training % </span>
+							<span class="price lead" id="amount4-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider2"></div>
+							</div>
+						</div>         
+						<div class="price-slider">
+							<span>Content Services % </span>
+							<span class="price lead" id="amount2-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider3"></div>
+							</div>
+						</div>
+						<div class="price-slider">
+							<span>Other Products % </span>
+							<span class="price lead" id="amount3-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider4"></div>
+							</div>
+						</div>         
+
+						<!-- show in slider control -->
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount4" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount2" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount3" class="form-control">
+							</div>
+						<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+					</fieldset>
+					</form>
+                <!-- </center> -->
+                </div>
+               
+                
+                <div class="bhoechie-tab-content">
+                <!-- Resources -->
+               <!--  <center> -->
+				<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">Resources</h4>
+				<form class="form-horizontal" role="form">
+				<fieldset>
+				
+                <!-- CODE FOR INLINE SURVEY TYPE CONTROL GOES HERE -->
+				<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+				<div class="row">
+					<span class="control-label col-md-4">Full Time Staff</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-1" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<span class="control-label col-md-4">Part Time Staff</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-2" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<span class="control-label col-md-4">Contractors</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-3" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>	
+				<div class="row">				
+					<span class="control-label col-md-4">Inside Sales</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-4" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<span class="control-label col-md-4">Outside Sales</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-5" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<span class="control-label col-md-4">Marketing</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-5" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<span class="control-label col-md-4">Support</span>
+					<div class="btn-group btn-group-xs col-md-8 top-buffer" id="btn-group-6" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">0-1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">1
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">2-4
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">5-9
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">10-14
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">15-19
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">20-30
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">30+
+						</label>
+					</div>
+				</div>
+				</fieldset>
+				</form>                
+                </center>
+                </div>
+    
+                <div class="bhoechie-tab-content">
+                <!-- Resources -->
+                <!-- <center> -->
+				<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">% Resources dedicated to Articulate</h4>
+				<form class="form-horizontal" role="form">
+				<fieldset>
+
+						<div class="price-slider">
+							<span>Full Time Staff % </span>
+							<span class="price lead" id="amount5-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider5"></div>
+							</div>
+						</div>
+						<div class="price-slider">
+							<span>Part-Time Staff % </span>
+							<span class="price lead" id="amount6-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider6"></div>
+							</div>
+						</div>         
+						<div class="price-slider">
+							<span>Contractors % </span>
+							<span class="price lead" id="amount7-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider7"></div>
+							</div>
+						</div>
+						<div class="price-slider">
+							<span>Inside Sales % </span>
+							<span class="price lead" id="amount8-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider8"></div>
+							</div>
+						</div>  
+						<div class="price-slider">
+							<span>Outside Sales % </span>
+							<span class="price lead" id="amount9-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider9"></div>
+							</div>
+						</div>     
+						<div class="price-slider">
+							<span>Marketing % </span>
+							<span class="price lead" id="amount10-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider10"></div>
+							</div>
+						</div>
+						<div class="price-slider">
+							<span>Support % </span>
+							<span class="price lead" id="amount11-label">.</span>
+							<div class="col-sm-8 col-md-4 col-md-offset-1">
+								<div id="slider11"></div>
+							</div>
+						</div>              
+
+						<!-- show in slider control -->
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount5" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount6" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount7" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount8" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount9" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount10" class="form-control">
+							</div>
+							<div class="col-sm-4 col-md-6">
+								<input type="hidden" id="amount11" class="form-control">
+							</div>
+
+
+
+				</fieldset>
+				</form>
+                </center>
+                </div>
+                
+                <!-- Training -->                            
+                <div class="bhoechie-tab-content">
+                   <!--  <center> -->
+					<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">Which sales & marketing systems do you use ...</h4>
+					<form class="form-horizontal" role="form">
+					<fieldset>
+					<div class="row">
+							<div class="col-xs-12 col-sm-14 col-md-14">
+							<div class="form-group">
+								<span class="col-md-6">
+									<label class="">Sales/CRM</label>
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+										<option value="  " selected>(please select all relevant systems)</option>
+										<option value="Accounting">Salesforce</option>
+										<option value="Marketing">Zoho</option>
+										<option value="Agri">SugarCRM</option>
+										<option value="Archi">vTiger</option>
+										<option value="IT">Microsoft Dynamics</option>
+										<option value="Building">SpreadSheets</option>
+										<option value="Ed">No System</option>
+									</select>
+								</span>								
+								<span class="col-md-6">
+									<label class="">Marketing</label>
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+										<option value="  " selected>(please select all relevant systems)</option>
+										<option value="Accounting">Salesforce</option>
+										<option value="Marketing">Zoho</option>
+										<option value="Agri">Marketo</option>
+										<option value="Archi">HubSpot</option>
+										<option value="IT">Marin</option>
+										<option value="Building">Constant Contact</option>
+										<option value="Ed">MailChimp</option>
+										<option value="Ed">No System</option>
+									</select>
+								</span>	
+							</div>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col-xs-12 col-sm-14 col-md-14">
+					    		<div class="form-group">
+					    		<span class="col-md-6">
+									<div class="input-group">
+									<span class="input-group-addon">Other</span>
+									<input id="entry_1372097857_other_option_response" name="prependedtext" class="form-control" placeholder="please specify CRM" type="text">
+									</div>
+								</span>
+								<span class="col-md-6">
+									<div class="input-group">
+									<span class="input-group-addon">Other</span>
+									<input id="entry_1372097857_other_option_response" name="prependedtext" class="form-control" placeholder="please specify" type="text">
+									</div>
+								</span>
+							</div>
+						</div>
+					</fieldset>
+					</form>
+                    </center>
+                </div>
+                <!-- CRM -->                            
+                <div class="bhoechie-tab-content">
+                   <!--  <center> -->
+					<h4 style="margin-top: 15px; margin-bottom 15px; color:#55518a">Which Marketing tools/channels do you use to promote Articulate</h4>
+					<form class="form-horizontal" role="form">
+					<fieldset>
+					<div class="col-md-9 col-md-offset-2 ">
+							<div class="form-group">	
+									<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple" style="height:200px" >   
+										<option value="  " selected>(please select all relevant systems)</option>
+										<option value="Accounting">Email Campaigns</option>
+										<option value="Marketing">Newsletters</option>
+										<option value="Agri">Facebook</option>
+										<option value="Archi">Twitter</option>
+										<option value="IT">LinkedIn</option>
+										<option value="Building">Xing</option>
+										<option value="Ed">SEO</option>
+										<option value="Ed">Paid Search</option>
+										<option value="Ed">YouTube</option>
+										<option value="Ed">Trade Press</option>
+										<option value="Ed">General Press</option>
+										<option value="Ed">Industry Awards</option>
+										<option value="Ed">Industry Events</option>
+										<option value="Ed">Radio/TV Commercials</option>
+										<option value="Ed">Product & Services Brochures</option>
+										<option value="Ed">Company branded website</option>
+										<option value="Ed">Other branded website</option>
+										<option value="Ed">White Papers</option>
+										<option value="Ed">Case Studies</option>
+										<option value="Ed">Heroes Blog</option>
+										<option value="Ed">Other</option>
+									</select>
+							</div>
+					</div>
+					<div class="col-md-9 col-md-offset-2 ">
+							<div class="form-group">
+									<div class="input-group">
+										<span class="input-group-addon">Other</span>
+										<input id="entry_1372097857_other_option_response" name="prependedtext" class="form-control" placeholder="please specify" type="text">
+									</div>
+							</div>
+					</div>
+							
+
+					</fieldset>
+					</form>
+                    </center>
+                </div>
+    
+                <!-- hotel search -->
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h1 class="glyphicon glyphicon-home" style="font-size:12em;color:#55518a"></h1>
+                      <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                      <h3 style="margin-top: 0;color:#55518a">Hotel Directory</h3>
+                    </center>
+                </div>
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h1 class="glyphicon glyphicon-cutlery" style="font-size:12em;color:#55518a"></h1>
+                      <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                      <h3 style="margin-top: 0;color:#55518a">Restaurant Diirectory</h3>
+                    </center>
+                </div>
+                <div class="bhoechie-tab-content">
+                    <center>
+                      <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+                      <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+                      <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+                    </center>
+                </div>
+                
+            </div>
+        </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+
+$(function () {
+    $('.button-checkbox').each(function () {
+
+        // Settings
+        var $widget = $(this),
+            $button = $widget.find('button'),
+            $checkbox = $widget.find('input:checkbox'),
+            color = $button.data('color'),
+            settings = {
+                on: {
+                    icon: 'glyphicon glyphicon-check'
+                },
+                off: {
+                    icon: 'glyphicon glyphicon-unchecked'
+                }
+            };
+
+        // Event Handlers
+        $button.on('click', function () {
+            $checkbox.prop('checked', !$checkbox.is(':checked'));
+            $checkbox.triggerHandler('change');
+            updateDisplay();
+        });
+        $checkbox.on('change', function () {
+            updateDisplay();
+        });
+
+        // Actions
+        function updateDisplay() {
+            var isChecked = $checkbox.is(':checked');
+
+            // Set the button's state
+            $button.data('state', (isChecked) ? "on" : "off");
+
+            // Set the button's icon
+            $button.find('.state-icon')
+                .removeClass()
+                .addClass('state-icon ' + settings[$button.data('state')].icon);
+
+            // Update the button's color
+            if (isChecked) {
+                $button
+                    .removeClass('btn-default')
+                    .addClass('btn-' + color + ' active');
+            }
+            else {
+                $button
+                    .removeClass('btn-' + color + ' active')
+                    .addClass('btn-default');
+            }
+        }
+
+        // Initialization
+        function init() {
+
+            updateDisplay();
+
+            // Inject the icon if applicable
+            if ($button.find('.state-icon').length == 0) {
+                $button.prepend('<i class="state-icon ' + settings[$button.data('state')].icon + '"></i> ');
+            }
+        }
+        init();
+    });
+});
+
+$(document).ready(function() {
+          $("#slider").slider({
+              animate: true,
+              value:1,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(1,ui.value); //changed
+              }
+          });
+
+          $("#slider2").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(2,ui.value); //changed
+              }
+          });
+          
+          $("#slider3").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(3,ui.value); //changed
+              }
+          });
+          
+          $("#slider4").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(4,ui.value); //changed
+              }
+          });
+          
+    	  $("#slider5").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(5,ui.value); //changed
+              }
+          });
+          
+		  $("#slider6").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(6,ui.value); //changed
+              }
+          });
+
+		  $("#slider7").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(7,ui.value); //changed
+              }
+          });
+
+		  $("#slider8").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(8,ui.value); //changed
+              }
+          });
+
+		  $("#slider9").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(9,ui.value); //changed
+              }
+          });
+
+		  $("#slider10").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(10,ui.value); //changed
+              }
+          });
+
+		  $("#slider11").slider({
+              animate: true,
+              value:0,
+              min: 0,
+              max: 100,
+              step: 1,
+              slide: function(event, ui) {
+                  update(11,ui.value); //changed
+              }
+          });
+          
+          //Added, set initial value.
+          $("#amount").val(0);
+          $("#amount4").val(0);
+          $("#amount2").val(0);
+          $("#amount3").val(0);
+          $("#amount5").val(0);
+          $("#amount6").val(0);
+          $("#amount7").val(0);
+          $("#amount8").val(0);
+          $("#amount9").val(0);
+          $("#amount10").val(0);
+          $("#amount11").val(0);
+          $("#amount-label").text(0);
+          $("#amount2-label").text(0)
+          $("#amount3-label").text(0);
+          $("#amount4-label").text(0);
+          $("#amount5-label").text(0);
+          $("#amount6-label").text(0);
+          $("#amount7-label").text(0);
+          $("#amount8-label").text(0);
+          $("#amount9-label").text(0);
+          $("#amount10-label").text(0);
+          $("#amount11-label").text(0);
+
+
+
+          
+          update();
+      });
+
+      //changed. now with parameter
+      function update(slider,val) {
+        //changed. Now, directly take value from ui.value. if not set (initial, will use current value.)
+        var $amount = slider == 1?val:$("#amount").val();
+        var $amount2 = slider == 3?val:$("#amount2").val();
+        var $amount3 = slider == 4?val:$("#amount3").val();
+        var $amount4 = slider == 2?val:$("#amount4").val();
+        var $amount5 = slider == 5?val:$("#amount5").val();
+        var $amount6 = slider == 6?val:$("#amount6").val();
+        var $amount7 = slider == 7?val:$("#amount7").val();
+        var $amount8 = slider == 8?val:$("#amount8").val();
+        var $amount9 = slider == 9?val:$("#amount9").val();
+        var $amount10 = slider == 10?val:$("#amount10").val();
+        var $amount11 = slider == 11?val:$("#amount11").val();
+
+
+        /* commented
+        $amount = $( "#slider" ).slider( "value" );
+        $duration = $( "#slider2" ).slider( "value" );
+         */
+
+         $( "#amount" ).val($amount);
+         $( "#amount-label" ).text($amount);
+         $( "#amount2" ).val($amount2);
+         $( "#amount2-label" ).text($amount2);
+         $( "#amount3" ).val($amount3);
+         $( "#amount3-label" ).text($amount3);
+         $( "#amount4" ).val($amount4);
+         $( "#amount4-label" ).text($amount4);
+         $( "#amount5" ).val($amount5);
+         $( "#amount5-label" ).text($amount5);
+         $( "#amount6" ).val($amount6);
+         $( "#amount6-label" ).text($amount6);
+         $( "#amount7" ).val($amount7);
+         $( "#amount7-label" ).text($amount7);
+         $( "#amount8" ).val($amount8);
+         $( "#amount8-label" ).text($amount8);
+         $( "#amount9" ).val($amount9);
+         $( "#amount9-label" ).text($amount9);
+         $( "#amount10" ).val($amount10);
+         $( "#amount10-label" ).text($amount10);
+         $( "#amount11" ).val($amount11);
+         $( "#amount11-label" ).text($amount11);
+
+
+
+
+
+         $('#slider a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider2 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount4+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider3 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount2+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider4 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount3+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider5 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount5+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider6 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount6+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider7 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount7+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider8 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount8+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider9 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount9+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider10 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount10+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+         $('#slider11 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount11+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+
+
+
+
+      }
+
+</script>
+</body>
+</html>

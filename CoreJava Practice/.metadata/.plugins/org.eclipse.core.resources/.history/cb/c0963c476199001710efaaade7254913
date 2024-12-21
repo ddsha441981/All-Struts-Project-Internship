@@ -1,0 +1,9 @@
+package com.priorityThread;
+
+public class ThreadPrioritiesTest {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Thread.currentThread().getPriority());//main thread priority is 5
+	}
+}

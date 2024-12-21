@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd"> 	
+ <struts>
+ 		<package name="default" extends="struts-default">
+ 		
+ 		<interceptors>
+ 				
+ 				<interceptor name="timmer" class="com.student.example.Timmer"/>
+ 				<interceptor name="connect1" class="com.student.example.LoginInterceptor"/>
+ 					<interceptor-stack name="own">
+ 						<interceptor-ref name="timmer"></interceptor-ref>
+ 						<interceptor-ref name="connect1"></interceptor-ref>
+ 						<interceptor-ref name="defaultStack"></interceptor-ref>
+ 			
+ 					</interceptor-stack>
+ 			
+ 		</interceptors>
+ 		<default-interceptor-ref name="own"/>
+ 		
+ 		
+ 		
+ 		<action name="viewrecords" class="com.student.example.Retrivedata">
+ 		<result name="success">/home.jsp</result>
+ 		</action>
+ 		
+ 		<action name="register" class="com.student.example.Registerdata">
+ 		<result name="success">/login.jsp</result>
+ 		</action>
+ 		
+ 		<action name="login" class="com.student.example.Logindata">
+ 		<result name="success">/home.jsp</result>
+ 		</action>
+ 		
+ 		</package>
+ 
+ </struts>

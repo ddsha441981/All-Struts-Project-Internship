@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="background-image: url('Desert.jpg');">
+<form action="">
+<table>
+<tr>
+<fieldset>
+	<legend style="font-style: italic;font-family: monospace;"><h1 style="color: menu;">Login Form</h1></legend>
+	<tr>
+	<td>User Name  :</td>
+	<td><input type="text" name="user" placeholder="Enter user Name"></td> 
+	</tr>
+	
+	<tr>
+		<td>Password   :</td>
+	<td><input type="password" name="pwd" placeholder="Enter  password"></td> 
+	</tr>
+	
+	<tr>
+		<td>Email   :</td>
+	<td><input type="password" name="pwd" placeholder="Enter  password"></td> 
+	</tr>
+</fieldset>
+</tr>
+</table>
+</form>
+</body>
+</html>

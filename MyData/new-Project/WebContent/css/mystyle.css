@@ -1,0 +1,49 @@
+.loginform{  
+    padding:10px;  
+    border:1px solid pink;  
+    border-radius:10px;  
+    width:700px;
+    margin-top:10px;  
+}  
+.formheading{  
+    background-color:red;  
+    color:white;  
+    padding:4px;  
+    text-align:center;  
+}  
+.sub{  
+background-color:red;  
+padding: 7px 40px 7px 40px;  
+color:white;  
+font-weight:bold;  
+margin-left:70px;  
+border-radius:5px;  
+}  
+.para{
+font-family: serif;
+color: red;
+text-align: center;
+}
+a:HOVER {
+	color: blue;
+	font-weight: bold;
+}
+a:LINK {
+	text-decoration: none;
+}
+
+.tb5 {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 22px;
+	width: 230px;
+	
+}
+
+p{
+word-spacing: 10px;
+margin: 1px;
+}
+.padd{
+margin: 1px;
+}

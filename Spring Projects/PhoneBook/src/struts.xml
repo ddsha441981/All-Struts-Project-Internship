@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd"> 	
+ <struts>
+ 	<package name="default" extends="struts-default">
+ 	
+ 	 <!-- <action name="userlogin" class="com.phonebook.UserLoginMain" method="loginByUser">myaction2
+ 	<result name="success">/Demo.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action> -->
+ 	
+ 	<!-- <action name="myaction2" class="com.phonebook.UserProfileSourceMain" method="usercontactById">
+ 	<result name="success">/user-profile.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action> -->
+ 	
+ 	<action name="signupUser" class="com.phonebook.UserProfileSourceMain" method="userProfileRegister">
+ 	<result name="success">/signup.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action>
+ 	
+ 	<action name="newContact" class="com.phonebook.PhoneModule" method="savecontact">
+ 	<result name="success">/new-contact.jsp</result>
+ 	<result name="error">/new-contact.jsp</result>
+ 	</action>
+ 	
+ 	<action name="view-Contact" class="com.phonebook.PhoneModule" method="viewAllContact">
+ 	<result name="success">/view-Contact.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action>
+ 	
+ 	
+ 	<action name="deleteByid" class="com.phonebook.PhoneModule" method="deletedataById"> 
+ 	<result name="success" type="redirectAction">/view-Contact.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action>
+ 	
+ 	<action name="UpdateByid" class="com.phonebook.PhoneModule" method="fetchdataforUpdate">
+ 	<result name="success">/contactUpdate.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action>
+ 	
+ 	
+ 	
+ 	<!-- <action name="UpdateByid" class="com.phonebook.PhoneModule" method="usercontactedit">
+ 	<result name="success">new-contact.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action> -->
+ 	
+ 	<action name="searchbykeyword" class="com.phonebook.PhoneModule" method="searchByNameNmobile">
+ 	<result name="success">/home.jsp</result>
+ 	<result name="error">/error.jsp</result>
+ 	</action>
+ 	
+ 	</package>
+ </struts>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+  		
+  			<field name="batch_id">
+  			<field-validator type="requiredstring">
+  			<message>Batch ID field is Empty</message>
+  			</field-validator>
+  			<field-validator type="int">
+  			<message>ID must be in Number</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="intern_id">
+  			<field-validator type="requiredstring">
+  			<message>Intern ID field is Empty</message>
+  			</field-validator>
+  			<field-validator type="int">
+  			<message>ID must be in Number</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="group_id">
+  			<field-validator type="requiredstring">
+  			<message>Group ID field is Empty</message>
+  			</field-validator>
+  			<field-validator type="int">
+  			<message>ID must be in Number</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="username">
+  			<field-validator type="requiredstring">
+  			<message>UserName is required</message>
+  			</field-validator>
+  			</field>
+  			
+  			<field name="password">
+			<field-validator type="requiredstring">
+			<message>Password field is empty.</message>
+			</field-validator>
+			<field-validator type="stringlength">
+			<param name="maxLength">10</param>
+			<param name="minLength">4</param>
+			<param name="trim">true</param>
+			<message>Enter password 4-10 characters long.</message>
+			</field-validator>
+			</field>
+  			
+  			
+  			
+ </validators>
